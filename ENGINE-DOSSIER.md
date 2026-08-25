@@ -24,7 +24,7 @@
 
 ## 4. DRM / anti-debug & injection foothold
 - DRM (CEG/Denuvo/GOG/none); launch-time-debugger behaviour: **Denuvo Anti-Tamper confirmed present**, found via two literal exported functions in `BurnoutPR.exe`: `GetDenuvoTicketLocation` and `GetDenuvoTimeTicketRequest`. Corroborating structural evidence: the PE has a ~108 MB `.trace` section (VMA `0x15f4000`, size `0x6c854fc`) — almost the entire image — and the file's `AddressOfEntryPoint` (RVA `0x7f7c000`) lands *inside* that `.trace` blob, not inside the normal-looking `.code` section that holds the recognizable Scaleform/EA/Denuvo export symbols. That's the classic virtualization-wrapper shape: the real OEP is hidden inside an opaque encrypted/virtualized region, and the loader jumps there first. The Import Directory is also abnormally tiny (40 bytes) for a game this size, consistent with most real imports being resolved at runtime post-unpack rather than sitting in a normal static IAT. **Not yet tested: whether a debugger attach is survivable** (Denuvo often detects/kills on attach) — flagged as a real risk for any future live-inspection session, not verified either way yet. No EasyAntiCheat/BattlEye/SecuROM/SafeDisc strings found — Denuvo appears to be the only anti-tamper layer. Separately, EA's own entitlement/activation DRM is present too (`Core\Activation.dll` / `Activation64.dll`, `__Installer\` EA/Origin installer scripts) — this is standard EA-App licensing, unrelated to Denuvo, and shouldn't affect modding directly.
-- Attach workflow that works: not yet tested.
+- Attach workflow that works: not yet tested live. **Plan (external-research, 2026-08-25):** load the **ScyllaHide** x64dbg plugin (legitimate, open-source, already the standard "first thing to try" against usermode anti-debug per the RE community) before assuming Denuvo blocks attach outright. Context for why this is worth trying first rather than assuming the worst: mainstream outlets (PCGamesN, dsogaming) report Denuvo's practical anti-tamper effectiveness declined industry-wide through 2025-2026, with a growing list of publishers removing it post-launch — general trend context only, not a claim about this specific build. Record the actual result here once tested, replacing this placeholder either way.
 - Injection vector that works (proxy DLL name / injector / framework): not yet tested by us, but a **DXGI or D3D11 proxy DLL is the natural candidate** (the pattern already proven on this portfolio's other D3D9/D3D11 titles) — plausibly more Denuvo-resistant than debugger-based approaches, since it only relies on the ordinary Windows DLL-search-order loader mechanism rather than attaching to or patching the protected executable's own memory. **Encouraging public precedent found 2026-08-25 (external-research):** an active community modding scene has a currently-working DLL-injection toolchain against this exact Steam build — bo98's "BPR Modder"/Mod Loader + a Detours-based hooking library, used by a real ecosystem of mods (see `bpr-open-mods`, archived Dec 2023 but complete). This proves *some* form of third-party code injection survives Denuvo + whatever other protections this exe has, which is a good sign for our own from-scratch proxy DLL — but their loader's exact mechanism (likely an active injector, not just a passive DLL-search-order proxy) may differ from ours, so this is encouraging precedent, not proof our specific technique will work. **Caveat found the same day:** vorpX's Burnout Paradise profile explicitly fails against the Steam build ("game doesn't like third party software to hook into it," per vorpX's own forum) while bo98's loader succeeds — so this exe is picky about *how* it's hooked, not blanket-hostile to all injection. Worth watching for DRM/integrity-check reactions during our own first live injection attempt. We are **not** adopting bo98's loader or copying any of its code — per this portfolio's write-our-own-code policy, it's prior-art confirmation only; our own DLL-proxy foothold is still being built independently.
 
 ## 5. Threading & frame structure
@@ -33,6 +33,14 @@
 - One-frame walkthrough (record → replay → present):
 
 ## 6. Camera & projection delivery (the crucial section)
+- **Tooling plan (external-research, 2026-08-25):** no public prior art exists for this exact
+  binary's shaders/constant buffers (checked — see §11), so this section gets discovered from
+  scratch via live shader reflection. **3Dmigoto** (DarkStarSword's maintained fork) is the
+  recommended *analysis instrument* for that work — a mature D3D11 shader-dump/cbuffer-hook/
+  HLSL-live-reload framework, used here the same way x64dbg is used elsewhere in this
+  portfolio: to find and understand the mechanism live, not as something our shipped mod
+  depends on or is built from. Our own proxy DLL (see §4) remains the thing we actually ship,
+  written from scratch per this portfolio's policy.
 - How the world transform reaches the GPU (shared VP buffer / per-draw MVP /
   other), with **shader-reflection / disassembly evidence**:
 - Exact constant-buffer slot, parameter name(s), byte offset(s), layout,
@@ -73,6 +81,13 @@
 
 ## 11. Dead ends & false leads (save future time)
 - <what looked true but wasn't, and why>
+- **Not a dead end, but a confirmed non-shortcut (external-research, 2026-08-25):** a HelixMod
+  stereoscopic-3D fix exists for the **original 2008 D3D9 release** (UI/HUD depth separation +
+  disabling a couple of broken 2D effects under stereo), but the same source explicitly
+  confirms **no equivalent exists for Remastered's D3D11 build** — nobody has publicly reverse
+  engineered `BurnoutPR.exe`'s shaders/cbuffers for stereo purposes. Worth knowing the D3D9 fix
+  exists (as confirmation the UI-depth problem is real for this game's genre, matching §12's
+  racing-HUD note) but it gives no directly reusable technical detail for our D3D11 target.
 
 ## 12. Open risks toward the North Star
 - **Denuvo Anti-Tamper (confirmed present, 2026-08-25 — see §4) is the single biggest open risk for this project specifically**, and the reason this game's difficulty may run higher than this portfolio's usual baseline. It doesn't block the DLL-proxy injection approach that has worked on every other project here (that technique doesn't touch the protected executable's own memory), but it likely does complicate or block live-debugger-based investigation (disassembly of the actual camera/projection code, breakpoint-based tracing) — untested either way yet, flagged for the first live session that tries it.
