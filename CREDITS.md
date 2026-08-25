@@ -20,7 +20,13 @@ only code, notes, and tools we wrote ourselves.
 
 | Source / Work | Creator(s) | Link |
 |---|---|---|
-| *(none yet — engine research is just beginning)* | | |
+| BurnoutDecomp org (BP-Decomp_Workflow, b5-decomp, YAP fork, volatility) | BurnoutDecomp contributors | https://github.com/BurnoutDecomp |
+| xenia-burnout5 (Xenia fork for Burnout Paradise) | bo98 (Bo Anderson) | https://github.com/bo98/xenia-burnout5 |
+| BPR Modder / bo98's Mod Loader | bo98 (Bo Anderson) | https://bpr.bo98.uk/ |
+| bpr-open-mods (incl. Free Camera mod) | matty-ross | https://github.com/matty-ross/bpr-open-mods |
+| YAP / Bundle-Manager (.BNDL bundle tools) | burninrubber0 | https://github.com/burninrubber0/YAP |
+| Burnout-Paradise-Remastered community index repo | RomulusMirauta | https://github.com/RomulusMirauta/Burnout-Paradise-Remastered |
+| vorpX Burnout Paradise compatibility report | vorpX forum community | https://www.vorpx.com/forums/topic/burnout-paradise/ |
 
 Development on this project is AI-assisted: much of the research, code, and
 documentation was produced with **Claude (Anthropic)**
