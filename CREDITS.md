@@ -27,6 +27,10 @@ only code, notes, and tools we wrote ourselves.
 | YAP / Bundle-Manager (.BNDL bundle tools) | burninrubber0 | https://github.com/burninrubber0/YAP |
 | Burnout-Paradise-Remastered community index repo | RomulusMirauta | https://github.com/RomulusMirauta/Burnout-Paradise-Remastered |
 | vorpX Burnout Paradise compatibility report | vorpX forum community | https://www.vorpx.com/forums/topic/burnout-paradise/ |
+| ScyllaHide (x64dbg anti-anti-debug plugin) | x64dbg / NtQuery (ScyllaHide) contributors | https://github.com/x64dbg/ScyllaHide |
+| Denuvo removal trend reporting | PCGamesN, DSOGaming | https://www.pcgamesn.com/drm/why-are-pc-developers-removing-denuvo |
+| Helix Mod: Burnout Paradise (D3D9 stereo-3D fix) | Helix Mod community | https://helixmod.blogspot.com/2012/12/burnout-paradise.html |
+| 3d-fixes (3Dmigoto reference implementation) | DarkStarSword | https://github.com/DarkStarSword/3d-fixes |
 
 Development on this project is AI-assisted: much of the research, code, and
 documentation was produced with **Claude (Anthropic)**
