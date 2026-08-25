@@ -10,9 +10,9 @@ write-up in `topics/`. Status tags:
 
 | Date | Topic | Status | Summary |
 | --- | --- | --- | --- |
-| 2026-08-25 | [The BurnoutDecomp project](topics/2026-08-25-burnoutdecomp-project.md) | 🆕 new | Active public AI-assisted decompilation of Burnout Paradise (Xbox 360/PS3/PC) — potential source for camera/projection/frame-loop logic, and a data point on the RenderWare question. |
-| 2026-08-25 | [Community modding tools & injection](topics/2026-08-25-community-modding-tools-and-injection.md) | 🆕 new | A working DLL-injection stack already exists for Steam `BurnoutPR.exe` (bo98's loader + Detours), plus a source-available Free Camera mod directly relevant to camera research. |
-| 2026-08-25 | [vorpX fails to hook the Steam build](topics/2026-08-25-vorpx-steam-injection-rejection.md) | 🆕 new | vorpX can't inject into Steam Burnout Paradise, but the community loader can — vorpX-specific, not a blanket injection block. |
+| 2026-08-25 | [The BurnoutDecomp project](topics/2026-08-25-burnoutdecomp-project.md) | 👀 reviewed | Active public AI-assisted decompilation of Burnout Paradise (Xbox 360/PS3/PC) — potential source for camera/projection/frame-loop logic, and a data point on the RenderWare question. Factored into ENGINE-DOSSIER.md §2 (softened the RenderWare claim); not yet used for actual camera research (too early). |
+| 2026-08-25 | [Community modding tools & injection](topics/2026-08-25-community-modding-tools-and-injection.md) | 👀 reviewed | A working DLL-injection stack already exists for Steam `BurnoutPR.exe` (bo98's loader + Detours), plus a source-available Free Camera mod directly relevant to camera research. Factored into ENGINE-DOSSIER.md §4/§6/§12; our own M0 proxy DLL still being built independently (no third-party loader adopted), per the write-our-own-code policy. |
+| 2026-08-25 | [vorpX fails to hook the Steam build](topics/2026-08-25-vorpx-steam-injection-rejection.md) | 👀 reviewed | vorpX can't inject into Steam Burnout Paradise, but the community loader can — vorpX-specific, not a blanket injection block. Factored into ENGINE-DOSSIER.md §4 as a caveat to watch for during first live injection test. |
 
 ## How to add a topic
 
