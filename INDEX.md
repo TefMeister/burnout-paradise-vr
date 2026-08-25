@@ -10,7 +10,9 @@ write-up in `topics/`. Status tags:
 
 | Date | Topic | Status | Summary |
 | --- | --- | --- | --- |
-| *(no topics yet — research hasn't started)* | | | |
+| 2026-08-25 | [The BurnoutDecomp project](topics/2026-08-25-burnoutdecomp-project.md) | 🆕 new | Active public AI-assisted decompilation of Burnout Paradise (Xbox 360/PS3/PC) — potential source for camera/projection/frame-loop logic, and a data point on the RenderWare question. |
+| 2026-08-25 | [Community modding tools & injection](topics/2026-08-25-community-modding-tools-and-injection.md) | 🆕 new | A working DLL-injection stack already exists for Steam `BurnoutPR.exe` (bo98's loader + Detours), plus a source-available Free Camera mod directly relevant to camera research. |
+| 2026-08-25 | [vorpX fails to hook the Steam build](topics/2026-08-25-vorpx-steam-injection-rejection.md) | 🆕 new | vorpX can't inject into Steam Burnout Paradise, but the community loader can — vorpX-specific, not a blanket injection block. |
 
 ## How to add a topic
 
