@@ -5,7 +5,7 @@
 > `-dev-archive` / `-modding-notes` repos; this file is the *distilled current
 > truth*. Update it whenever a fact changes; correct false leads in place.
 
-**Status:** M0 done — static recon complete, external research folded in, and a from-scratch `d3d11.dll` proxy scaffold is built (clean, correct exports, 32-bit) and staged in `burnout-paradise-vr-staging/proxy-d3d11/`, not yet deployed/tested live · **VR-readiness verdict:** TBD, likely feasible but Denuvo raises the injection/debugging difficulty above this portfolio's usual baseline — see §4 for real de-risking context found the same day (ScyllaHide, community injection precedent)
+**Status:** M0 built and deployed; first live launch attempt blocked by an environment prerequisite, not by our code — **this Steam copy requires the EA App installed/linked** (`link2ea://` protocol handoff, confirmed via a clean control test with the proxy DLL removed producing the same underlying failure). Proxy DLL itself is cleared of suspicion but still unverified — pending EA App setup, then a retest · **VR-readiness verdict:** TBD, likely feasible but Denuvo raises the injection/debugging difficulty above this portfolio's usual baseline — see §4 for real de-risking context found the same day (ScyllaHide, community injection precedent)
 
 ## 1. Identity
 - Game / build / version: Burnout Paradise Remastered (2018 remaster of the 2008 original), Steam build, exe `BurnoutPR.exe`.
