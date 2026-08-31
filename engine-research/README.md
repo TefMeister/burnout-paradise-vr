@@ -5,7 +5,7 @@ Engine research toward a VR conversion of **Burnout Paradise Remastered**
 Entertainment) — cockpit-view stereo rendering and head tracking are the
 goal.
 
-This repository holds two things:
+This folder holds two things:
 
 - **[`PLAYBOOK.md`](PLAYBOOK.md)** — a reusable, engine-agnostic, point-by-point
   method for taking *any* game whose engine nobody has converted to VR and
@@ -16,7 +16,7 @@ This repository holds two things:
   reference for *this* game's engine. Empty scaffold for now — engine research
   is just beginning.
 
-The blow-by-blow development history lives in the sibling repositories
+The blow-by-blow development history lives in the sibling folders
 (`-dev-archive` for the messy in-progress record, `-modding-notes` for readable
 field notes). This repo is the consolidated engine knowledge, not the diary.
 
@@ -29,19 +29,19 @@ ships `d3dcompiler_47.dll` in its install directory, suggesting a Direct3D
 11 renderer, but this has not yet been confirmed by live inspection — see
 the dossier for the current verified state.
 
-## The six repositories for Burnout Paradise VR
+## The folders for Burnout Paradise VR
 
-Everything for this game lives in six repositories, each with one job — so you
-always know where to look. You are in **burnout-paradise-vr-engine-research**.
+Everything for this game lives in one repository, one folder per job — so you
+always know where to look. You are in **`engine-research/`**.
 
-| Repository | What lives here |
+| Folder | What lives here |
 | --- | --- |
-| [burnout-paradise-vr-mod](https://github.com/TefMeister/burnout-paradise-vr-mod) | The mod itself — the VR conversion (cockpit-view stereo rendering + head tracking). |
-| [burnout-paradise-vr-dev-archive](https://github.com/TefMeister/burnout-paradise-vr-dev-archive) | Full development history — snapshots, probes, dead ends, raw recon. |
-| [burnout-paradise-vr-modding-notes](https://github.com/TefMeister/burnout-paradise-vr-modding-notes) | Readable field notes / progress ledger. |
-| [burnout-paradise-vr-staging](https://github.com/TefMeister/burnout-paradise-vr-staging) 🔒 | **Private** — unverified WIP builds, cross-machine handoff. |
-| **burnout-paradise-vr-engine-research** ← you are here | Distilled engine reference (dossier) + reusable VR RE playbook. |
-| [burnout-paradise-vr-external-research](https://github.com/TefMeister/burnout-paradise-vr-external-research) | Ongoing public-research leads, gathered separately from hands-on modding work. |
+| [`mod/`](../mod/) | The mod itself — the VR conversion (cockpit-view stereo rendering + head tracking). |
+| [`dev-archive/`](../dev-archive/) | Full development history — snapshots, probes, dead ends, raw recon. |
+| [`modding-notes/`](../modding-notes/) | Readable field notes / progress ledger. |
+| [staging/burnout-paradise-vr](https://github.com/TefMeister/staging/tree/main/burnout-paradise-vr) 🔒 | **Private** — unverified WIP builds, cross-machine handoff. |
+| **`engine-research/`** ← you are here | Distilled engine reference (dossier) + reusable VR RE playbook. |
+| [`external-research/`](../external-research/) | Ongoing public-research leads, gathered separately from hands-on modding work. |
 
 ## Status
 
