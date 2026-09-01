@@ -1,5 +1,21 @@
 # Research index
 
+**Last `/gr` pass: 2026-09-01 — CHECK-IN. Nothing has changed, and that is the finding.** Inbox was
+empty. Re-checked the one thing that could unpause this project: **the EA App / EA-account gate on
+Burnout Paradise Remastered is still in force** — the Steam listing still states that the EA app, EA
+online activation and an EA account are required, and no 2026 news says otherwise
+`[reported 2026-09-01]`. The pause stands, and it is now compounded: `status/burnout-paradise-vr.md`
+records that **the game is not installed on the dev PC at all** (the folder holds only our own stray
+`d3d11.dll` proxy and a `steam_appid.txt`), so there is no static work available here either.
+
+One thing worth knowing if this is ever revisited: the **2009 original, *Burnout Paradise: The
+Ultimate Box*** (Steam app `24740`), is a separate listing from the Remaster, and community threads
+there are specifically about avoiding the EA App — but those same threads are people asking *where to
+buy it*, which reads as delisted `[hypothesis]`. If it is both obtainable and launcher-free it would
+be a viable alternative target for the same game; **neither half of that is established**, and the
+first step is simply checking whether it can still be bought legitimately. No research budget was
+spent past that, because the project is paused and a decision to unpause is the user's.
+
 Every research topic gathered for this project, newest first. Each row links to a self-contained
 write-up in `topics/`. Status tags:
 
