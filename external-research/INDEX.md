@@ -1,6 +1,7 @@
 # Research index
 
-**Last `/gr` pass: 2026-09-03 (estate sweep) — CHECK-IN** (board + INDEX)**.** Inbox empty. **Nothing new, and nothing checked.** The board's OPEN block is explicitly empty and the project remains paused on the EA App gate. One targeted re-check a year from now would be more useful than monthly polling; nothing about that gate changes on a weekly cadence.
+**Last `/gr` pass: 2026-09-04 (estate sweep) — CHECK-IN** (board + INDEX)**.** Inbox empty. **Nothing new, and nothing checked** — the OPEN block is still `none` and the project remains paused on the EA App gate; the 2026-09-03 note that a yearly re-check beats a daily one stands.
+_Previous: **Last `/gr` pass: 2026-09-03 (estate sweep) — CHECK-IN** (board + INDEX)**.** Inbox empty. **Nothing new, and nothing checked.** The board's OPEN block is explicitly empty and the project remains paused on the EA App gate. One targeted re-check a year from now would be more useful than monthly polling; nothing about that gate changes on a weekly cadence._
 _Previous: **Last `/gr` pass: 2026-09-02 (estate sweep) — CHECK-IN.** Inbox empty. **Nothing new, and nothing checked** — the project is paused on the EA App gate, which was re-confirmed yesterday; one day is not long enough for that to change. The board's OPEN block is …_
 
 One thing worth knowing if this is ever revisited: the **2009 original, *Burnout Paradise: The
