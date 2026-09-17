@@ -36,6 +36,11 @@ Development on this project is AI-assisted: much of the research, code, and
 documentation was produced with **Claude (Anthropic)**
 (https://claude.com) working alongside the project owner.
 
+- **Burnout Wiki** contributors, "Bundle 2/Burnout Paradise" and "Resource Types" (CC BY-SA 4.0) —
+  https://burnout.wiki/wiki/Bundle_2/Burnout_Paradise, https://burnout.wiki/wiki/Resource_Types
+- **YAP** by **burninrubber0** — https://github.com/burninrubber0/YAP
+- **Bundle Manager** (BurnoutHints, burninrubber0) — https://github.com/burninrubber0/Bundle-Manager
+
 ## Missing from this list?
 
 If you — or someone whose work you know — contributed to, influenced, or
