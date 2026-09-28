@@ -1,0 +1,671 @@
+[14:32:10.013] detour slot 14 -> 73D84F00 (d3d11.dll): MH_OK
+[14:32:10.014] detour slot 15 -> 73D7F160 (d3d11.dll): MH_OK
+[14:32:10.014] detour slot 48 -> 73D7D1B0 (d3d11.dll): MH_OK
+[14:32:10.014] detour slot 11 -> 73D808B0 (d3d11.dll): MH_OK
+[14:32:10.014] detour slot 7 -> 73D85B70 (d3d11.dll): MH_OK
+[14:32:10.014] detour slot 12 -> 73D86080 (d3d11.dll): MH_OK
+[14:32:10.014] detour slot 13 -> 73D86250 (d3d11.dll): MH_OK
+[14:32:10.014] detour slot 20 -> 73D87660 (d3d11.dll): MH_OK
+[14:32:10.014] detour slot 21 -> 73DBECB0 (d3d11.dll): MH_OK
+[14:32:10.014] detour slot 58 -> 73DC01F0 (d3d11.dll): MH_OK
+[14:32:10.014] detour slot 119 -> 73D824E0 (d3d11.dll): MH_OK
+[14:32:10.062] MH_EnableHook: MH_OK
+[14:32:10.062] hooked device 440DFD5C, immediate context 44103528
+[14:32:10.062] watch: immediate context 44103528 now uses vtable 4410352C (heap/none); its Draw slot -> 73D86250 (d3d11.dll)
+[14:32:10.830] VS #1 hash 11d09788 len 676 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:10.830] VS #2 hash 759c18fd len 1120 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.125] VS #3 hash 492400f5 len 1240 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.125] VS #4 hash 4b6e6387 len 2272 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.125] VS #5 hash 492400f5 len 1240 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.126] VS #6 hash 7befc46e len 1280 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.126] VS #7 hash 492400f5 len 1240 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.127] VS #8 hash 7befc46e len 1280 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.127] VS #9 hash 492400f5 len 1240 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.127] VS #10 hash 7befc46e len 1280 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.128] VS #11 hash 492400f5 len 1240 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.128] VS #12 hash 4b6e6387 len 2272 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.128] VS #13 hash 93e5eccc len 1088 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.129] VS #14 hash 88956c54 len 1032 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.129] VS #15 hash 8f7da395 len 1104 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.129] VS #16 hash 4a4f8f54 len 924 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.129] VS #17 hash 93f9fda4 len 3504 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.230] VS #18 hash 068772ac len 820 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.231] VS #19 hash e0dc16b9 len 936 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.231] VS #20 hash b8ccdd89 len 956 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.296] VS #21 hash 82d755c5 len 1520 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.297] VS #22 hash af6dfe49 len 1212 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.298] VS #23 hash af6dfe49 len 1212 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.298] VS #24 hash af6dfe49 len 1212 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.299] VS #25 hash af6dfe49 len 1212 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.299] VS #26 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.299] VS #27 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.300] VS #28 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.300] VS #29 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.300] VS #30 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.301] VS #31 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.301] VS #32 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.301] VS #33 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.302] VS #34 hash af6dfe49 len 1212 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.302] VS #35 hash af6dfe49 len 1212 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.303] VS #36 hash af6dfe49 len 1212 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.303] VS #37 hash af6dfe49 len 1212 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.303] VS #38 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.304] VS #39 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.304] VS #40 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.304] VS #41 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.304] VS #42 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.305] VS #43 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.305] VS #44 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.305] VS #45 hash e4888e31 len 1496 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.306] VS #46 hash b8ccdd89 len 956 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.306] VS #47 hash a221da2e len 648 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.307] VS #48 hash a221da2e len 648 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.307] VS #49 hash b8ccdd89 len 956 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.308] VS #50 hash a221da2e len 648 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.308] VS #51 hash a28ae3be len 720 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.309] VS #52 hash a28ae3be len 720 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.309] VS #53 hash a28ae3be len 720 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.310] VS #54 hash d7b1b63f len 636 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.310] VS #55 hash a28ae3be len 720 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.311] VS #56 hash a28ae3be len 720 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.311] VS #57 hash a28ae3be len 720 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.312] VS #58 hash e37b6c00 len 1168 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.313] VS #59 hash 0b002d5f len 556 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.313] VS #60 hash c4a0d08f len 636 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:11.313] VS #61 hash c4a0d08f len 636 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:12.477] stats/5s: draws immediate 1 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 1, draws with a VPM shader 0, VSSetCB 0, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1/0, UpdateSubresource 1 (boxed 0)
+[14:32:12.582] VS #62 hash d4b480fa len 788 viewProjection @-1 ViewProjectionModified @-1 (0 with it so far)
+[14:32:13.097] VS #63 hash 1db46236 len 2776 viewProjection @16 ViewProjectionModified @80 (1 with it so far)
+[14:32:13.097] VS #64 hash f1ae7ab3 len 3612 viewProjection @32 ViewProjectionModified @96 (2 with it so far)
+[14:32:13.097] VS #65 hash 546f1494 len 3796 viewProjection @16 ViewProjectionModified @80 (3 with it so far)
+[14:32:13.097] VS #66 hash bac72f23 len 4608 viewProjection @16 ViewProjectionModified @80 (4 with it so far)
+[14:32:13.098] VS #67 hash bac72f23 len 4608 viewProjection @16 ViewProjectionModified @80 (5 with it so far)
+[14:32:13.098] VS #68 hash 6c4f4d32 len 3948 viewProjection @32 ViewProjectionModified @96 (6 with it so far)
+[14:32:13.098] VS #69 hash 18820b75 len 4636 viewProjection @16 ViewProjectionModified @80 (7 with it so far)
+[14:32:13.098] VS #70 hash 076f0fc6 len 2980 viewProjection @16 ViewProjectionModified @80 (8 with it so far)
+[14:32:13.098] VS #71 hash 44ab30a4 len 4488 viewProjection @16 ViewProjectionModified @80 (9 with it so far)
+[14:32:13.098] VS #72 hash a68684c9 len 4120 viewProjection @32 ViewProjectionModified @96 (10 with it so far)
+[14:32:13.098] VS #73 hash 7e88e694 len 3388 viewProjection @16 ViewProjectionModified @80 (11 with it so far)
+[14:32:13.098] VS #74 hash b4103108 len 3820 viewProjection @16 ViewProjectionModified @80 (12 with it so far)
+[14:32:13.098] VS #75 hash c7aeec4e len 4712 viewProjection @16 ViewProjectionModified @80 (13 with it so far)
+[14:32:13.098] VS #76 hash f93bd3de len 3804 viewProjection @32 ViewProjectionModified @96 (14 with it so far)
+[14:32:13.099] VS #77 hash e04cd135 len 3332 viewProjection @16 ViewProjectionModified @80 (15 with it so far)
+[14:32:13.099] VS #78 hash 86aa3f09 len 3684 viewProjection @16 ViewProjectionModified @80 (16 with it so far)
+[14:32:13.099] VS #79 hash 0b72bd2f len 4376 viewProjection @16 ViewProjectionModified @80 (17 with it so far)
+[14:32:13.099] VS #80 hash f6a837a4 len 5268 viewProjection @16 ViewProjectionModified @80 (18 with it so far)
+[14:32:13.099] VS #81 hash 8a339371 len 4788 viewProjection @16 ViewProjectionModified @80 (19 with it so far)
+[14:32:13.100] VS #82 hash 18820b75 len 4636 viewProjection @16 ViewProjectionModified @80 (20 with it so far)
+[14:32:13.100] VS #83 hash cbec2175 len 5172 viewProjection @16 ViewProjectionModified @80 (21 with it so far)
+[14:32:13.100] VS #84 hash fe3dd305 len 3452 viewProjection @32 ViewProjectionModified @96 (22 with it so far)
+[14:32:13.100] VS #85 hash 69b1a037 len 4876 viewProjection @16 ViewProjectionModified @80 (23 with it so far)
+[14:32:13.100] VS #86 hash 09d66461 len 6756 viewProjection @16 ViewProjectionModified @80 (24 with it so far)
+[14:32:13.100] VS #87 hash f93bd3de len 3804 viewProjection @32 ViewProjectionModified @96 (25 with it so far)
+[14:32:13.100] VS #88 hash 07fb76b0 len 3540 viewProjection @16 ViewProjectionModified @80 (26 with it so far)
+[14:32:13.100] VS #89 hash 6c4f4d32 len 3948 viewProjection @32 ViewProjectionModified @96 (27 with it so far)
+[14:32:13.100] VS #90 hash 0b72bd2f len 4376 viewProjection @16 ViewProjectionModified @80 (28 with it so far)
+[14:32:13.101] VS #91 hash e7a62294 len 5796 viewProjection @16 ViewProjectionModified @80 (29 with it so far)
+[14:32:13.101] VS #92 hash 69b1a037 len 4876 viewProjection @16 ViewProjectionModified @80 (30 with it so far)
+[14:32:13.101] VS #93 hash de5db640 len 3424 viewProjection @16 ViewProjectionModified @80 (31 with it so far)
+[14:32:13.101] VS #94 hash fcae60f4 len 2364 viewProjection @32 ViewProjectionModified @96 (32 with it so far)
+[14:32:13.101] VS #95 hash 86aa3f09 len 3684 viewProjection @16 ViewProjectionModified @80 (33 with it so far)
+[14:32:13.101] VS #96 hash fe3dd305 len 3452 viewProjection @32 ViewProjectionModified @96 (34 with it so far)
+[14:32:13.101] VS #97 hash 6fcc419c len 3520 viewProjection @16 ViewProjectionModified @80 (35 with it so far)
+[14:32:13.101] VS #98 hash c7dfdbd2 len 5020 viewProjection @16 ViewProjectionModified @80 (36 with it so far)
+[14:32:13.102] VS #99 hash 53d78ed7 len 4504 viewProjection @16 ViewProjectionModified @80 (37 with it so far)
+[14:32:13.102] VS #100 hash 48038023 len 3480 viewProjection @32 ViewProjectionModified @96 (38 with it so far)
+[14:32:13.102] VS #101 hash d25c8919 len 4000 viewProjection @16 ViewProjectionModified @80 (39 with it so far)
+[14:32:13.102] VS #102 hash 0b72bd2f len 4376 viewProjection @16 ViewProjectionModified @80 (40 with it so far)
+[14:32:13.102] VS #103 hash e1edb2f1 len 3788 viewProjection @16 ViewProjectionModified @80 (41 with it so far)
+[14:32:13.102] VS #104 hash d63f53ee len 4644 viewProjection @16 ViewProjectionModified @80 (42 with it so far)
+[14:32:13.102] VS #105 hash 09d66461 len 6756 viewProjection @16 ViewProjectionModified @80 (43 with it so far)
+[14:32:13.102] VS #106 hash fe3dd305 len 3452 viewProjection @32 ViewProjectionModified @96 (44 with it so far)
+[14:32:13.102] VS #107 hash d63f53ee len 4644 viewProjection @16 ViewProjectionModified @80 (45 with it so far)
+[14:32:13.102] VS #108 hash e7a62294 len 5796 viewProjection @16 ViewProjectionModified @80 (46 with it so far)
+[14:32:13.103] VS #109 hash b8ba9b84 len 5044 viewProjection @16 ViewProjectionModified @80 (47 with it so far)
+[14:32:13.103] VS #110 hash 98dfb615 len 2916 viewProjection @16 ViewProjectionModified @80 (48 with it so far)
+[14:32:13.103] VS #111 hash 0b72bd2f len 4376 viewProjection @16 ViewProjectionModified @80 (49 with it so far)
+[14:32:13.103] VS #112 hash cca379e1 len 3700 viewProjection @16 ViewProjectionModified @80 (50 with it so far)
+[14:32:13.103] VS #113 hash 60477ba3 len 2484 viewProjection @32 ViewProjectionModified @96 (51 with it so far)
+[14:32:13.103] VS #114 hash d7976f8d len 2428 viewProjection @16 ViewProjectionModified @80 (52 with it so far)
+[14:32:13.104] VS #115 hash 0b72bd2f len 4376 viewProjection @16 ViewProjectionModified @80 (53 with it so far)
+[14:32:13.104] VS #116 hash fc3f5f01 len 4836 viewProjection @16 ViewProjectionModified @80 (54 with it so far)
+[14:32:13.104] VS #117 hash 9cb93d0d len 3684 viewProjection @16 ViewProjectionModified @80 (55 with it so far)
+[14:32:13.104] VS #118 hash d2c1808c len 3476 viewProjection @16 ViewProjectionModified @80 (56 with it so far)
+[14:32:13.104] VS #119 hash dbc0106a len 3704 viewProjection @16 ViewProjectionModified @80 (57 with it so far)
+[14:32:13.104] VS #120 hash 3af49920 len 3588 viewProjection @16 ViewProjectionModified @80 (58 with it so far)
+[14:32:13.104] VS #121 hash 684827a5 len 3756 viewProjection @32 ViewProjectionModified @96 (59 with it so far)
+[14:32:13.105] VS #122 hash b8ba9b84 len 5044 viewProjection @16 ViewProjectionModified @80 (60 with it so far)
+[14:32:13.105] VS #123 hash 796dc1b7 len 4160 viewProjection @16 ViewProjectionModified @80 (61 with it so far)
+[14:32:13.105] VS #124 hash 0e6649f4 len 4944 viewProjection @16 ViewProjectionModified @80 (62 with it so far)
+[14:32:13.105] VS #125 hash d63f53ee len 4644 viewProjection @16 ViewProjectionModified @80 (63 with it so far)
+[14:32:13.106] VS #126 hash 274e0be6 len 4444 viewProjection @16 ViewProjectionModified @80 (64 with it so far)
+[14:32:13.106] VS #127 hash c7dd765e len 4272 viewProjection @32 ViewProjectionModified @96 (65 with it so far)
+[14:32:13.106] VS #128 hash b4103108 len 3820 viewProjection @16 ViewProjectionModified @80 (66 with it so far)
+[14:32:13.106] VS #129 hash 6924d298 len 3552 viewProjection @16 ViewProjectionModified @80 (67 with it so far)
+[14:32:13.107] VS #130 hash 69b1a037 len 4876 viewProjection @16 ViewProjectionModified @80 (68 with it so far)
+[14:32:13.107] VS #131 hash dc85c657 len 3828 viewProjection @16 ViewProjectionModified @80 (69 with it so far)
+[14:32:13.107] VS #132 hash e04cd135 len 3332 viewProjection @16 ViewProjectionModified @80 (70 with it so far)
+[14:32:13.107] VS #133 hash 770f64db len 6460 viewProjection @16 ViewProjectionModified @80 (71 with it so far)
+[14:32:13.107] VS #134 hash f4cab603 len 4128 viewProjection @16 ViewProjectionModified @80 (72 with it so far)
+[14:32:13.107] VS #135 hash f33fd0f2 len 4572 viewProjection @16 ViewProjectionModified @80 (73 with it so far)
+[14:32:13.107] VS #136 hash d10bd55e len 3488 viewProjection @16 ViewProjectionModified @80 (74 with it so far)
+[14:32:13.107] VS #137 hash 48038023 len 3480 viewProjection @32 ViewProjectionModified @96 (75 with it so far)
+[14:32:13.107] VS #138 hash 69b1a037 len 4876 viewProjection @16 ViewProjectionModified @80 (76 with it so far)
+[14:32:13.108] VS #139 hash 2a1a106e len 4940 viewProjection @16 ViewProjectionModified @80 (77 with it so far)
+[14:32:13.108] VS #140 hash f33fd0f2 len 4572 viewProjection @16 ViewProjectionModified @80 (78 with it so far)
+[14:32:13.108] VS #141 hash 1d2276ca len 4072 viewProjection @32 ViewProjectionModified @96 (79 with it so far)
+[14:32:13.108] VS #142 hash 97b5dc44 len 5008 viewProjection @16 ViewProjectionModified @80 (80 with it so far)
+[14:32:13.108] VS #143 hash d2c1808c len 3476 viewProjection @16 ViewProjectionModified @80 (81 with it so far)
+[14:32:13.108] VS #144 hash 5305f31e len 4720 viewProjection @16 ViewProjectionModified @80 (82 with it so far)
+[14:32:13.109] VS #145 hash de5db640 len 3424 viewProjection @16 ViewProjectionModified @80 (83 with it so far)
+[14:32:13.109] VS #146 hash dbc0106a len 3704 viewProjection @16 ViewProjectionModified @80 (84 with it so far)
+[14:32:13.109] VS #147 hash 48038023 len 3480 viewProjection @32 ViewProjectionModified @96 (85 with it so far)
+[14:32:13.109] VS #148 hash fba15d3b len 3920 viewProjection @16 ViewProjectionModified @80 (86 with it so far)
+[14:32:13.109] VS #149 hash fe3dd305 len 3452 viewProjection @32 ViewProjectionModified @96 (87 with it so far)
+[14:32:13.109] VS #150 hash 7de2c6f5 len 2624 viewProjection @16 ViewProjectionModified @80 (88 with it so far)
+[14:32:13.109] VS #151 hash f63d720e len 3840 viewProjection @16 ViewProjectionModified @80 (89 with it so far)
+[14:32:13.109] VS #152 hash d63f53ee len 4644 viewProjection @16 ViewProjectionModified @80 (90 with it so far)
+[14:32:13.109] VS #153 hash d7316421 len 4776 viewProjection @16 ViewProjectionModified @80 (91 with it so far)
+[14:32:13.109] VS #154 hash 1d2276ca len 4072 viewProjection @32 ViewProjectionModified @96 (92 with it so far)
+[14:32:13.110] VS #155 hash d63f53ee len 4644 viewProjection @16 ViewProjectionModified @80 (93 with it so far)
+[14:32:13.110] VS #156 hash 19e106ec len 4636 viewProjection @16 ViewProjectionModified @80 (94 with it so far)
+[14:32:13.110] VS #157 hash 98dfb615 len 2916 viewProjection @16 ViewProjectionModified @80 (95 with it so far)
+[14:32:13.110] VS #158 hash 58933779 len 2208 viewProjection @16 ViewProjectionModified @80 (96 with it so far)
+[14:32:13.110] VS #159 hash 2cf84316 len 2388 viewProjection @16 ViewProjectionModified @80 (97 with it so far)
+[14:32:13.110] VS #160 hash 97fcc644 len 4952 viewProjection @16 ViewProjectionModified @80 (98 with it so far)
+[14:32:13.110] VS #161 hash e04cd135 len 3332 viewProjection @16 ViewProjectionModified @80 (99 with it so far)
+[14:32:13.110] VS #162 hash bff496fe len 2744 viewProjection @32 ViewProjectionModified @96 (100 with it so far)
+[14:32:13.111] VS #163 hash f13fb431 len 3396 viewProjection @16 ViewProjectionModified @80 (101 with it so far)
+[14:32:13.111] VS #164 hash d084c5bb len 4572 viewProjection @16 ViewProjectionModified @80 (102 with it so far)
+[14:32:13.111] VS #165 hash 2cc45e5a len 3804 viewProjection @32 ViewProjectionModified @96 (103 with it so far)
+[14:32:13.111] VS #166 hash b507bb9c len 4248 viewProjection @16 ViewProjectionModified @80 (104 with it so far)
+[14:32:13.111] VS #167 hash 69b1a037 len 4876 viewProjection @16 ViewProjectionModified @80 (105 with it so far)
+[14:32:13.111] VS #168 hash 86aa3f09 len 3684 viewProjection @16 ViewProjectionModified @80 (106 with it so far)
+[14:32:13.111] VS #169 hash 3e5f8fbf len 2168 viewProjection @48 ViewProjectionModified @112 (107 with it so far)
+[14:32:13.111] VS #170 hash b4103108 len 3820 viewProjection @16 ViewProjectionModified @80 (108 with it so far)
+[14:32:13.112] VS #171 hash d084c5bb len 4572 viewProjection @16 ViewProjectionModified @80 (109 with it so far)
+[14:32:13.112] VS #172 hash 2cc45e5a len 3804 viewProjection @32 ViewProjectionModified @96 (110 with it so far)
+[14:32:13.112] VS #173 hash 93971bc5 len 3892 viewProjection @16 ViewProjectionModified @80 (111 with it so far)
+[14:32:13.112] VS #174 hash 015e8aa8 len 3636 viewProjection @16 ViewProjectionModified @80 (112 with it so far)
+[14:32:13.112] VS #175 hash d63f53ee len 4644 viewProjection @16 ViewProjectionModified @80 (113 with it so far)
+[14:32:13.113] VS #176 hash 2e44dd4c len 2444 viewProjection @32 ViewProjectionModified @96 (114 with it so far)
+[14:32:13.113] VS #177 hash 33d40f81 len 3656 viewProjection @16 ViewProjectionModified @80 (115 with it so far)
+[14:32:13.113] VS #178 hash 1c2c067d len 2152 viewProjection @32 ViewProjectionModified @96 (116 with it so far)
+[14:32:13.113] VS #179 hash fffa4c84 len 3928 viewProjection @32 ViewProjectionModified @96 (117 with it so far)
+[14:32:13.113] VS #180 hash fa367674 len 3148 viewProjection @16 ViewProjectionModified @80 (118 with it so far)
+[14:32:13.113] VS #181 hash db28bff1 len 5112 viewProjection @16 ViewProjectionModified @80 (119 with it so far)
+[14:32:13.114] VS #182 hash 19e106ec len 4636 viewProjection @16 ViewProjectionModified @80 (120 with it so far)
+[14:32:13.114] VS #183 hash 770f64db len 6460 viewProjection @16 ViewProjectionModified @80 (121 with it so far)
+[14:32:17.493] stats/5s: draws immediate 5120 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 4044, draws with a VPM shader 0, VSSetCB 923, VSSetCB1 231 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/463/0, UpdateSubresource 3911 (boxed 2)
+[14:32:22.529] stats/5s: draws immediate 11544 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 8274, draws with a VPM shader 0, VSSetCB 1366, VSSetCB1 61 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/323/0, UpdateSubresource 10440 (boxed 0)
+[14:32:27.532] stats/5s: draws immediate 10231 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 8001, draws with a VPM shader 0, VSSetCB 1449, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/615/0, UpdateSubresource 9915 (boxed 0)
+[14:32:32.534] stats/5s: draws immediate 11533 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 9450, draws with a VPM shader 0, VSSetCB 1765, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/867/0, UpdateSubresource 11533 (boxed 0)
+[14:32:37.534] stats/5s: draws immediate 11700 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 9600, draws with a VPM shader 0, VSSetCB 1800, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/902/0, UpdateSubresource 11700 (boxed 0)
+[14:32:40.861] VS #184 hash 88956c54 len 1032 viewProjection @-1 ViewProjectionModified @-1 (121 with it so far)
+[14:32:40.861] VS #185 hash 8f7da395 len 1104 viewProjection @-1 ViewProjectionModified @-1 (121 with it so far)
+[14:32:40.861] VS #186 hash 6676cda6 len 1792 viewProjection @-1 ViewProjectionModified @-1 (121 with it so far)
+[14:32:40.862] VS #187 hash 4f1c8a16 len 1296 viewProjection @-1 ViewProjectionModified @-1 (121 with it so far)
+[14:32:40.862] VS #188 hash 813217e6 len 1232 viewProjection @-1 ViewProjectionModified @-1 (121 with it so far)
+[14:32:40.862] VS #189 hash c2b9abd0 len 1244 viewProjection @-1 ViewProjectionModified @-1 (121 with it so far)
+[14:32:40.863] VS #190 hash e93933ae len 1040 viewProjection @-1 ViewProjectionModified @-1 (121 with it so far)
+[14:32:40.863] VS #191 hash 0b495a2b len 736 viewProjection @-1 ViewProjectionModified @-1 (121 with it so far)
+[14:32:40.863] VS #192 hash 55228ba4 len 1196 viewProjection @-1 ViewProjectionModified @-1 (121 with it so far)
+[14:32:40.863] VS #193 hash 50ab9e71 len 1428 viewProjection @-1 ViewProjectionModified @-1 (121 with it so far)
+[14:32:42.785] stats/5s: draws immediate 16391 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 7631, draws with a VPM shader 0, VSSetCB 1515, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/354/0, UpdateSubresource 16391 (boxed 0)
+[14:32:47.791] stats/5s: draws immediate 18272 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 8890, draws with a VPM shader 0, VSSetCB 1612, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/297/0, UpdateSubresource 17586 (boxed 0)
+[14:32:52.777] stats/5s: draws immediate 14229 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 8370, draws with a VPM shader 0, VSSetCB 1395, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/289/0, UpdateSubresource 13113 (boxed 0)
+[14:32:57.788] stats/5s: draws immediate 14229 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 8370, draws with a VPM shader 0, VSSetCB 1395, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/290/0, UpdateSubresource 13113 (boxed 0)
+[14:33:02.783] stats/5s: draws immediate 15652 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 10086, draws with a VPM shader 0, VSSetCB 1681, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1264/0, UpdateSubresource 14500 (boxed 0)
+[14:33:07.783] stats/5s: draws immediate 16500 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 10800, draws with a VPM shader 0, VSSetCB 1800, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1512/0, UpdateSubresource 15300 (boxed 0)
+[14:33:12.783] stats/5s: draws immediate 16500 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 10800, draws with a VPM shader 0, VSSetCB 1800, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1513/0, UpdateSubresource 15300 (boxed 0)
+[14:33:17.783] stats/5s: draws immediate 16500 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 10800, draws with a VPM shader 0, VSSetCB 1800, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1512/0, UpdateSubresource 15300 (boxed 0)
+[14:33:22.784] stats/5s: draws immediate 16492 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 10800, draws with a VPM shader 0, VSSetCB 1800, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1512/0, UpdateSubresource 15296 (boxed 0)
+[14:33:27.790] stats/5s: draws immediate 15490 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 10333, draws with a VPM shader 0, VSSetCB 1722, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1439/0, UpdateSubresource 16270 (boxed 0)
+[14:33:29.645] draw #1 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:33:29.646]   ViewProjectionModified [   0.0776    0.0315   -0.0793 -390.8575 |    0.1160   -0.1240    0.0642 -216.1552 |   -0.3728   -0.6771   -0.6344 -166.4294 |    0.0009    0.4091    0.0000    1.0000]
+[14:33:29.646]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:33:29.648] draw #2 PERSPECTIVE (immediate ctx 44103528): VS hash 93971bc5, b0 784 bytes +0, ViewProjectionModified @80, ViewPosition @560
+[14:33:29.648]   ViewProjectionModified [   0.5680    0.0000   -1.1604 -4030.7161 |    0.0000    2.2968    0.0000   -2.3184 |   -0.8982    0.0000   -0.4397 1798.3521 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:29.648]   ViewPosition           [ 2986.9331     1.0094 -2011.4180]
+[14:33:30.644] draw #3 PERSPECTIVE (immediate ctx 44103528): VS hash 93971bc5, b0 784 bytes +0, ViewProjectionModified @80, ViewPosition @560
+[14:33:30.644]   ViewProjectionModified [   0.5985    0.0000   -1.2226 -4246.9243 |    0.0000    2.4200    0.0000   -2.4428 |   -0.8982    0.0000   -0.4397 1798.3521 |    1.0000   -0.2000    1.0000    0.0000]
+[14:33:30.644]   ViewPosition           [ 2986.9331     1.0094 -2011.4180]
+[14:33:31.639] draw #4 PERSPECTIVE (immediate ctx 44103528): VS hash 93971bc5, b0 784 bytes +0, ViewProjectionModified @80, ViewPosition @560
+[14:33:31.639]   ViewProjectionModified [   0.5985    0.0000   -1.2226 -4246.9243 |    0.0000    2.4200    0.0000   -2.4428 |   -0.8982    0.0000   -0.4397 1798.3521 |    1.0000   -0.2000    1.0000    0.0000]
+[14:33:31.639]   ViewPosition           [ 2986.9331     1.0094 -2011.4180]
+[14:33:32.645] draw #5 PERSPECTIVE (immediate ctx 44103528): VS hash 93971bc5, b0 784 bytes +0, ViewProjectionModified @80, ViewPosition @560
+[14:33:32.645]   ViewProjectionModified [   0.5985    0.0000   -1.2226 -4246.9243 |    0.0000    2.4200    0.0000   -2.4428 |   -0.8982    0.0000   -0.4397 1798.3521 |    1.0000   -0.2000    1.0000    0.0000]
+[14:33:32.645]   ViewPosition           [ 2986.9331     1.0094 -2011.4180]
+[14:33:32.778] stats/5s: draws immediate 546552 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 37703, draws with a VPM shader 534176, VSSetCB 28797, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1165/0, UpdateSubresource 589437 (boxed 0)
+[14:33:33.650] draw #6 PERSPECTIVE (immediate ctx 44103528): VS hash 0b72bd2f, b0 2928 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:33.650]   ViewProjectionModified [   0.5985    0.0000   -1.2226 -4246.9243 |    0.0000    2.4200    0.0000   -2.4428 |   -0.8982    0.0000   -0.4397 1798.3521 |    1.0000   -0.2000    1.0000    0.0000]
+[14:33:33.650]   ViewPosition           [ 2986.9331     1.0094 -2011.4180]
+[14:33:34.649] draw #7 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:34.649]   ViewProjectionModified [   0.5985    0.0000   -1.2226 -4246.9253 |    0.0117    2.4200    0.0057  -16.2472 |   -0.8981    0.0054   -0.4397 1798.3571 |    1.0000   -0.2000    1.0000    0.0000]
+[14:33:34.649]   ViewPosition           [ 2986.9470    -2.9518 -2011.4120]
+[14:33:35.650] draw #8 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:35.650]   ViewProjectionModified [   0.5985    0.0000   -1.2226 -4246.9253 |    0.0153    2.4200    0.0075  -23.5190 |   -0.8981    0.0070   -0.4397 1798.3505 |    1.0000   -0.2000    1.0000    0.0000]
+[14:33:35.650]   ViewPosition           [ 2986.9534    -2.9438 -2011.4088]
+[14:33:36.650] draw #9 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:36.650]   ViewProjectionModified [   0.5985    0.0000   -1.2226 -4246.9253 |    0.0153    2.4200    0.0075  -23.5190 |   -0.8981    0.0070   -0.4397 1798.3505 |    1.0000   -0.2000    1.0000    0.0000]
+[14:33:36.650]   ViewPosition           [ 2986.9534    -2.9438 -2011.4088]
+[14:33:37.648] draw #10 PERSPECTIVE (immediate ctx 44103528): VS hash 93971bc5, b0 784 bytes +0, ViewProjectionModified @80, ViewPosition @560
+[14:33:37.648]   ViewProjectionModified [  -2.4586    0.0011   -0.1177 7223.9312 |    0.0207    4.3582   -0.3921 -872.7485 |   -0.0476    0.0897    0.9948 2125.2175 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:37.648]   ViewPosition           [ 3033.6296     6.6714 -1991.7013]
+[14:33:37.782] stats/5s: draws immediate 1189107 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 61300, draws with a VPM shader 1162886, VSSetCB 51837, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1461/0, UpdateSubresource 1284437 (boxed 0)
+[14:33:38.642] draw #11 PERSPECTIVE (immediate ctx 44103528): VS hash 93971bc5, b0 784 bytes +0, ViewProjectionModified @80, ViewPosition @560
+[14:33:38.642]   ViewProjectionModified [  -2.4555    0.0086   -0.1703 7109.7524 |    0.0420    4.3586   -0.3854 -924.8787 |   -0.0686    0.0885    0.9937 2186.6926 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:38.642]   ViewPosition           [ 3033.6016     6.8573 -1991.7026]
+[14:33:39.649] draw #12 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:33:39.649]   ViewProjectionModified [   0.1503    0.0233   -0.1133 -680.7919 |    0.1168   -0.1756    0.1188 -117.1664 |   -0.3728   -0.6771   -0.6344 -122.6673 |    0.0009    0.4091    0.0000    1.0000]
+[14:33:39.649]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:33:39.650] draw #13 PERSPECTIVE (immediate ctx 44103528): VS hash 0b72bd2f, b0 2928 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:39.650]   ViewProjectionModified [  -2.4421    0.0056   -0.3075 6795.5771 |    0.0572    4.3594   -0.3747 -953.2351 |   -0.1243    0.0866    0.9885 2345.0486 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:39.650]   ViewPosition           [ 3033.4858     7.6589 -1991.7069]
+[14:33:40.650] draw #14 PERSPECTIVE (immediate ctx 44103528): VS hash 0b72bd2f, b0 2928 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:40.650]   ViewProjectionModified [  -2.4093    0.0009   -0.5038 6304.6748 |    0.0802    4.3589   -0.3757 -1029.6921 |   -0.2039    0.0878    0.9751 2559.6753 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:40.650]   ViewPosition           [ 3033.3362     8.7176 -1991.7130]
+[14:33:41.649] draw #15 PERSPECTIVE (immediate ctx 44103528): VS hash 0b72bd2f, b0 2928 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:41.649]   ViewProjectionModified [  -2.3723    0.0040   -0.6562 5888.7588 |    0.1111    4.3583   -0.3748 -1125.2251 |   -0.2654    0.0893    0.9600 2716.1689 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:41.649]   ViewPosition           [ 3033.2168     9.5734 -1991.7185]
+[14:33:42.649] draw #16 PERSPECTIVE (immediate ctx 44103528): VS hash 0b72bd2f, b0 2928 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:42.649]   ViewProjectionModified [  -2.3559    0.0036   -0.7128 5726.0991 |    0.1192    4.3584   -0.3722 -1146.0892 |   -0.2883    0.0893    0.9534 2772.4841 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:42.649]   ViewPosition           [ 3033.1699     9.9304 -1991.7212]
+[14:33:42.781] stats/5s: draws immediate 911174 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 60339, draws with a VPM shader 894470, VSSetCB 50264, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1508/0, UpdateSubresource 1018345 (boxed 0)
+[14:33:47.780] stats/5s: draws immediate 1359706 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65726, draws with a VPM shader 1325090, VSSetCB 56129, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1507/0, UpdateSubresource 1494718 (boxed 0)
+[14:33:49.647] draw #17 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:33:49.647]   ViewProjectionModified [   0.0599    0.0240   -0.0608 -301.0353 |    0.1049   -0.1129    0.0589 -194.3325 |   -0.3728   -0.6771   -0.6344 -169.0571 |    0.0009    0.4091    0.0000    1.0000]
+[14:33:49.647]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:33:49.698] draw #18 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:49.698]   ViewProjectionModified [   0.6185    0.0044    1.3004  768.8706 |    0.2186    2.5482   -0.1126 -872.5452 |    0.8990   -0.0960   -0.4273 -3538.0737 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:49.698]   ViewPosition           [ 2980.5146    -2.1115 -2008.9130]
+[14:33:50.696] draw #19 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:50.696]   ViewProjectionModified [   0.9226   -0.0012    1.6995  664.1743 |    0.2318    3.4278   -0.1234 -929.0242 |    0.8763   -0.0764   -0.4757 -3568.6716 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:50.696]   ViewPosition           [ 2981.4700    -2.9156 -2009.2867]
+[14:33:51.696] draw #20 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:51.696]   ViewProjectionModified [   0.9227   -0.0012    1.6997  664.2435 |    0.2325    3.4281   -0.1238 -931.7942 |    0.8763   -0.0766   -0.4757 -3568.6108 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:51.696]   ViewPosition           [ 2981.4675    -2.9156 -2009.2880]
+[14:33:52.695] draw #21 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:52.695]   ViewProjectionModified [   0.9227   -0.0012    1.6997  664.2458 |    0.2324    3.4281   -0.1238 -931.7776 |    0.8763   -0.0766   -0.4757 -3568.6108 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:52.695]   ViewPosition           [ 2981.4673    -2.9156 -2009.2880]
+[14:33:52.779] stats/5s: draws immediate 1075498 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 64876, draws with a VPM shader 1039124, VSSetCB 55158, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1512/0, UpdateSubresource 1123303 (boxed 0)
+[14:33:53.696] draw #22 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:53.696]   ViewProjectionModified [   0.9227   -0.0012    1.6997  664.2458 |    0.2324    3.4281   -0.1238 -931.7776 |    0.8763   -0.0766   -0.4757 -3568.6108 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:53.696]   ViewPosition           [ 2981.4673    -2.9156 -2009.2880]
+[14:33:54.696] draw #23 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:54.696]   ViewProjectionModified [   0.9227   -0.0012    1.6997  664.2458 |    0.2324    3.4281   -0.1238 -931.7776 |    0.8763   -0.0766   -0.4757 -3568.6108 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:54.696]   ViewPosition           [ 2981.4673    -2.9156 -2009.2880]
+[14:33:55.696] draw #24 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:55.696]   ViewProjectionModified [   0.9227   -0.0012    1.6997  664.2458 |    0.2324    3.4281   -0.1238 -931.7776 |    0.8763   -0.0766   -0.4757 -3568.6108 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:55.696]   ViewPosition           [ 2981.4673    -2.9156 -2009.2880]
+[14:33:56.696] draw #25 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:56.696]   ViewProjectionModified [   0.9227   -0.0012    1.6997  664.2458 |    0.2324    3.4281   -0.1238 -931.7776 |    0.8763   -0.0766   -0.4757 -3568.6108 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:56.696]   ViewPosition           [ 2981.4673    -2.9156 -2009.2880]
+[14:33:57.696] draw #26 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:57.696]   ViewProjectionModified [   0.9227   -0.0012    1.6997  664.2458 |    0.2324    3.4281   -0.1238 -931.7776 |    0.8763   -0.0766   -0.4757 -3568.6108 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:57.696]   ViewPosition           [ 2981.4673    -2.9156 -2009.2880]
+[14:33:57.779] stats/5s: draws immediate 791216 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 63940, draws with a VPM shader 747902, VSSetCB 54340, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1532/0, UpdateSubresource 794798 (boxed 0)
+[14:33:58.696] draw #27 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:58.696]   ViewProjectionModified [   0.9227   -0.0012    1.6997  664.2458 |    0.2324    3.4281   -0.1238 -931.7776 |    0.8763   -0.0766   -0.4757 -3568.6108 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:58.696]   ViewPosition           [ 2981.4673    -2.9156 -2009.2880]
+[14:33:59.645] draw #28 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:33:59.645]   ViewProjectionModified [  -0.0874   -0.0024   -0.1605  -62.0725 |    0.0974   -0.2273   -0.0495 -391.4422 |   -0.7890   -0.4329    0.4360 3233.5664 |    0.0009    0.4091    0.0000    1.0000]
+[14:33:59.645]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:33:59.696] draw #29 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:33:59.696]   ViewProjectionModified [   0.9227   -0.0012    1.6997  664.2458 |    0.2324    3.4281   -0.1238 -931.7776 |    0.8763   -0.0766   -0.4757 -3568.6108 |    1.0000   -0.3000    1.0000    0.0000]
+[14:33:59.696]   ViewPosition           [ 2981.4673    -2.9156 -2009.2880]
+[14:34:00.696] draw #30 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:00.696]   ViewProjectionModified [   0.9227   -0.0012    1.6997  664.2458 |    0.2324    3.4281   -0.1238 -931.7776 |    0.8763   -0.0766   -0.4757 -3568.6108 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:00.696]   ViewPosition           [ 2981.4673    -2.9156 -2009.2880]
+[14:34:01.696] draw #31 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:01.696]   ViewProjectionModified [  -0.9348    0.0000    2.0229 6861.1802 |    0.2375    3.9530    0.1098 -478.5426 |    0.9058   -0.0660    0.4186 -1860.0763 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:01.696]   ViewPosition           [ 2983.6509    -2.3274 -2012.9473]
+[14:34:02.696] draw #32 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:02.696]   ViewProjectionModified [  -0.8374    0.0000    1.8116 6145.3804 |    0.2127    3.5404    0.0983 -427.9628 |    0.9057   -0.0661    0.4187 -1859.4174 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:02.696]   ViewPosition           [ 2983.3586    -2.4708 -2013.0952]
+[14:34:02.779] stats/5s: draws immediate 859384 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 64321, draws with a VPM shader 815235, VSSetCB 54599, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1529/0, UpdateSubresource 881970 (boxed 0)
+[14:34:03.697] draw #33 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:03.697]   ViewProjectionModified [  -0.7442    0.0000    1.6100 5461.3159 |    0.1891    3.1463    0.0874 -379.8390 |    0.9057   -0.0661    0.4187 -1859.0992 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:03.697]   ViewPosition           [ 2983.0662    -2.6143 -2013.2432]
+[14:34:04.697] draw #34 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:04.697]   ViewProjectionModified [  -0.6562   -0.0000    1.4199 4816.1196 |    0.1667    2.7747    0.0771 -334.5394 |    0.9058   -0.0661    0.4186 -1859.1230 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:04.698]   ViewPosition           [ 2982.7734    -2.7577 -2013.3911]
+[14:34:05.697] draw #35 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:05.697]   ViewProjectionModified [  -0.5747   -0.0000    1.2436 4217.9771 |    0.1460    2.4301    0.0675 -292.5613 |    0.9058   -0.0661    0.4186 -1858.8060 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:05.697]   ViewPosition           [ 2982.4807    -2.9012 -2013.5392]
+[14:34:06.697] draw #36 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:06.697]   ViewProjectionModified [   0.3410    0.0000    1.3178 1632.0707 |   -0.0753    2.4187    0.0195  271.1749 |    0.9676    0.0321   -0.2504 -3388.6545 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:06.697]   ViewPosition           [ 2982.0232    -3.1072 -2010.1331]
+[14:34:07.697] draw #37 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:07.697]   ViewProjectionModified [  -0.2966   -0.0000    1.3285 3557.9744 |   -0.0693    2.4189   -0.0155  183.0341 |    0.9756    0.0293    0.2178 -2470.5569 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:07.697]   ViewPosition           [ 2981.7949    -3.0988 -2012.5601]
+[14:34:07.779] stats/5s: draws immediate 1130617 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65682, draws with a VPM shader 1084736, VSSetCB 55782, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1523/0, UpdateSubresource 1158421 (boxed 0)
+[14:34:08.697] draw #38 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:08.697]   ViewProjectionModified [  -0.8844   -0.0000    1.0347 4723.0303 |   -0.0530    2.4189   -0.0453   74.2618 |    0.7598    0.0288    0.6495 -957.7716 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:08.697]   ViewPosition           [ 2982.8638    -3.0985 -2014.9041]
+[14:34:09.646] draw #39 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:34:09.647]   ViewProjectionModified [   0.0556   -0.1240   -0.0225 -211.7292 |    0.0869    0.0088    0.1660   74.2625 |   -0.7890   -0.4329    0.4360 3232.2329 |    0.0009    0.4091    0.0000    1.0000]
+[14:34:09.647]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:34:09.697] draw #40 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:09.697]   ViewProjectionModified [  -1.2374    0.0000    0.5672 4836.9683 |   -0.0317    2.4187   -0.0692  -37.3264 |    0.4165    0.0315    0.9086  588.7206 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:09.697]   ViewPosition           [ 2984.7915    -3.1067 -2016.1250]
+[14:34:10.698] draw #41 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:10.698]   ViewProjectionModified [  -1.3515    0.0000    0.1626 4363.7983 |   -0.0092    2.4187   -0.0763 -118.9468 |    0.1194    0.0318    0.9923 1644.8667 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:10.698]   ViewPosition           [ 2986.3105    -3.1141 -2016.7478]
+[14:34:11.697] draw #42 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:11.697]   ViewProjectionModified [  -1.2950   -0.0000   -0.4193 3024.1050 |   -0.0220    2.4189    0.0680  210.5139 |   -0.3079   -0.0296    0.9510 2835.8860 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:11.697]   ViewPosition           [ 2987.5137    -3.1347 -2014.9996]
+[14:34:12.698] draw #43 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:12.698]   ViewProjectionModified [  -1.2875    0.0000   -0.4419 2956.9021 |   -0.0231    2.4189    0.0674  212.3763 |   -0.3245   -0.0294    0.9454 2874.3313 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:12.698]   ViewPosition           [ 2988.0913    -3.1389 -2014.8225]
+[14:34:12.779] stats/5s: draws immediate 1506100 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 66623, draws with a VPM shader 1456956, VSSetCB 56917, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1529/0, UpdateSubresource 1642290 (boxed 0)
+[14:34:13.698] draw #44 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:13.698]   ViewProjectionModified [  -1.2797   -0.0000   -0.4638 2890.3091 |   -0.0242    2.4189    0.0667  214.1121 |   -0.3406   -0.0293    0.9398 2911.1067 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:13.698]   ViewPosition           [ 2988.6689    -3.1431 -2014.6454]
+[14:34:14.689] draw #45 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:14.689]   ViewProjectionModified [  -1.2716   -0.0000   -0.4858 2822.5320 |   -0.0252    2.4189    0.0659  215.6903 |   -0.3567   -0.0292    0.9338 2947.2251 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:14.689]   ViewPosition           [ 2989.2463    -3.1473 -2014.4683]
+[14:34:15.689] draw #46 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:15.689]   ViewProjectionModified [  -1.2630   -0.0000   -0.5077 2753.3867 |   -0.0262    2.4189    0.0651  217.1261 |   -0.3728   -0.0290    0.9274 2982.7588 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:15.690]   ViewPosition           [ 2989.8240    -3.1515 -2014.2913]
+[14:34:16.688] draw #47 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:16.688]   ViewProjectionModified [   0.7385   -0.3486   -1.4616 -5146.7505 |   -1.1315    2.4936   -1.1665 1043.9059 |   -0.8130   -0.5047   -0.2904 1849.1603 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:16.688]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:34:17.688] draw #48 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:17.688]   ViewProjectionModified [   0.7650   -0.1463   -1.8873 -6081.2217 |   -1.6179    3.1226   -0.8978 3039.7664 |   -0.8130   -0.5047   -0.2904 1849.1718 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:17.688]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:34:17.787] stats/5s: draws immediate 1182107 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 64275, draws with a VPM shader 1136443, VSSetCB 54675, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1526/0, UpdateSubresource 1234382 (boxed 0)
+[14:34:18.687] draw #49 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:18.687]   ViewProjectionModified [   0.7278    0.1627   -2.3203 -6839.6914 |   -2.1659    3.7292   -0.4179 5644.1235 |   -0.8130   -0.5047   -0.2904 1849.1855 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:18.687]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:34:19.653] draw #50 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:34:19.654]   ViewProjectionModified [   0.0884    0.0208    0.1807   99.3203 |   -0.2022    0.4197    0.0508  708.1498 |   -0.7890   -0.4329    0.4360 3231.3306 |    0.0009    0.4091    0.0000    1.0000]
+[14:34:19.654]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:34:19.687] draw #51 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:19.687]   ViewProjectionModified [   0.6130    0.5803   -2.7246 -7308.2612 |   -2.7442    4.2544    0.2888 8795.0078 |   -0.8130   -0.5047   -0.2904 1849.2104 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:19.687]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:34:20.688] draw #52 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:20.688]   ViewProjectionModified [   0.4123    1.0991   -3.0643 -7390.0938 |   -3.3168    4.6418    1.2185 12376.6924 |   -0.8130   -0.5047   -0.2904 1849.2219 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:20.688]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:34:21.691] draw #53 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:21.691]   ViewProjectionModified [   1.0688    0.4453   -0.7158 -4630.1152 |   -0.7973    2.2738    0.2242 2839.3420 |   -0.5244   -0.1005   -0.8455 -130.4101 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:21.691]   ViewPosition           [ 2988.8818    -2.7446 -2007.5591]
+[14:34:22.691] draw #54 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:22.691]   ViewProjectionModified [   1.0683    0.4452   -0.7165 -4629.7852 |   -0.7999    2.2733    0.2200 2838.3972 |   -0.5242   -0.1026   -0.8454 -131.5060 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:22.691]   ViewPosition           [ 2988.1497    -2.8373 -2008.0809]
+[14:34:22.791] stats/5s: draws immediate 630613 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62680, draws with a VPM shader 586947, VSSetCB 53080, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1522/0, UpdateSubresource 649859 (boxed 0)
+[14:34:23.692] draw #55 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:23.692]   ViewProjectionModified [  -1.2214   -0.0054    1.3024 6268.6479 |   -0.1418    3.1688   -0.1198  190.9970 |    0.7281    0.0584    0.6830 -794.2128 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:23.692]   ViewPosition           [ 2982.4958    -2.9747 -2016.1421]
+[14:34:24.692] draw #56 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:24.692]   ViewProjectionModified [  -2.1918   -0.0025    2.3666 11309.0059 |    0.1239    5.7320    0.1209 -108.8023 |    0.7334   -0.0302    0.6792 -816.2703 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:24.692]   ViewPosition           [ 2981.2764    -2.9031 -2017.4370]
+[14:34:25.698] draw #57 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:25.698]   ViewProjectionModified [  -2.5079   -0.0017    2.7132 12950.4375 |    0.2174    6.5616    0.2050 -215.5105 |    0.7336   -0.0455    0.6781 -818.9395 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:25.698]   ViewPosition           [ 2981.0645    -2.8872 -2017.6617]
+[14:34:26.699] draw #58 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:26.699]   ViewProjectionModified [  -2.5079   -0.0017    2.7132 12950.4375 |    0.2174    6.5616    0.2050 -215.5105 |    0.7336   -0.0455    0.6781 -818.9395 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:26.699]   ViewPosition           [ 2981.0645    -2.8872 -2017.6617]
+[14:34:27.699] draw #59 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:27.699]   ViewProjectionModified [  -2.5079   -0.0017    2.7132 12950.4375 |    0.2174    6.5616    0.2050 -215.5105 |    0.7336   -0.0455    0.6781 -818.9395 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:27.699]   ViewPosition           [ 2981.0645    -2.8872 -2017.6617]
+[14:34:27.780] stats/5s: draws immediate 1053760 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65516, draws with a VPM shader 1024682, VSSetCB 55724, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1505/0, UpdateSubresource 1114886 (boxed 0)
+[14:34:28.699] draw #60 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:28.699]   ViewProjectionModified [  -2.5079   -0.0017    2.7132 12950.4375 |    0.2174    6.5616    0.2050 -215.5105 |    0.7336   -0.0455    0.6781 -818.9395 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:28.699]   ViewPosition           [ 2981.0645    -2.8872 -2017.6617]
+[14:34:29.648] draw #61 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:34:29.648]   ViewProjectionModified [  -0.0887   -0.0020   -0.1625  -62.3993 |    0.1488   -0.3487   -0.0770 -600.6249 |   -0.7890   -0.4329    0.4360 3232.3960 |    0.0009    0.4091    0.0000    1.0000]
+[14:34:29.648]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:34:29.699] draw #62 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:29.699]   ViewProjectionModified [  -2.5079   -0.0017    2.7132 12950.4375 |    0.2174    6.5616    0.2050 -215.5105 |    0.7336   -0.0455    0.6781 -818.9395 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:29.699]   ViewPosition           [ 2981.0645    -2.8872 -2017.6617]
+[14:34:30.699] draw #63 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:30.699]   ViewProjectionModified [  -2.5079   -0.0017    2.7132 12950.4375 |    0.2174    6.5616    0.2050 -215.5105 |    0.7336   -0.0455    0.6781 -818.9395 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:30.699]   ViewPosition           [ 2981.0645    -2.8872 -2017.6617]
+[14:34:31.698] draw #64 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:31.698]   ViewProjectionModified [  -2.5079   -0.0017    2.7132 12950.4375 |    0.2174    6.5616    0.2050 -215.5105 |    0.7336   -0.0455    0.6781 -818.9395 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:31.698]   ViewPosition           [ 2981.0645    -2.8872 -2017.6617]
+[14:34:32.698] draw #65 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:32.698]   ViewProjectionModified [  -2.5079   -0.0017    2.7132 12950.4375 |    0.2174    6.5616    0.2050 -215.5105 |    0.7336   -0.0455    0.6781 -818.9395 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:32.698]   ViewPosition           [ 2981.0645    -2.8872 -2017.6617]
+[14:34:32.781] stats/5s: draws immediate 1015992 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 66300, draws with a VPM shader 986140, VSSetCB 56400, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1515/0, UpdateSubresource 1019708 (boxed 0)
+[14:34:33.699] draw #66 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:33.699]   ViewProjectionModified [  -1.0243    0.0000    2.2158 7516.2510 |    0.2602    4.3302    0.1203 -524.7803 |    0.9057   -0.0661    0.4187 -1860.0153 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:33.699]   ViewPosition           [ 2983.9097    -2.2007 -2012.8165]
+[14:34:34.699] draw #67 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:34.699]   ViewProjectionModified [  -0.9233   -0.0000    1.9978 6776.1699 |    0.2346    3.9041    0.1084 -472.5902 |    0.9058   -0.0661    0.4186 -1860.0382 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:34.699]   ViewPosition           [ 2983.6169    -2.3441 -2012.9644]
+[14:34:35.699] draw #68 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:35.711]   ViewProjectionModified [  -0.8261   -0.0000    1.7877 6063.3804 |    0.2099    3.4934    0.0970 -422.2606 |    0.9058   -0.0661    0.4186 -1859.7212 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:35.711]   ViewPosition           [ 2983.3242    -2.4876 -2013.1125]
+[14:34:36.699] draw #69 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:36.699]   ViewProjectionModified [  -0.7335   -0.0000    1.5872 5383.5591 |    0.1864    3.1017    0.0861 -374.4034 |    0.9058   -0.0661    0.4186 -1859.4038 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:36.699]   ViewPosition           [ 2983.0317    -2.6310 -2013.2606]
+[14:34:37.698] draw #70 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:37.699]   ViewProjectionModified [  -0.6463   -0.0000    1.3986 4743.7852 |    0.1642    2.7331    0.0759 -329.4315 |    0.9058   -0.0661    0.4186 -1859.0865 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:37.699]   ViewPosition           [ 2982.7393    -2.7745 -2013.4086]
+[14:34:37.781] stats/5s: draws immediate 1029293 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65403, draws with a VPM shader 998357, VSSetCB 55503, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1516/0, UpdateSubresource 1077043 (boxed 0)
+[14:34:38.699] draw #71 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:38.699]   ViewProjectionModified [   0.7089    0.0000    1.1621  220.0067 |   -0.0656    2.4187    0.0400  283.6085 |    0.8533    0.0318   -0.5205 -3590.1619 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:38.699]   ViewPosition           [ 2982.3765    -3.1138 -2008.6166]
+[14:34:39.648] draw #72 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:34:39.648]   ViewProjectionModified [  -0.0541   -0.0148   -0.1126  -64.7957 |    0.1046   -0.2131   -0.0223 -358.3906 |   -0.7890   -0.4329    0.4360 3234.4319 |    0.0009    0.4091    0.0000    1.0000]
+[14:34:39.648]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:34:39.698] draw #73 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:39.698]   ViewProjectionModified [   0.2723   -0.0000    1.3337 1869.1748 |   -0.0757    2.4187    0.0155  264.2924 |    0.9793    0.0319   -0.2000 -3322.0867 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:39.698]   ViewPosition           [ 2981.9651    -3.1061 -2010.3899]
+[14:34:40.698] draw #74 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:40.698]   ViewProjectionModified [  -0.3715    0.0000    1.3095 3743.6951 |   -0.0676    2.4189   -0.0192  170.4939 |    0.9616    0.0290    0.2728 -2318.1882 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:40.698]   ViewPosition           [ 2981.8367    -3.0981 -2012.8607]
+[14:34:41.698] draw #75 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:41.698]   ViewProjectionModified [  -0.9379   -0.0000    0.9865 4785.8130 |   -0.0509    2.4189   -0.0484   61.8295 |    0.7244    0.0290    0.6888 -772.9451 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:41.698]   ViewPosition           [ 2983.0698    -3.0991 -2015.1011]
+[14:34:42.698] draw #76 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:42.698]   ViewProjectionModified [  -1.2623   -0.0000    0.5094 4795.0225 |   -0.0287    2.4187   -0.0712  -50.2180 |    0.3740    0.0317    0.9269  752.4203 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:42.698]   ViewPosition           [ 2985.0137    -3.1078 -2016.2146]
+[14:34:42.781] stats/5s: draws immediate 1150345 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65569, draws with a VPM shader 1117722, VSSetCB 55690, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1517/0, UpdateSubresource 1230022 (boxed 0)
+[14:34:43.698] draw #77 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:43.698]   ViewProjectionModified [  -1.3012   -0.0000   -0.3996 3081.4985 |   -0.0211    2.4189    0.0686  208.7329 |   -0.2934   -0.0297    0.9555 2801.9346 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:43.698]   ViewPosition           [ 2987.0037    -3.1310 -2015.1560]
+[14:34:44.699] draw #78 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:44.699]   ViewProjectionModified [  -1.2942   -0.0000   -0.4219 3016.2886 |   -0.0222    2.4189    0.0680  210.7390 |   -0.3098   -0.0295    0.9503 2840.4285 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:44.699]   ViewPosition           [ 2987.5811    -3.1352 -2014.9789]
+[14:34:45.698] draw #79 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:45.698]   ViewProjectionModified [  -1.2867   -0.0000   -0.4442 2949.8862 |   -0.0232    2.4189    0.0673  212.5884 |   -0.3262   -0.0294    0.9448 2878.2722 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:45.698]   ViewPosition           [ 2988.1587    -3.1394 -2014.8019]
+[14:34:46.699] draw #80 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:46.699]   ViewProjectionModified [  -1.2788   -0.0000   -0.4664 2882.2913 |   -0.0243    2.4189    0.0666  214.2883 |   -0.3425   -0.0293    0.9391 2915.4463 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:46.699]   ViewPosition           [ 2988.7363    -3.1436 -2014.6248]
+[14:34:47.699] draw #81 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:47.699]   ViewProjectionModified [  -1.2706   -0.0000   -0.4884 2814.2461 |   -0.0253    2.4189    0.0658  215.8645 |   -0.3587   -0.0291    0.9330 2951.5505 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:47.699]   ViewPosition           [ 2989.3140    -3.1478 -2014.4476]
+[14:34:47.781] stats/5s: draws immediate 1610668 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67082, draws with a VPM shader 1576255, VSSetCB 57482, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1522/0, UpdateSubresource 1753242 (boxed 0)
+[14:34:48.699] draw #82 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:48.699]   ViewProjectionModified [   0.6774   -0.4482   -1.1173 -4272.2280 |   -0.7711    1.9645   -1.2557 -214.0244 |   -0.8130   -0.5047   -0.2904 1849.1501 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:48.699]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:34:49.648] draw #83 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:34:49.648]   ViewProjectionModified [   0.0109    0.1095    0.1284  226.5734 |   -0.1751    0.1797   -0.1384  245.0317 |   -0.7890   -0.4329    0.4360 3231.3306 |    0.0009    0.4091    0.0000    1.0000]
+[14:34:49.648]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:34:49.699] draw #84 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:49.699]   ViewProjectionModified [   0.7443   -0.3302   -1.5098 -5260.9014 |   -1.1843    2.5663   -1.1451 1244.8621 |   -0.8130   -0.5047   -0.2904 1849.1616 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:49.699]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:34:50.698] draw #85 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:50.698]   ViewProjectionModified [   0.7642   -0.1159   -1.9381 -6181.0786 |   -1.6792    3.1957   -0.8532 3312.9043 |   -0.8130   -0.5047   -0.2904 1849.1731 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:50.698]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:34:51.698] draw #86 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:51.698]   ViewProjectionModified [   0.7186    0.2059   -2.3696 -6911.3296 |   -2.2325    3.7958   -0.3472 5985.3589 |   -0.8130   -0.5047   -0.2904 1849.1869 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:51.698]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:34:52.698] draw #87 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:52.698]   ViewProjectionModified [   0.5941    0.6359   -2.7683 -7339.3896 |   -2.8121    4.3077    0.3860 9193.3516 |   -0.8130   -0.5047   -0.2904 1849.2118 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:52.698]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:34:52.782] stats/5s: draws immediate 706307 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 61136, draws with a VPM shader 676912, VSSetCB 51536, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1515/0, UpdateSubresource 721865 (boxed 0)
+[14:34:53.698] draw #88 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:53.698]   ViewProjectionModified [   1.0692    0.4454   -0.7150 -4630.3984 |   -0.7951    2.2742    0.2277 2840.0918 |   -0.5244   -0.0987   -0.8457 -129.9234 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:53.698]   ViewPosition           [ 2989.5283    -2.6627 -2007.0979]
+[14:34:54.699] draw #89 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:54.699]   ViewProjectionModified [   1.0687    0.4453   -0.7159 -4630.0796 |   -0.7976    2.2737    0.2237 2839.2896 |   -0.5244   -0.1008   -0.8455 -130.2734 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:54.699]   ViewPosition           [ 2988.7964    -2.7554 -2007.6200]
+[14:34:55.698] draw #90 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:55.698]   ViewProjectionModified [   1.0683    0.4452   -0.7166 -4629.7500 |   -0.8001    2.2732    0.2196 2838.2795 |   -0.5242   -0.1029   -0.8454 -131.6008 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:55.698]   ViewPosition           [ 2988.0642    -2.8481 -2008.1418]
+[14:34:56.698] draw #91 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:56.698]   ViewProjectionModified [   1.0679    0.4451   -0.7172 -4629.4062 |   -0.8027    2.2727    0.2154 2837.3401 |   -0.5240   -0.1049   -0.8453 -132.9275 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:56.698]   ViewPosition           [ 2987.3323    -2.9408 -2008.6638]
+[14:34:57.699] draw #92 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:57.699]   ViewProjectionModified [   1.0673    0.4450   -0.7181 -4629.1025 |   -0.8052    2.2722    0.2114 2836.3970 |   -0.5239   -0.1070   -0.8450 -133.5074 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:57.699]   ViewPosition           [ 2986.6001    -3.0335 -2009.1857]
+[14:34:57.782] stats/5s: draws immediate 816458 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65225, draws with a VPM shader 786326, VSSetCB 55625, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1517/0, UpdateSubresource 897472 (boxed 0)
+[14:34:58.699] draw #93 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:58.699]   ViewProjectionModified [  -1.0268   -0.0000    2.2218 7536.0010 |    0.2609    4.3418    0.1206 -526.2318 |    0.9058   -0.0661    0.4186 -1860.3647 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:58.699]   ViewPosition           [ 2983.9172    -2.1968 -2012.8126]
+[14:34:59.648] draw #94 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:34:59.648]   ViewProjectionModified [  -0.0841   -0.0031   -0.1553  -60.5979 |    0.0985   -0.2286   -0.0488 -393.4217 |   -0.7890   -0.4329    0.4360 3234.4148 |    0.0009    0.4091    0.0000    1.0000]
+[14:34:59.648]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:34:59.698] draw #95 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:34:59.698]   ViewProjectionModified [  -0.9259   -0.0000    2.0036 6795.7764 |    0.2353    3.9153    0.1087 -473.9296 |    0.9058   -0.0661    0.4186 -1860.0474 |    1.0000   -0.3000    1.0000    0.0000]
+[14:34:59.698]   ViewPosition           [ 2983.6248    -2.3402 -2012.9606]
+[14:35:00.699] draw #96 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:00.699]   ViewProjectionModified [  -0.8287   -0.0000    1.7932 6082.1899 |    0.2106    3.5042    0.0973 -423.5923 |    0.9058   -0.0661    0.4186 -1859.7294 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:00.699]   ViewPosition           [ 2983.3323    -2.4837 -2013.1085]
+[14:35:01.698] draw #97 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:01.698]   ViewProjectionModified [  -0.7361    0.0000    1.5924 5401.7515 |    0.1870    3.1120    0.0864 -375.6151 |    0.9057   -0.0661    0.4187 -1859.0713 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:01.698]   ViewPosition           [ 2983.0398    -2.6272 -2013.2566]
+[14:35:02.699] draw #98 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:02.699]   ViewProjectionModified [  -0.6486   -0.0000    1.4035 4760.4390 |    0.1648    2.7427    0.0762 -330.6309 |    0.9058   -0.0661    0.4186 -1859.0946 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:02.699]   ViewPosition           [ 2982.7473    -2.7706 -2013.4044]
+[14:35:02.781] stats/5s: draws immediate 1151786 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65512, draws with a VPM shader 1119946, VSSetCB 55664, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1517/0, UpdateSubresource 1203484 (boxed 0)
+[14:35:03.698] draw #99 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:03.698]   ViewProjectionModified [   0.7149   -0.0000    1.1584  194.7701 |   -0.0653    2.4187    0.0403  283.1432 |    0.8506    0.0317   -0.5249 -3590.9397 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:03.698]   ViewPosition           [ 2982.3796    -3.1139 -2008.5852]
+[14:35:04.699] draw #100 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:04.699]   ViewProjectionModified [   0.2884   -0.0000    1.3303 1814.2263 |   -0.0756    2.4187    0.0164  265.9800 |    0.9768    0.0320   -0.2118 -3338.4392 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:04.699]   ViewPosition           [ 2981.9783    -3.1064 -2010.3297]
+[14:35:05.699] draw #101 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:05.699]   ViewProjectionModified [  -0.3543    0.0000    1.3143 3701.7542 |   -0.0680    2.4189   -0.0183  173.4162 |    0.9651    0.0291    0.2601 -2354.1472 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:05.699]   ViewPosition           [ 2981.8252    -3.0983 -2012.7913]
+[14:35:06.700] draw #102 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:06.700]   ViewProjectionModified [  -0.9259   -0.0000    0.9978 4772.6421 |   -0.0514    2.4189   -0.0477   64.7051 |    0.7327    0.0290    0.6800 -815.3897 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:06.700]   ViewPosition           [ 2983.0215    -3.0990 -2015.0571]
+[14:35:07.700] draw #103 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:07.700]   ViewProjectionModified [  -1.2569   -0.0000    0.5227 4805.5093 |   -0.0294    2.4187   -0.0707  -47.2766 |    0.3838    0.0317    0.9229  715.1680 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:07.700]   ViewPosition           [ 2984.9629    -3.1075 -2016.1945]
+[14:35:07.782] stats/5s: draws immediate 1327426 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 66048, draws with a VPM shader 1293689, VSSetCB 56168, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1518/0, UpdateSubresource 1400104 (boxed 0)
+[14:35:08.700] draw #104 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:08.700]   ViewProjectionModified [  -1.3014   -0.0000   -0.3990 3083.3948 |   -0.0210    2.4189    0.0686  208.6807 |   -0.2930   -0.0297    0.9557 2800.7964 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:08.700]   ViewPosition           [ 2986.9883    -3.1309 -2015.1609]
+[14:35:09.649] draw #105 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:35:09.649]   ViewProjectionModified [  -0.0790    0.0452   -0.0980   39.3367 |    0.0370   -0.1821   -0.1139 -339.5770 |   -0.7890   -0.4329    0.4360 3229.2244 |    0.0009    0.4091    0.0000    1.0000]
+[14:35:09.649]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:35:09.700] draw #106 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:09.700]   ViewProjectionModified [  -1.2943    0.0000   -0.4216 3017.3118 |   -0.0221    2.4189    0.0680  210.6809 |   -0.3096   -0.0295    0.9504 2839.8298 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:09.700]   ViewPosition           [ 2987.5657    -3.1351 -2014.9838]
+[14:35:10.700] draw #107 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:10.700]   ViewProjectionModified [  -1.2868    0.0000   -0.4438 2950.9255 |   -0.0232    2.4189    0.0673  212.5315 |   -0.3259   -0.0294    0.9449 2877.6848 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:10.700]   ViewPosition           [ 2988.1431    -3.1393 -2014.8066]
+[14:35:11.699] draw #108 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:11.699]   ViewProjectionModified [  -1.2790   -0.0000   -0.4658 2884.2571 |   -0.0243    2.4189    0.0666  214.2492 |   -0.3420   -0.0293    0.9392 2914.3848 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:11.699]   ViewPosition           [ 2988.7207    -3.1435 -2014.6296]
+[14:35:12.700] draw #109 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:12.700]   ViewProjectionModified [  -1.2708   -0.0000   -0.4877 2816.4080 |   -0.0253    2.4189    0.0658  215.8089 |   -0.3581   -0.0291    0.9332 2950.4253 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:12.700]   ViewPosition           [ 2989.2981    -3.1477 -2014.4525]
+[14:35:12.782] stats/5s: draws immediate 1595368 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67083, draws with a VPM shader 1561659, VSSetCB 57483, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1522/0, UpdateSubresource 1715352 (boxed 0)
+[14:35:13.699] draw #110 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:13.699]   ViewProjectionModified [   0.6752   -0.4503   -1.1075 -4245.7490 |   -0.7613    1.9491   -1.2566 -245.3766 |   -0.8130   -0.5047   -0.2904 1849.1498 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:13.699]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:35:14.698] draw #111 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:14.698]   ViewProjectionModified [   0.7430   -0.3346   -1.4986 -5234.6055 |   -1.1720    2.5494   -1.1502 1197.6964 |   -0.8130   -0.5047   -0.2904 1849.1613 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:14.698]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:35:15.699] draw #112 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:15.699]   ViewProjectionModified [   0.7645   -0.1230   -1.9264 -6158.2334 |   -1.6650    3.1788   -0.8638 3249.0679 |   -0.8130   -0.5047   -0.2904 1849.1729 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:15.699]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:35:16.698] draw #113 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:16.699]   ViewProjectionModified [   0.7208    0.1958   -2.3582 -6895.1421 |   -2.2170    3.7805   -0.3638 5905.8706 |   -0.8130   -0.5047   -0.2904 1849.1866 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:16.699]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:35:17.699] draw #114 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:17.699]   ViewProjectionModified [   0.5986    0.6229   -2.7583 -7332.6758 |   -2.7964    4.2956    0.3633 9100.8174 |   -0.8130   -0.5047   -0.2904 1849.2114 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:17.699]   ViewPosition           [ 2992.6147    -0.5559 -2009.1492]
+[14:35:17.783] stats/5s: draws immediate 706124 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 61379, draws with a VPM shader 676818, VSSetCB 51769, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1520/0, UpdateSubresource 715082 (boxed 0)
+[14:35:18.700] draw #115 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:18.700]   ViewProjectionModified [   1.0692    0.4454   -0.7150 -4630.4053 |   -0.7951    2.2742    0.2278 2840.1250 |   -0.5244   -0.0986   -0.8457 -129.9015 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:18.700]   ViewPosition           [ 2989.5481    -2.6602 -2007.0839]
+[14:35:19.648] draw #116 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:35:19.648]   ViewProjectionModified [   0.0436    0.0663    0.1447  161.4835 |   -0.1232    0.1792   -0.0450  277.4744 |   -0.7890   -0.4329    0.4360 3231.5645 |    0.0009    0.4091    0.0000    1.0000]
+[14:35:19.648]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:35:19.699] draw #117 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:19.699]   ViewProjectionModified [   1.0687    0.4453   -0.7159 -4630.0889 |   -0.7975    2.2737    0.2238 2839.3135 |   -0.5244   -0.1007   -0.8455 -130.2514 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:19.699]   ViewPosition           [ 2988.8164    -2.7529 -2007.6060]
+[14:35:20.699] draw #118 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:20.699]   ViewProjectionModified [   1.0683    0.4452   -0.7166 -4629.7603 |   -0.8001    2.2732    0.2197 2838.2927 |   -0.5242   -0.1028   -0.8454 -131.5788 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:20.699]   ViewPosition           [ 2988.0840    -2.8456 -2008.1277]
+[14:35:21.700] draw #119 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:21.700]   ViewProjectionModified [   1.0679    0.4451   -0.7172 -4629.4097 |   -0.8026    2.2727    0.2155 2837.3901 |   -0.5240   -0.1049   -0.8453 -132.9055 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:21.700]   ViewPosition           [ 2987.3521    -2.9383 -2008.6497]
+[14:35:22.700] draw #120 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:22.700]   ViewProjectionModified [   1.0674    0.4450   -0.7180 -4629.1113 |   -0.8051    2.2722    0.2115 2836.4209 |   -0.5239   -0.1069   -0.8450 -133.4855 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:22.700]   ViewPosition           [ 2986.6199    -3.0310 -2009.1716]
+[14:35:22.782] stats/5s: draws immediate 809003 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65036, draws with a VPM shader 779076, VSSetCB 55446, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1512/0, UpdateSubresource 887878 (boxed 0)
+[14:35:23.700] draw #121 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:23.700]   ViewProjectionModified [   1.0164   -0.0000    0.9054 -1273.4756 |    0.4863    2.3069   -0.5458 -2530.1853 |    0.6341   -0.3021   -0.7118 -3306.0898 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:23.700]   ViewPosition           [ 3004.9683    -2.0039 -1966.9380]
+[14:35:24.699] draw #122 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:24.699]   ViewProjectionModified [   1.0132    0.0062    0.9090 -1257.5040 |    0.4583    2.3171   -0.5265 -2407.8066 |    0.6404   -0.2884   -0.7118 -3324.4709 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:24.699]   ViewPosition           [ 3005.0710    -2.0153 -1965.9844]
+[14:35:25.699] draw #123 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:35:25.699]   ViewProjectionModified [   1.0710   -0.0211    0.6693 -1904.3922 |    0.2986    2.1877   -0.4088 -1696.3043 |    0.5132   -0.2248   -0.8283 -3170.2688 |    1.0000   -0.3000    1.0000    0.0000]
+[14:35:25.699]   ViewPosition           [ 3005.8455    -1.9010 -1964.5126]
+[14:35:27.783] stats/5s: draws immediate 672066 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 60825, draws with a VPM shader 655369, VSSetCB 51237, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1506/0, UpdateSubresource 709041 (boxed 0)
+[14:35:29.649] draw #124 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:35:29.649]   ViewProjectionModified [  -0.0832    0.0214    0.0242  298.1935 |   -0.0051    0.1157   -0.1198 -220.6435 |   -0.3604   -0.6785   -0.6401 -178.6858 |    0.0009    0.4091    0.0000    1.0000]
+[14:35:29.649]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:35:32.796] stats/5s: draws immediate 633541 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 60545, draws with a VPM shader 622034, VSSetCB 51003, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1503/0, UpdateSubresource 662062 (boxed 0)
+[14:35:37.796] stats/5s: draws immediate 653646 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 61500, draws with a VPM shader 641752, VSSetCB 51900, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1503/0, UpdateSubresource 692703 (boxed 0)
+[14:35:39.648] draw #125 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:35:39.648]   ViewProjectionModified [  -0.0845    0.0191    0.0241  301.8514 |   -0.0073    0.1158   -0.1175 -209.4652 |   -0.3396   -0.6804   -0.6494 -259.3806 |    0.0009    0.4091    0.0000    1.0000]
+[14:35:39.648]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:35:42.783] stats/5s: draws immediate 674388 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 61228, draws with a VPM shader 662459, VSSetCB 51692, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1493/0, UpdateSubresource 708329 (boxed 0)
+[14:35:47.793] stats/5s: draws immediate 705894 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 61223, draws with a VPM shader 693641, VSSetCB 51655, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1498/0, UpdateSubresource 730989 (boxed 0)
+[14:35:49.643] draw #126 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:35:49.643]   ViewProjectionModified [  -0.0858    0.0168    0.0241  305.6903 |   -0.0097    0.1158   -0.1153 -197.9456 |   -0.3186   -0.6820   -0.6583 -340.1065 |    0.0009    0.4091    0.0000    1.0000]
+[14:35:49.643]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:35:52.793] stats/5s: draws immediate 766812 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 61855, draws with a VPM shader 754512, VSSetCB 52287, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1498/0, UpdateSubresource 773715 (boxed 0)
+[14:35:57.794] stats/5s: draws immediate 825035 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62274, draws with a VPM shader 812315, VSSetCB 52674, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1504/0, UpdateSubresource 833344 (boxed 0)
+[14:35:59.648] draw #127 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:35:59.648]   ViewProjectionModified [  -0.0839    0.0199    0.0170  285.8687 |    0.0032    0.1191   -0.1235 -252.9127 |   -0.2974   -0.6831   -0.6670 -421.0872 |    0.0009    0.4091    0.0000    1.0000]
+[14:35:59.648]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:36:02.795] stats/5s: draws immediate 737447 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 61324, draws with a VPM shader 724883, VSSetCB 51895, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1494/0, UpdateSubresource 766091 (boxed 0)
+[14:36:07.785] stats/5s: draws immediate 706758 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 60494, draws with a VPM shader 693808, VSSetCB 51256, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1495/0, UpdateSubresource 749988 (boxed 0)
+[14:36:09.650] draw #128 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:36:09.650]   ViewProjectionModified [  -0.0852    0.0176    0.0170  289.7190 |    0.0005    0.1209   -0.1226 -243.0884 |   -0.2761   -0.6838   -0.6754 -501.5529 |    0.0009    0.4091    0.0000    1.0000]
+[14:36:09.650]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:36:12.786] stats/5s: draws immediate 767286 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 61053, draws with a VPM shader 753796, VSSetCB 51753, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1505/0, UpdateSubresource 817723 (boxed 0)
+[14:36:17.786] stats/5s: draws immediate 772989 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 61517, draws with a VPM shader 759189, VSSetCB 52217, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1505/0, UpdateSubresource 828409 (boxed 0)
+[14:36:19.651] draw #129 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:36:19.651]   ViewProjectionModified [  -0.0865    0.0152    0.0170  293.7578 |   -0.0023    0.1206   -0.1199 -229.1663 |   -0.2546   -0.6841   -0.6835 -582.0695 |    0.0009    0.4091    0.0000    1.0000]
+[14:36:19.651]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:36:22.786] stats/5s: draws immediate 856466 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62338, draws with a VPM shader 842512, VSSetCB 53038, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1506/0, UpdateSubresource 898007 (boxed 0)
+[14:36:27.785] stats/5s: draws immediate 786988 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 63088, draws with a VPM shader 770224, VSSetCB 52888, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1507/0, UpdateSubresource 852849 (boxed 0)
+[14:36:29.651] draw #130 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:36:29.651]   ViewProjectionModified [  -0.0553   -0.0352    0.0535  272.1170 |   -0.1182    0.0984   -0.0575  242.4191 |   -0.2331   -0.6840   -0.6913 -664.0275 |    0.0009    0.4091    0.0000    1.0000]
+[14:36:29.651]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:36:30.434] draw #131 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:36:30.434]   ViewProjectionModified [   0.9365    0.0285   -0.1475 -3109.6738 |   -0.0639    1.6830   -0.0805   37.0121 |   -0.1538   -0.0530   -0.9867 -1485.5381 |    1.0000   -0.3000    1.0000    0.0000]
+[14:36:30.435]   ViewPosition           [ 3009.6670    -2.1129 -1974.6399]
+[14:36:31.703] draw #132 PERSPECTIVE (immediate ctx 44103528): VS hash cbec2175, b0 2960 bytes +0, ViewProjectionModified @80, ViewPosition @592
+[14:36:31.703]   ViewProjectionModified [   0.4902    0.0013   -0.8117 -3085.4968 |    0.0187    1.6856    0.0140  -23.4727 |   -0.8559    0.0138   -0.5169 1545.7566 |    1.0000   -0.3000    1.0000    0.0000]
+[14:36:31.703]   ViewPosition           [ 3005.4617    -3.0231 -1986.0955]
+[14:36:32.786] stats/5s: draws immediate 1180234 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67734, draws with a VPM shader 1156144, VSSetCB 55069, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1521/0, UpdateSubresource 1263135 (boxed 0)
+[14:36:37.786] stats/5s: draws immediate 1394139 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 68532, draws with a VPM shader 1370205, VSSetCB 55932, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1523/0, UpdateSubresource 1485522 (boxed 0)
+[14:36:39.651] draw #133 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:36:39.651]   ViewProjectionModified [   0.0141   -0.0634    0.0578   72.3333 |   -0.1790    0.0050    0.0493  634.9750 |   -0.2114   -0.6834   -0.6987 -758.1670 |    0.0009    0.4091    0.0000    1.0000]
+[14:36:39.651]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:36:42.787] stats/5s: draws immediate 1396871 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 68689, draws with a VPM shader 1373023, VSSetCB 56089, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1523/0, UpdateSubresource 1503500 (boxed 0)
+[14:36:47.787] stats/5s: draws immediate 1414610 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 68780, draws with a VPM shader 1390611, VSSetCB 56180, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1524/0, UpdateSubresource 1519202 (boxed 0)
+[14:36:49.652] draw #134 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:36:49.652]   ViewProjectionModified [   0.0141   -0.0636    0.0577   72.2292 |   -0.1845    0.0021    0.0475  647.8292 |   -0.1897   -0.6824   -0.7059 -837.6009 |    0.0009    0.4091    0.0000    1.0000]
+[14:36:49.652]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:36:52.786] stats/5s: draws immediate 1386674 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 63848, draws with a VPM shader 1371243, VSSetCB 54376, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1519/0, UpdateSubresource 1503271 (boxed 0)
+[14:36:57.787] stats/5s: draws immediate 1374951 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 63926, draws with a VPM shader 1360104, VSSetCB 54494, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1518/0, UpdateSubresource 1494028 (boxed 0)
+[14:36:59.653] draw #135 flat (immediate ctx 44103528): VS hash 2e44dd4c, b0 800 bytes +0, ViewProjectionModified @96, ViewPosition @624
+[14:36:59.653]   ViewProjectionModified [   0.0141   -0.0638    0.0576   72.1210 |   -0.1857   -0.0008    0.0445  645.4728 |   -0.1680   -0.6810   -0.7128 -916.3358 |    0.0009    0.4091    0.0000    1.0000]
+[14:36:59.653]   ViewPosition           [    0.0000     0.0000     0.0000]
+[14:37:02.787] stats/5s: draws immediate 1409850 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 64772, draws with a VPM shader 1395106, VSSetCB 55132, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1512/0, UpdateSubresource 1516335 (boxed 0)
