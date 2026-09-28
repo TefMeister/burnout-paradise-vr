@@ -1,0 +1,189 @@
+fnv1a32	source	globals_size	viewProjection_off	ViewProjectionModified_off	worldViewProj_off	world_off	ViewPosition_off	first_global	class
+0x015e8aa8	bndl:_Illuminance_Diffuse_Opaque_Singlesided.fx.Shader_ID_276079_Default_VertexShader	784	16	80	640	704	608	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x076f0fc6	bndl:ZOnlyVehicleSkinnedOpaqueSingleSided_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x07fb76b0	bndl:Shaders_Sign_Diffuse_Opaque_Singlesided.fx.Shader_ID_611392_Default_VertexShader	752	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x09d66461	bndl:Test_Vehicle_Opaque_Metal_Textured_Skin.fx.Shader_ID_702519_Damaged_VertexShader	3760	16	80	3520	3584	3472	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x09d66461	bndl:Test_Vehicle_Opaque_Metal_Textured_Skin.fx.Shader_ID_702519_Default_VertexShader	3760	16	80	3520	3584	3472	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x0b72bd2f	bndl:ers_Vehicle_Opaque_PlasticMatt_Textured.fx.Shader_ID_285004_Default_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x0b72bd2f	bndl:out5_Shaders_Vehicle_Opaque_PlasticMatt.fx.Shader_ID_284941_Default_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x0b72bd2f	bndl:5_Shaders_Vehicle_Opaque_Chrome_Damaged.fx.Shader_ID_323795_Default_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x0b72bd2f	bndl:ers_Vehicle_Opaque_SimpleMetal_Textured.fx.Shader_ID_322588_Default_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x0b72bd2f	bndl:t5_Shaders_Vehicle_Livery_Alpha_CarGuts.fx.Shader_ID_511225_Default_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x0e6649f4	bndl:_Vehicle_Opaque_BodypartsSkin_EnvMapped.fx.Shader_ID_322551_Damaged_VertexShader	2944	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x18820b75	bndl:Opaque_WheelChrome_Textured_Illuminance.fx.Shader_ID_727487_Default_VertexShader	848	16	80	560	624	704	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x18820b75	bndl:Opaque_WheelChrome_Textured_Illuminance.fx.Shader_ID_727487_Blurred_VertexShader	848	16	80	560	624	704	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x19e106ec	bndl:yScale_WheelChrome_Textured_Illuminance.fx.Shader_ID_727483_Default_VertexShader	848	16	80	560	624	704	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x19e106ec	bndl:yScale_WheelChrome_Textured_Illuminance.fx.Shader_ID_727483_Blurred_VertexShader	848	16	80	560	624	704	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x1c2c067d	bndl:ZOnlyOpaqueDoubleSided_VertexShader	768	32	96	624	688	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x1d2276ca	bndl:aders_Road_Detailmap_Opaque_Singlesided.fx.Shader_ID_412881_Default_VertexShader	816	32	96	656	720	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x1d2276ca	bndl:unnel_Road_Detailmap_Opaque_Singlesided.fx.Shader_ID_604093_Default_VertexShader	816	32	96	656	720	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x1db46236	bndl:evron_Illuminated_Greyscale_Singlesided.fx.Shader_ID_793503_Default_VertexShader	784	16	80	640	704	608	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x274e0be6	bndl:icle_Opaque_PaintGloss_Textured_Traffic.fx.Shader_ID_494917_Default_VertexShader	2944	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x2a1a106e	bndl:Opaque_PaintGloss_Textured_NormalMapped.fx.Shader_ID_762310_Damaged_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x2cc45e5a	bndl:_Shaders_Specular_Greyscale_Doublesided.fx.Shader_ID_226813_Default_VertexShader	800	32	96	640	704	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x2cc45e5a	bndl:_Shaders_Tint_Specular_1Bit_Doublesided.fx.Shader_ID_298522_Default_VertexShader	800	32	96	640	704	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x2cf84316	bndl:ZOnlyNull_VertexShader	784	16	80	640	704	608	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x2e44dd4c	bndl:ZOnlyOpaqueSingleSided_VertexShader	800	32	96	656	720	624	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x33d40f81	bndl:rs_VideoWall_Diffuse_Opaque_Singlesided.fx.Shader_ID_603200_Default_VertexShader	768	16	80	640	704	608	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x3af49920	bndl:aders_Water_Specular_Opaque_Singlesided.fx.Shader_ID_274728_Default_VertexShader	816	16	80	656	720	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x3e5f8fbf	bndl:ut5_Shaders_Cable_GreyScale_Doublesided.fx.Shader_ID_419514_Default_VertexShader	384	48	112	224	288	176	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x44ab30a4	bndl:aders_Vehicle_Greyscale_Window_Textured.fx.Shader_ID_270169_Default_VertexShader	2928	16	80	624	688	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x48038023	bndl:_Tunnel_Lightmapped_Opaque_Doublesided2.fx.Shader_ID_545786_Default_VertexShader	768	32	96	624	688	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x48038023	bndl:rs_Tunnel_Lightmapped_1Bit_Doublesided2.fx.Shader_ID_490835_Default_VertexShader	768	32	96	624	688	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x48038023	bndl:rs_Tunnel_Lightmapped_1Bit_Singlesided2.fx.Shader_ID_618155_Default_VertexShader	768	32	96	624	688	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x5305f31e	bndl:Vehicle_GreyScale_Decal_Textured_UVAnim.fx.Shader_ID_741830_Default_VertexShader	2944	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x53d78ed7	bndl:ders_Vehicle_Opaque_PaintGloss_Textured.fx.Shader_ID_239231_Default_VertexShader	2960	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x546f1494	bndl:face_Night_Detailmap_Opaque_Singlesided.fx.Shader_ID_794231_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x58933779	bndl:ZOnly1BitSingleSided_VertexShader	752	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x60477ba3	bndl:ZOnlyGreyscaleDoubleSided_VertexShader	800	32	96	640	704	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x684827a5	bndl:5_Shaders_Diffuse_Greyscale_Doublesided.fx.Shader_ID_226809_Default_VertexShader	800	32	96	656	720	624	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x6924d298	bndl:ZOnlyVehicleBoneSkinningOpaqueSingleSided_VertexShader	3760	16	80	3520	3584	3472	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x69b1a037	bndl:5_Shaders_Vehicle_Opaque_Metal_Textured.fx.Shader_ID_289535_Damaged_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x69b1a037	bndl:haders_Vehicle_GreyScale_Decal_Textured.fx.Shader_ID_283256_Damaged_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x69b1a037	bndl:icle_GreyScale_Light_Textured_EnvMapped.fx.Shader_ID_284765_Damaged_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x69b1a037	bndl:icle_1Bit_MetalFaded_Textured_EnvMapped.fx.Shader_ID_322626_Damaged_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x69b1a037	bndl:ers_Vehicle_Opaque_CarbonFibre_Textured.fx.Shader_ID_289792_Damaged_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x6c4f4d32	bndl:ut5_Shaders_Specular_Opaque_Doublesided.fx.Shader_ID_214018_Default_VertexShader	800	32	96	640	704	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x6c4f4d32	bndl:nout5_Shaders_Specular_1Bit_Doublesided.fx.Shader_ID_214145_Default_VertexShader	800	32	96	640	704	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x6fcc419c	bndl:ShoreLine_Diffuse_Greyscale_Singlesided.fx.Shader_ID_787811_Default_VertexShader	768	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x770f64db	bndl:t_Vehicle_Opaque_NormalMap_SpecMap_Skin.fx.Shader_ID_691812_Damaged_VertexShader	3776	16	80	3520	3584	3472	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x770f64db	bndl:t_Vehicle_Opaque_NormalMap_SpecMap_Skin.fx.Shader_ID_691812_Default_VertexShader	3776	16	80	3520	3584	3472	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x796dc1b7	bndl:ers_Terrain_Specular_Opaque_Singlesided.fx.Shader_ID_280332_Default_VertexShader	816	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x7de2c6f5	bndl:ZOnlyFoliage1Bit_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x7e88e694	bndl:ce_DetailMap_Diffuse_Opaque_Singlesided.fx.Shader_ID_567505_Default_VertexShader	752	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x86aa3f09	bndl:haders_Tint_Specular_Opaque_Singlesided.fx.Shader_ID_298518_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x86aa3f09	bndl:nout5_Shaders_Specular_1Bit_Singlesided.fx.Shader_ID_200013_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x86aa3f09	bndl:_Shaders_Specular_Greyscale_Singlesided.fx.Shader_ID_226817_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x8a339371	bndl:e_Decal_Textured_EnvMapped_PoliceLights.fx.Shader_ID_744142_Default_VertexShader	2960	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x93971bc5	bndl:haders_Sign_Specular_Opaque_Singlesided.fx.Shader_ID_614033_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x97b5dc44	bndl:Vehicle_Opaque_Decal_Textured_EnvMapped.fx.Shader_ID_284010_Damaged_VertexShader	2960	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x97fcc644	bndl:Vehicle_GreyScale_Decal_Textured_UVAnim.fx.Shader_ID_741830_Damaged_VertexShader	2944	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x98dfb615	bndl:out5_Shaders_Cruciform_1Bit_Doublesided.fx.Shader_ID_545104_Default_VertexShader	496	16	80	352	416	304	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x98dfb615	bndl:rs_Cruciform_1Bit_Doublesided_Instanced.fx.Shader_ID_593674_Default_VertexShader	496	16	80	352	416	304	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x9cb93d0d	bndl:luminated_Reflective_Opaque_Singlesided.fx.Shader_ID_790142_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xa68684c9	bndl:s_BuildingGlass_Transparent_Doublesided.fx.Shader_ID_593932_Default_VertexShader	816	32	96	640	704	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xb4103108	bndl:haders_Tint_Building_Opaque_Singlesided.fx.Shader_ID_298530_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xb4103108	bndl:5_Shaders_MetalSheen_Opaque_Doublesided.fx.Shader_ID_584833_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xb4103108	bndl:ut5_Shaders_Building_Opaque_Singlesided.fx.Shader_ID_226805_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xb507bb9c	bndl:pped_Road_Detailmap_Opaque_Singlesided2.fx.Shader_ID_488281_Default_VertexShader	800	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xb8ba9b84	bndl:out5_Shaders_Vehicle_Opaque_PlasticMatt.fx.Shader_ID_284941_Damaged_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xb8ba9b84	bndl:ers_Vehicle_Opaque_PlasticMatt_Textured.fx.Shader_ID_285004_Damaged_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xbac72f23	bndl:t5_Shaders_Vehicle_Livery_Alpha_CarGuts.fx.Shader_ID_511225_Damaged_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xbac72f23	bndl:ers_Vehicle_Opaque_SimpleMetal_Textured.fx.Shader_ID_322588_Damaged_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xbff496fe	bndl:ZOnly1BitDoubleSided_VertexShader	816	32	96	640	704	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xc7aeec4e	bndl:_Vehicle_Opaque_BodypartsSkin_EnvMapped.fx.Shader_ID_322551_Default_VertexShader	2944	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xc7dd765e	bndl:Road_Night_Detailmap_Opaque_Singlesided.fx.Shader_ID_794193_Default_VertexShader	816	32	96	656	720	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xc7dfdbd2	bndl:e_Decal_Textured_EnvMapped_PoliceLights.fx.Shader_ID_744142_Damaged_VertexShader	2960	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xcbec2175	bndl:ders_Vehicle_Opaque_PaintGloss_Textured.fx.Shader_ID_239231_Damaged_VertexShader	2960	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xcca379e1	bndl:_Illuminance_Diffuse_Opaque_Singlesided.fx.Shader_ID_611395_Default_VertexShader	784	16	80	640	704	608	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd084c5bb	bndl:_GreyScale_WheelChrome_Textured_Damaged.fx.Shader_ID_318502_Blurred_VertexShader	832	16	80	560	624	704	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd084c5bb	bndl:_GreyScale_WheelChrome_Textured_Damaged.fx.Shader_ID_318502_Default_VertexShader	832	16	80	560	624	704	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd10bd55e	bndl:ign_Lightmap_Diffuse_Opaque_Singlesided.fx.Shader_ID_611386_Default_VertexShader	752	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd25c8919	bndl:ders_Terrain_Diffuse_Opaque_Singlesided.fx.Shader_ID_559651_Default_VertexShader	800	16	80	608	672	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd2c1808c	bndl:out5_Shaders_Diffuse_Opaque_Singlesided.fx.Shader_ID_150487_Default_VertexShader	752	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd2c1808c	bndl:aders_Tunnel_Diffuse_Opaque_Singlesided.fx.Shader_ID_610358_Default_VertexShader	752	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd63f53ee	bndl:5_Shaders_Vehicle_Opaque_Metal_Textured.fx.Shader_ID_289535_Default_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd63f53ee	bndl:haders_Vehicle_GreyScale_Decal_Textured.fx.Shader_ID_283256_Default_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd63f53ee	bndl:ers_Vehicle_Opaque_CarbonFibre_Textured.fx.Shader_ID_289792_Default_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd63f53ee	bndl:icle_1Bit_MetalFaded_Textured_EnvMapped.fx.Shader_ID_322626_Default_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd63f53ee	bndl:Opaque_PaintGloss_Textured_NormalMapped.fx.Shader_ID_762310_Default_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd63f53ee	bndl:icle_GreyScale_Light_Textured_EnvMapped.fx.Shader_ID_284765_Default_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd7316421	bndl:Vehicle_Opaque_Decal_Textured_EnvMapped.fx.Shader_ID_284010_Default_VertexShader	2960	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xd7976f8d	bndl:ZOnlyGreyscaleSingleSided_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xdb28bff1	bndl:icle_Opaque_PaintGloss_Textured_Traffic.fx.Shader_ID_494917_Damaged_VertexShader	2944	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xdbc0106a	bndl:bleSurface_Detailmap_Opaque_Singlesided.fx.Shader_ID_609713_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xdbc0106a	bndl:bleSurface_Detailmap_Opaque_Singlesided.fx.Shader_ID_537786_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xdc85c657	bndl:ut5_Shaders_Specular_Opaque_Singlesided.fx.Shader_ID_150495_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xde5db640	bndl:_Tunnel_Lightmapped_Opaque_Singlesided2.fx.Shader_ID_397456_Default_VertexShader	752	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xde5db640	bndl:ers_Lightmap_Diffuse_Opaque_Singlesided.fx.Shader_ID_527662_Default_VertexShader	752	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xe04cd135	bndl:rs_Illuminance_Diffuse_1Bit_Singlesided.fx.Shader_ID_321525_Default_VertexShader	752	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xe04cd135	bndl:rnout5_Shaders_Diffuse_1Bit_Singlesided.fx.Shader_ID_150483_Default_VertexShader	752	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xe04cd135	bndl:5_Shaders_Diffuse_Greyscale_Singlesided.fx.Shader_ID_150479_Default_VertexShader	752	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xe1edb2f1	bndl:s_Specular_DetailMap_Opaque_Singlesided.fx.Shader_ID_743783_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xe7a62294	bndl:nTest_Vehicle_Livery_Alpha_CarGuts_Skin.fx.Shader_ID_761413_Default_VertexShader	3760	16	80	3520	3584	3472	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xe7a62294	bndl:nTest_Vehicle_Livery_Alpha_CarGuts_Skin.fx.Shader_ID_761413_Damaged_VertexShader	3760	16	80	3520	3584	3472	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xf13fb431	bndl:5_Shaders_Sign_Diffuse_1Bit_Singlesided.fx.Shader_ID_611389_Default_VertexShader	752	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xf1ae7ab3	bndl:aders_Grass_Specular_Opaque_Singlesided.fx.Shader_ID_814233_Default_VertexShader	784	32	96	624	688	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xf33fd0f2	bndl:out5_Shaders_Vehicle_1Bit_Tyre_Textured.fx.Shader_ID_324453_Blurred_VertexShader	832	16	80	560	624	704	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xf33fd0f2	bndl:out5_Shaders_Vehicle_1Bit_Tyre_Textured.fx.Shader_ID_324453_Default_VertexShader	832	16	80	560	624	704	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xf4cab603	bndl:rnout5_Shaders_Foliage_1Bit_Doublesided.fx.Shader_ID_278641_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xf63d720e	bndl:htmapped_Reflective_Opaque_Singlesided2.fx.Shader_ID_484709_Default_VertexShader	784	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xf6a837a4	bndl:5_Shaders_Vehicle_Opaque_Chrome_Damaged.fx.Shader_ID_323795_Damaged_VertexShader	2928	16	80	640	704	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xf93bd3de	bndl:s_FlashingNeon_Diffuse_1Bit_Doublesided.fx.Shader_ID_579922_Default_VertexShader	800	32	96	656	720	624	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xf93bd3de	bndl:FlashingNeon_Diffuse_Opaque_Singlesided.fx.Shader_ID_816245_Default_VertexShader	800	32	96	656	720	624	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xfa367674	bndl:rs_CarStudio_DoNotShipWithThisInTheGame.fx.Shader_ID_595079_Default_VertexShader	752	16	80	608	672	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xfba15d3b	bndl:aders_Building_Night_Opaque_Singlesided.fx.Shader_ID_783682_Default_VertexShader	800	16	80	624	688	560	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xfc3f5f01	bndl:aders_Vehicle_Greyscale_Window_Textured.fx.Shader_ID_270169_Damaged_VertexShader	2928	16	80	624	688	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xfcae60f4	bndl:Vehicle_Greyscale_Headlight_Doublesided.fx.Shader_ID_728859_Default_VertexShader	544	32	96	368	432	336	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xfe3dd305	bndl:rs_Illuminance_Diffuse_1Bit_Doublesided.fx.Shader_ID_321521_Default_VertexShader	768	32	96	624	688	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xfe3dd305	bndl:aders_Tunnel_Diffuse_Opaque_Doublesided.fx.Shader_ID_610355_Default_VertexShader	768	32	96	624	688	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xfe3dd305	bndl:rnout5_Shaders_Diffuse_1Bit_Doublesided.fx.Shader_ID_214010_Default_VertexShader	768	32	96	624	688	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xfe3dd305	bndl:out5_Shaders_Diffuse_Opaque_Doublesided.fx.Shader_ID_214014_Default_VertexShader	768	32	96	624	688	592	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0xfffa4c84	bndl:_Glass_Specular_Transparent_Doublesided.fx.Shader_ID_274691_Default_VertexShader	800	32	96	640	704	576	sampleCoverage@0	world VS: packed ViewProjectionModified -> SV_Position
+0x068772ac	exe:0x979f78	64	-1	-1	0	-1	-1	worldViewProj@0	3D full matrix@+0 (worldViewProj), purpose not named
+0x0b002d5f	exe:0x9d0d68	-1	-1	-1	-1	-1	-1	-	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x0b495a2b	exe:0x9ad788	-1	-1	-1	-1	-1	-1	-	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x11d09788	exe:0x9ccc38	-1	-1	-1	-1	-1	-1	-	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x492400f5	exe:0x975b08	64	-1	-1	-1	-1	-1	gOffsetXYZ@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x492400f5	exe:0x979480	64	-1	-1	-1	-1	-1	gOffsetXYZ@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x492400f5	exe:0x97d2f8	64	-1	-1	-1	-1	-1	gOffsetXYZ@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x492400f5	exe:0x97fef0	64	-1	-1	-1	-1	-1	gOffsetXYZ@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x492400f5	exe:0x982b88	64	-1	-1	-1	-1	-1	gOffsetXYZ@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x4a4f8f54	exe:0x975fe8	64	-1	-1	0	-1	-1	worldViewProj@0	3D full matrix@+0 (worldViewProj), purpose not named
+0x4b6e6387	exe:0x9775e8	176	-1	-1	-1	-1	-1	gvMaskUseFlags@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x4b6e6387	exe:0x9781f8	176	-1	-1	-1	-1	-1	gvMaskUseFlags@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x4f1c8a16	exe:0x9ab208	112	-1	-1	-1	-1	-1	gWorldViewProjection@0	3D full matrix@+0: soft particles (gDepthFadeUvZ*)
+0x50ab9e71	exe:0x9a8eb8	112	-1	-1	0	-1	-1	worldViewProj@0	3D full matrix@+0 (worldViewProj), purpose not named
+0x55228ba4	exe:0x9ac248	80	-1	-1	0	-1	-1	worldViewProj@0	3D full matrix@+0 (worldViewProj), purpose not named
+0x6676cda6	exe:0x9ae0f0	2128	-1	-1	-1	-1	-1	gaWorldTransforms@0	3D instanced: 32 world transforms, gViewProjection@2048
+0x759c18fd	exe:0x9c80b0	64	-1	-1	-1	-1	-1	gOffsetXYZ@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x7befc46e	exe:0x9799f0	64	-1	-1	-1	-1	-1	gOffsetXYZ@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x7befc46e	exe:0x97a550	64	-1	-1	-1	-1	-1	gOffsetXYZ@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x7befc46e	exe:0x983060	64	-1	-1	-1	-1	-1	gOffsetXYZ@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x813217e6	exe:0x9aa718	80	-1	-1	-1	-1	-1	gWorldViewProjection@0	3D full matrix@+0: depth-biased (gEyePosPlusDepthBias) - glow/corona?
+0x82d755c5	exe:0x9cc3c8	96	-1	-1	-1	-1	-1	viewProjectionMatrix@0	3D viewProjectionMatrix@+0 + clip-space sprite expansion (viewXyScale) - sprites/rain/lights?
+0x88956c54	exe:0x9812f0	64	-1	-1	0	-1	-1	worldViewProj@0	3D full matrix@+0 (worldViewProj), purpose not named
+0x8f7da395	exe:0x980ea0	64	-1	-1	0	-1	-1	worldViewProj@0	3D full matrix@+0 (worldViewProj), purpose not named
+0x93e5eccc	exe:0x982748	64	-1	-1	-1	-1	-1	gOffsetXYZ@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0x93f9fda4	exe:0x9cfa40	208	-1	-1	0	-1	-1	worldViewProj@0	3D full matrix@+0: sky dome (names: ViewPositionAndSkyScale, SunColourPow, g_domeRanges)
+0xa221da2e	exe:0x9e1f08	-1	-1	-1	-1	-1	-1	-	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xa28ae3be	exe:0x9e3170	-1	-1	-1	-1	-1	-1	-	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xa28ae3be	exe:0x9e6688	-1	-1	-1	-1	-1	-1	-	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xa28ae3be	exe:0x9edc20	-1	-1	-1	-1	-1	-1	-	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xa28ae3be	exe:0x9f04d8	-1	-1	-1	-1	-1	-1	-	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xa28ae3be	exe:0x9f26d0	-1	-1	-1	-1	-1	-1	-	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xa28ae3be	exe:0x9f4178	-1	-1	-1	-1	-1	-1	-	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xaf6dfe49	exe:0x9e2190	32	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xaf6dfe49	exe:0x9e9d28	32	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xaf6dfe49	exe:0x9ea7c0	32	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xaf6dfe49	exe:0x9ec1e0	32	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xaf6dfe49	exe:0x9ed0a0	32	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xaf6dfe49	exe:0x9f0018	32	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xaf6dfe49	exe:0x9f1d48	32	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xaf6dfe49	exe:0x9f2210	32	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xb8ccdd89	exe:0x9cf418	32	-1	-1	-1	-1	-1	kUvOffset_00_01@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xb8ccdd89	exe:0x9ed560	32	-1	-1	-1	-1	-1	kUvOffset_00_01@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xb8ccdd89	exe:0x9f6d60	32	-1	-1	-1	-1	-1	kUvOffset_00_01@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xc2b9abd0	exe:0x9acd10	96	-1	-1	-1	-1	-1	gWorldViewProj@0	3D full matrix@+0: start/end colour gradient - trails/lines?
+0xc4a0d08f	exe:0x9cc9b8	-1	-1	-1	-1	-1	-1	-	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xc4a0d08f	exe:0x9cf190	-1	-1	-1	-1	-1	-1	-	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xd7b1b63f	exe:0x9dddf8	-1	-1	-1	-1	-1	-1	-	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe0dc16b9	exe:0x9cda48	64	-1	-1	0	-1	-1	worldViewProj@0	3D full matrix@+0 (worldViewProj), purpose not named
+0xe37b6c00	exe:0x9d0828	96	-1	-1	-1	-1	-1	gWorldViewProjection@0	3D full matrix@+0: stars (gTwinkleVector)
+0xe4888e31	exe:0x9d6638	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9d9218	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9d97f0	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9e09b0	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9e0f88	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9e1930	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9e2b98	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9e4408	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9ea1e8	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9eee50	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9f07a8	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9f29a0	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9f3548	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9f4448	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9f6788	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe4888e31	exe:0x9f75f8	80	-1	-1	-1	-1	-1	VignetteCentreXyScaleXy@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)
+0xe93933ae	exe:0x9a8aa8	32	-1	-1	-1	-1	-1	gScale@0	screen-space: no matrix, SV_Position from input/offset (HUD/2D/post)

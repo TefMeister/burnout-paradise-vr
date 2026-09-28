@@ -1,0 +1,1029 @@
+[14:19:11.660] detour slot 14 -> 73D84F00 (d3d11.dll): MH_OK
+[14:19:11.660] detour slot 15 -> 73D7F160 (d3d11.dll): MH_OK
+[14:19:11.660] detour slot 48 -> 73D7D1B0 (d3d11.dll): MH_OK
+[14:19:11.661] detour slot 11 -> 73D808B0 (d3d11.dll): MH_OK
+[14:19:11.661] detour slot 7 -> 73D85B70 (d3d11.dll): MH_OK
+[14:19:11.661] detour slot 12 -> 73D86080 (d3d11.dll): MH_OK
+[14:19:11.661] detour slot 13 -> 73D86250 (d3d11.dll): MH_OK
+[14:19:11.661] detour slot 20 -> 73D87660 (d3d11.dll): MH_OK
+[14:19:11.661] detour slot 21 -> 73DBECB0 (d3d11.dll): MH_OK
+[14:19:11.661] detour slot 58 -> 73DC01F0 (d3d11.dll): MH_OK
+[14:19:11.661] detour slot 119 -> 73D824E0 (d3d11.dll): MH_OK
+[14:19:11.705] MH_EnableHook: MH_OK
+[14:19:11.705] hooked device 0D07670C, immediate context 440D0418
+[14:19:11.705] watch: immediate context 440D0418 now uses vtable 440D041C (heap/none); its Draw slot -> 73D86250 (d3d11.dll)
+[14:19:13.964] stats/5s: draws immediate 1 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 1, draws with a VPM shader 0, VSSetCB 0, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1/0, UpdateSubresource 1 (boxed 0)
+[14:19:18.964] stats/5s: draws immediate 5013 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 3956, draws with a VPM shader 0, VSSetCB 907, VSSetCB1 227 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/460/0, UpdateSubresource 3801 (boxed 0)
+[14:19:24.021] stats/5s: draws immediate 11718 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 8392, draws with a VPM shader 0, VSSetCB 1384, VSSetCB1 59 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/325/0, UpdateSubresource 10601 (boxed 1)
+[14:19:29.013] stats/5s: draws immediate 10080 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 7883, draws with a VPM shader 0, VSSetCB 1435, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/613/0, UpdateSubresource 9764 (boxed 0)
+[14:19:34.010] stats/5s: draws immediate 11533 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 9450, draws with a VPM shader 0, VSSetCB 1765, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/868/0, UpdateSubresource 11533 (boxed 0)
+[14:19:39.021] stats/5s: draws immediate 11700 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 9600, draws with a VPM shader 0, VSSetCB 1800, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/902/0, UpdateSubresource 11700 (boxed 0)
+[14:19:44.312] stats/5s: draws immediate 16323 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 7654, draws with a VPM shader 0, VSSetCB 1515, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/353/0, UpdateSubresource 16323 (boxed 0)
+[14:19:49.313] stats/5s: draws immediate 28273 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 9504, draws with a VPM shader 0, VSSetCB 2079, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/307/0, UpdateSubresource 28273 (boxed 0)
+[14:19:54.320] stats/5s: draws immediate 26676 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 8960, draws with a VPM shader 0, VSSetCB 1960, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/290/0, UpdateSubresource 26676 (boxed 0)
+[14:19:59.320] stats/5s: draws immediate 26477 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 8928, draws with a VPM shader 0, VSSetCB 1953, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/288/0, UpdateSubresource 26477 (boxed 0)
+[14:20:04.316] stats/5s: draws immediate 29962 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 10752, draws with a VPM shader 0, VSSetCB 2272, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1322/0, UpdateSubresource 31498 (boxed 0)
+[14:20:09.312] stats/5s: draws immediate 23639 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 10998, draws with a VPM shader 0, VSSetCB 2186, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1681/0, UpdateSubresource 25379 (boxed 0)
+[14:20:14.312] stats/5s: draws immediate 14700 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 11400, draws with a VPM shader 0, VSSetCB 2100, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/2102/0, UpdateSubresource 16500 (boxed 0)
+[14:20:19.312] stats/5s: draws immediate 14700 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 11400, draws with a VPM shader 0, VSSetCB 2100, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/2102/0, UpdateSubresource 16500 (boxed 0)
+[14:20:24.316] stats/5s: draws immediate 14700 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 11400, draws with a VPM shader 0, VSSetCB 2100, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/2102/0, UpdateSubresource 16500 (boxed 0)
+[14:20:29.309] stats/5s: draws immediate 26732 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 11228, draws with a VPM shader 0, VSSetCB 2262, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1588/0, UpdateSubresource 28508 (boxed 0)
+[14:20:34.308] stats/5s: draws immediate 31516 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 11400, draws with a VPM shader 0, VSSetCB 2400, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1511/0, UpdateSubresource 33316 (boxed 0)
+[14:20:39.324] stats/5s: draws immediate 27336 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 11012, draws with a VPM shader 0, VSSetCB 2204, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1465/0, UpdateSubresource 28562 (boxed 0)
+[14:20:44.324] stats/5s: draws immediate 16500 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 10800, draws with a VPM shader 0, VSSetCB 1800, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1512/0, UpdateSubresource 15300 (boxed 0)
+[14:20:49.325] stats/5s: draws immediate 16507 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 10810, draws with a VPM shader 0, VSSetCB 1801, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1516/0, UpdateSubresource 15305 (boxed 0)
+[14:20:54.324] stats/5s: draws immediate 16493 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 10790, draws with a VPM shader 0, VSSetCB 1799, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1509/0, UpdateSubresource 15295 (boxed 0)
+[14:20:59.325] stats/5s: draws immediate 16500 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 10800, draws with a VPM shader 0, VSSetCB 1800, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1512/0, UpdateSubresource 15300 (boxed 0)
+[14:21:04.331] stats/5s: draws immediate 15497 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 10477, draws with a VPM shader 0, VSSetCB 1746, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1462/0, UpdateSubresource 15391 (boxed 0)
+[14:21:08.214] draw #1 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:08.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:08.214]   ViewProjectionModified [   0.0070    0.0647   -0.0985   92.4295 |    0.1417   -0.0898   -0.0489  101.0167 |   -0.5821   -0.6601   -0.4749  218.4714 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:09.202] draw #2 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:09.202]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:09.202]   ViewProjectionModified [   0.0072    0.0667   -0.1015   95.2676 |    0.1422   -0.0901   -0.0491  101.4128 |   -0.5821   -0.6601   -0.4749  218.4714 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:09.345] stats/5s: draws immediate 121076 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 19363, draws with a VPM shader 106847, VSSetCB 10838, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1161/0, UpdateSubresource 130482 (boxed 0)
+[14:21:10.209] draw #3 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:10.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:10.209]   ViewProjectionModified [   0.0072    0.0667   -0.1015   95.2676 |    0.1422   -0.0901   -0.0491  101.4128 |   -0.5821   -0.6601   -0.4749  218.4714 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:11.201] draw #4 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:11.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:11.201]   ViewProjectionModified [   0.0072    0.0667   -0.1015   95.2676 |    0.1422   -0.0901   -0.0491  101.4128 |   -0.5821   -0.6601   -0.4749  218.4714 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:12.202] draw #5 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:12.202]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:12.202]   ViewProjectionModified [   0.0072    0.0667   -0.1015   95.2676 |    0.1422   -0.0901   -0.0491  101.4128 |   -0.5821   -0.6601   -0.4749  218.4714 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:13.213] draw #6 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:13.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:13.214]   ViewProjectionModified [   0.0076    0.0664   -0.1017   95.8928 |    0.1418   -0.0903   -0.0483  100.1549 |   -0.5821   -0.6601   -0.4749  215.5125 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:14.200] draw #7 (immediate ctx 440D0418): VS hash 44ab30a4, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:14.200]   viewProjection         [   0.0000    0.0000 859396380819456.0000      -nan | 674267042210500535043856793600.0000   -0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:14.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:14.346] stats/5s: draws immediate 775378 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 58281, draws with a VPM shader 756025, VSSetCB 48859, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1442/0, UpdateSubresource 824539 (boxed 0)
+[14:21:15.213] draw #8 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:15.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:15.213]   ViewProjectionModified [   0.0077    0.0664   -0.1017   95.9648 |    0.1417   -0.0904   -0.0482   99.9587 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:16.214] draw #9 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:16.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:16.214]   ViewProjectionModified [   0.0077    0.0664   -0.1017   95.9648 |    0.1417   -0.0904   -0.0482   99.9587 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:17.200] draw #10 (immediate ctx 440D0418): VS hash dc85c657, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:17.200]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:17.200]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:18.214] draw #11 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:18.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:18.214]   ViewProjectionModified [   0.0077    0.0664   -0.1017   95.9648 |    0.1417   -0.0904   -0.0482   99.9587 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:19.214] draw #12 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:19.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:19.214]   ViewProjectionModified [   0.0077    0.0664   -0.1017   95.9648 |    0.1417   -0.0904   -0.0482   99.9587 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:19.347] stats/5s: draws immediate 985243 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65735, draws with a VPM shader 948405, VSSetCB 56135, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1514/0, UpdateSubresource 1018156 (boxed 0)
+[14:21:20.213] draw #13 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:20.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:20.213]   ViewProjectionModified [   0.0077    0.0664   -0.1017   95.9648 |    0.1417   -0.0904   -0.0482   99.9587 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:21.200] draw #14 (immediate ctx 440D0418): VS hash 44ab30a4, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:21.200]   viewProjection         [   0.0000    0.0000 859396380819456.0000      -nan | 674267042210500535043856793600.0000   -0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:21.200]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:22.214] draw #15 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:22.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:22.214]   ViewProjectionModified [   0.0077    0.0664   -0.1017   95.9648 |    0.1417   -0.0904   -0.0482   99.9587 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:23.200] draw #16 (immediate ctx 440D0418): VS hash d63f53ee, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:23.200]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:23.200]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:24.200] draw #17 (immediate ctx 440D0418): VS hash 44ab30a4, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:24.200]   viewProjection         [   0.0000    0.0000 859396380819456.0000      -nan | 674267042210500535043856793600.0000   -0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:24.200]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:24.347] stats/5s: draws immediate 1053832 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65780, draws with a VPM shader 1015552, VSSetCB 56180, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1516/0, UpdateSubresource 1130945 (boxed 0)
+[14:21:25.200] draw #18 (immediate ctx 440D0418): VS hash d084c5bb, b0 832 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:25.200]   viewProjection         [   0.0000    0.0000    0.0000 941742983479296.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000 1176460261851136.0000    0.0000]
+[14:21:25.200]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:26.201] draw #19 (immediate ctx 440D0418): VS hash d25c8919, b0 800 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:26.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:26.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:27.201] draw #20 (immediate ctx 440D0418): VS hash dbc0106a, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:27.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:27.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:28.201] draw #21 (immediate ctx 440D0418): VS hash 44ab30a4, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:28.201]   viewProjection         [   0.0000    0.0000 859396380819456.0000      -nan | 674267042210500535043856793600.0000   -0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:28.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:29.214] draw #22 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:29.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:29.214]   ViewProjectionModified [   0.0077    0.0664   -0.1017   95.9648 |    0.1417   -0.0904   -0.0482   99.9587 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:29.348] stats/5s: draws immediate 1095468 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65726, draws with a VPM shader 1056542, VSSetCB 56126, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1516/0, UpdateSubresource 1177891 (boxed 0)
+[14:21:30.200] draw #23 (immediate ctx 440D0418): VS hash d2c1808c, b0 752 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:30.200]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:30.200]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:31.200] draw #24 (immediate ctx 440D0418): VS hash d084c5bb, b0 832 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:31.200]   viewProjection         [   0.0000    0.0000    0.0000 941742983479296.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000 1176460261851136.0000    0.0000]
+[14:21:31.200]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:32.201] draw #25 (immediate ctx 440D0418): VS hash d63f53ee, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:32.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:32.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:33.201] draw #26 (immediate ctx 440D0418): VS hash dbc0106a, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:33.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:33.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:34.214] draw #27 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:34.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:34.214]   ViewProjectionModified [   0.0077    0.0664   -0.1017   95.9648 |    0.1417   -0.0904   -0.0482   99.9587 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:34.349] stats/5s: draws immediate 1054255 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65700, draws with a VPM shader 1015256, VSSetCB 56100, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1518/0, UpdateSubresource 1142564 (boxed 0)
+[14:21:35.201] draw #28 (immediate ctx 440D0418): VS hash 44ab30a4, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:35.201]   viewProjection         [   0.0000    0.0000 859396380819456.0000      -nan | 674267042210500535043856793600.0000   -0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:35.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:36.214] draw #29 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:36.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:36.214]   ViewProjectionModified [   0.0077    0.0664   -0.1017   95.9648 |    0.1417   -0.0904   -0.0482   99.9587 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:37.201] draw #30 (immediate ctx 440D0418): VS hash e04cd135, b0 752 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:37.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:37.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:38.201] draw #31 (immediate ctx 440D0418): VS hash d63f53ee, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:38.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:38.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:39.201] draw #32 (immediate ctx 440D0418): VS hash d2c1808c, b0 752 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:39.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:39.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:39.348] stats/5s: draws immediate 1089607 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65735, draws with a VPM shader 1050651, VSSetCB 56135, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1517/0, UpdateSubresource 1169321 (boxed 0)
+[14:21:40.201] draw #33 (immediate ctx 440D0418): VS hash 015e8aa8, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:40.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:40.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:41.201] draw #34 (immediate ctx 440D0418): VS hash d63f53ee, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:41.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:41.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:42.201] draw #35 (immediate ctx 440D0418): VS hash d63f53ee, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:42.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:42.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:43.215] draw #36 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:43.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:43.215]   ViewProjectionModified [   0.0077    0.0664   -0.1017   95.9648 |    0.1417   -0.0904   -0.0482   99.9587 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:44.215] draw #37 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:44.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:44.215]   ViewProjectionModified [   0.0077    0.0664   -0.1017   95.9648 |    0.1417   -0.0904   -0.0482   99.9587 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:44.348] stats/5s: draws immediate 1034229 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65700, draws with a VPM shader 995787, VSSetCB 56100, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1516/0, UpdateSubresource 1115627 (boxed 0)
+[14:21:45.201] draw #38 (immediate ctx 440D0418): VS hash d63f53ee, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:45.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:45.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:46.201] draw #39 (immediate ctx 440D0418): VS hash 7e88e694, b0 752 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:46.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:46.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:47.201] draw #40 (immediate ctx 440D0418): VS hash d63f53ee, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:47.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:47.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:48.214] draw #41 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:48.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:48.214]   ViewProjectionModified [   0.0077    0.0664   -0.1017   95.9648 |    0.1417   -0.0904   -0.0482   99.9587 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:49.201] draw #42 (immediate ctx 440D0418): VS hash bac72f23, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:49.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:49.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:49.348] stats/5s: draws immediate 1062500 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65786, draws with a VPM shader 1024167, VSSetCB 56186, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1516/0, UpdateSubresource 1115235 (boxed 0)
+[14:21:50.201] draw #43 (immediate ctx 440D0418): VS hash 6c4f4d32, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:50.201]   viewProjection         [676024820352220205863879573504.0000   -0.0000    0.0000 871350080110592.0000 | 871352227594240.0000   -0.0000 736901497618432.0000 736901497618432.0000 | 656218686418018832437374615552.0000   -0.0000    0.0000 871358670045184.0000 |    0.0000    0.0000 847009426702336.0000 847009426702336.0000]
+[14:21:50.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:51.201] draw #44 (immediate ctx 440D0418): VS hash 86aa3f09, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:21:51.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000   -1.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:51.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:52.216] draw #45 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:52.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:52.216]   ViewProjectionModified [   0.0077    0.0664   -0.1017   95.9648 |    0.1417   -0.0904   -0.0482   99.9587 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:53.201] draw #46 (immediate ctx 440D0418): VS hash 1d2276ca, b0 816 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:53.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:53.201]   ViewProjectionModified [  -0.4891   -0.0000   -1.2703  976.3759 |    0.0159    2.4200   -0.0061   -9.0430 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.2000    1.0000    0.0000]
+[14:21:54.209] draw #47 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:54.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:54.209]   ViewProjectionModified [   0.0876   -0.0033   -0.1028  125.8324 |    0.0936   -0.1433    0.0844  -40.3598 |   -0.5821   -0.6601   -0.4749  247.2053 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:54.343] stats/5s: draws immediate 1048034 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 64583, draws with a VPM shader 1013001, VSSetCB 54938, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1510/0, UpdateSubresource 1100615 (boxed 0)
+[14:21:55.210] draw #48 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:55.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:55.210]   ViewProjectionModified [   0.0826    0.0043   -0.1072  127.6021 |    0.1018   -0.1420    0.0727  -26.5153 |   -0.5821   -0.6601   -0.4749  246.1302 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:56.210] draw #49 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:56.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:56.210]   ViewProjectionModified [   0.0757    0.0106   -0.1074  124.8650 |    0.1054   -0.1366    0.0607  -14.3210 |   -0.5821   -0.6601   -0.4749  245.0357 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:57.210] draw #50 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:57.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:57.210]   ViewProjectionModified [  -0.0808   -0.0054    0.1065 -125.6999 |   -0.1007    0.1388   -0.0694   23.7111 |   -0.5821   -0.6601   -0.4749  244.1483 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:58.210] draw #51 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:58.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:58.210]   ViewProjectionModified [  -0.0775   -0.0084    0.1067 -124.4854 |   -0.1047    0.1391   -0.0650   18.1890 |   -0.5821   -0.6601   -0.4749  243.5789 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:59.210] draw #52 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:21:59.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:21:59.210]   ViewProjectionModified [  -0.0762   -0.0097    0.1068 -124.0725 |   -0.1063    0.1392   -0.0632   15.9052 |   -0.5821   -0.6601   -0.4749  243.4154 |    0.0009    0.4091    0.0000    1.0000]
+[14:21:59.344] stats/5s: draws immediate 1515340 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62307, draws with a VPM shader 1495281, VSSetCB 52277, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1510/0, UpdateSubresource 1656390 (boxed 0)
+[14:22:00.210] draw #53 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:00.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:00.210]   ViewProjectionModified [   0.0056    0.0484   -0.0742   70.0135 |    0.1314   -0.0838   -0.0446   92.7314 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:01.201] draw #54 (immediate ctx 440D0418): VS hash b4103108, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:22:01.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:01.201]   ViewProjectionModified [  -0.3569   -0.0000   -0.9268  712.3316 |    0.0116    1.7655   -0.0045   -6.5975 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.3000    1.0000    0.0000]
+[14:22:02.202] draw #55 (immediate ctx 440D0418): VS hash dc85c657, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:22:02.202]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:02.202]   ViewProjectionModified [  -0.3569   -0.0000   -0.9268  712.3316 |    0.0116    1.7655   -0.0045   -6.5975 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.3000    1.0000    0.0000]
+[14:22:03.201] draw #56 (immediate ctx 440D0418): VS hash d084c5bb, b0 832 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:22:03.201]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    1.4427    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:03.201]   ViewProjectionModified [  -0.3569   -0.0000   -0.9268  712.3316 |    0.0116    1.7655   -0.0045   -6.5975 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.3000    1.0000    0.0000]
+[14:22:04.215] draw #57 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:04.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:04.215]   ViewProjectionModified [   0.0056    0.0484   -0.0742   70.0135 |    0.1314   -0.0838   -0.0446   92.7314 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:04.348] stats/5s: draws immediate 1116259 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65916, draws with a VPM shader 1078176, VSSetCB 56299, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1514/0, UpdateSubresource 1229621 (boxed 0)
+[14:22:05.215] draw #58 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:05.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:05.215]   ViewProjectionModified [   0.0056    0.0484   -0.0742   70.0135 |    0.1314   -0.0838   -0.0446   92.7314 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:06.202] draw #59 (immediate ctx 440D0418): VS hash d084c5bb, b0 832 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:22:06.202]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    1.4427    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:06.202]   ViewProjectionModified [  -0.3569   -0.0000   -0.9268  712.3316 |    0.0116    1.7655   -0.0045   -6.5975 |   -0.9332    0.0070    0.3593 -685.0953 |    1.0000   -0.3000    1.0000    0.0000]
+[14:22:07.215] draw #60 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:07.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:07.215]   ViewProjectionModified [   0.0056    0.0484   -0.0742   70.0135 |    0.1314   -0.0838   -0.0446   92.7314 |   -0.5821   -0.6601   -0.4749  215.5235 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:08.202] draw #61 (immediate ctx 440D0418): VS hash f33fd0f2, b0 832 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:22:08.202]   viewProjection         [   0.0000    0.0000    0.0000 1176588037128192.0000 | 1176433418305536.0000    0.0000    0.0000    0.0000 | 339176945750785757441637220352.0000   -0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:08.202]   ViewProjectionModified [  -0.4471    0.0000    1.3693 -1423.8145 |    0.3398    2.5357    0.1109    5.8463 |    0.9413   -0.1396    0.3074   86.2856 |    1.0000   -0.3000    1.0000    0.0000]
+[14:22:09.212] draw #62 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:09.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:09.212]   ViewProjectionModified [  -0.1571   -0.0741    0.0227  -79.9479 |   -0.0436    0.0296   -0.2051  171.1644 |    0.3917   -0.8952   -0.2126  350.6724 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:09.345] stats/5s: draws immediate 1248319 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65881, draws with a VPM shader 1210728, VSSetCB 56377, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1505/0, UpdateSubresource 1370740 (boxed 0)
+[14:22:10.211] draw #63 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:10.211]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:10.211]   ViewProjectionModified [  -0.1571   -0.0741    0.0227  -79.9663 |   -0.0436    0.0296   -0.2052  171.2276 |    0.3917   -0.8952   -0.2126  350.6729 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:11.211] draw #64 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:11.211]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:11.211]   ViewProjectionModified [  -0.1571   -0.0741    0.0227  -79.9668 |   -0.0436    0.0296   -0.2052  171.2325 |    0.3917   -0.8952   -0.2126  350.6729 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:12.212] draw #65 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:12.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:12.212]   ViewProjectionModified [  -0.1571   -0.0741    0.0227  -79.9668 |   -0.0436    0.0296   -0.2052  171.2325 |    0.3917   -0.8952   -0.2126  350.6729 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:13.211] draw #66 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:13.211]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:13.211]   ViewProjectionModified [  -0.1571   -0.0741    0.0227  -79.9668 |   -0.0436    0.0296   -0.2052  171.2325 |    0.3917   -0.8952   -0.2126  350.6729 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:14.212] draw #67 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:14.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:14.212]   ViewProjectionModified [  -0.1571   -0.0741    0.0227  -79.9668 |   -0.0436    0.0296   -0.2052  171.2325 |    0.3917   -0.8952   -0.2126  350.6729 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:14.345] stats/5s: draws immediate 1561245 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 66756, draws with a VPM shader 1512565, VSSetCB 57341, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1538/0, UpdateSubresource 1707801 (boxed 0)
+[14:22:15.212] draw #68 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:15.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:15.212]   ViewProjectionModified [  -0.1571   -0.0741    0.0227  -79.9668 |   -0.0436    0.0296   -0.2052  171.2325 |    0.3917   -0.8952   -0.2126  350.6729 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:16.213] draw #69 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:16.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:16.213]   ViewProjectionModified [  -0.1571   -0.0741    0.0227  -79.9668 |   -0.0436    0.0296   -0.2052  171.2325 |    0.3917   -0.8952   -0.2126  350.6729 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:17.212] draw #70 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:17.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:17.212]   ViewProjectionModified [  -0.1571   -0.0741    0.0227  -79.9668 |   -0.0436    0.0296   -0.2052  171.2325 |    0.3917   -0.8952   -0.2126  350.6729 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:18.212] draw #71 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:18.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:18.212]   ViewProjectionModified [  -0.1571   -0.0741    0.0227  -79.9668 |   -0.0436    0.0296   -0.2052  171.2325 |    0.3917   -0.8952   -0.2126  350.6729 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:19.212] draw #72 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:19.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:19.212]   ViewProjectionModified [  -0.1026   -0.0758    0.1301 -157.0114 |   -0.1700   -0.0374   -0.1559   78.8774 |    0.3917   -0.8952   -0.2126  350.1256 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:19.345] stats/5s: draws immediate 1641897 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 66618, draws with a VPM shader 1592770, VSSetCB 57309, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1538/0, UpdateSubresource 1799849 (boxed 0)
+[14:22:20.213] draw #73 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:20.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:20.213]   ViewProjectionModified [  -0.0996   -0.0735    0.1262 -152.3896 |   -0.1535   -0.0337   -0.1407   71.1677 |    0.3917   -0.8952   -0.2126  350.1418 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:21.214] draw #74 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:21.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:21.214]   ViewProjectionModified [  -0.0839   -0.0683    0.1331 -152.7857 |   -0.1506   -0.0386   -0.1148   48.5591 |    0.3917   -0.8952   -0.2126  350.1580 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:22.212] draw #75 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:22.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:22.212]   ViewProjectionModified [  -0.0612    0.0090   -0.1505  114.3675 |    0.1551    0.0817   -0.0582  111.4489 |    0.3917   -0.8952   -0.2126  350.1742 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:23.213] draw #76 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:23.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:23.213]   ViewProjectionModified [  -0.0540    0.0079   -0.1327  100.8138 |    0.1516    0.0798   -0.0569  108.9604 |    0.3917   -0.8952   -0.2126  350.1903 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:24.212] draw #77 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:24.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:24.212]   ViewProjectionModified [   0.1039    0.0378    0.0324    9.7151 |   -0.0326   -0.0541    0.1676 -165.3234 |    0.3917   -0.8952   -0.2126  351.1977 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:24.346] stats/5s: draws immediate 1855984 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67361, draws with a VPM shader 1806306, VSSetCB 57761, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1527/0, UpdateSubresource 2014349 (boxed 0)
+[14:22:25.213] draw #78 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:25.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:25.213]   ViewProjectionModified [   0.0940    0.0250    0.0679  -26.4056 |   -0.0827   -0.0695    0.1402 -159.0827 |    0.3917   -0.8952   -0.2126  350.8895 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:26.212] draw #79 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:26.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:26.212]   ViewProjectionModified [  -0.0685   -0.0046   -0.1070   71.8457 |    0.1313    0.0782   -0.0874  129.3207 |    0.3917   -0.8952   -0.2126  350.8177 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:27.213] draw #80 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:27.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:27.213]   ViewProjectionModified [  -0.0216    0.0185   -0.1176   99.3614 |    0.1581    0.0733   -0.0175   75.5502 |    0.3917   -0.8952   -0.2126  350.9206 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:28.213] draw #81 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:28.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:28.213]   ViewProjectionModified [   0.0255    0.0365   -0.1066  107.0517 |    0.1599    0.0563    0.0574    7.7937 |    0.3917   -0.8952   -0.2126  351.1142 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:29.212] draw #82 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:29.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:29.212]   ViewProjectionModified [   0.0883    0.0504   -0.0495   78.7441 |    0.0915    0.0010    0.1643 -115.8687 |    0.3917   -0.8952   -0.2126  351.7993 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:29.346] stats/5s: draws immediate 1869667 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67643, draws with a VPM shader 1819659, VSSetCB 58043, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1529/0, UpdateSubresource 2031733 (boxed 0)
+[14:22:30.212] draw #83 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:30.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:30.212]   ViewProjectionModified [   0.0892    0.0504   -0.0480   77.6105 |    0.0897   -0.0003    0.1664 -118.4753 |    0.3917   -0.8952   -0.2126  351.5848 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:31.212] draw #84 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:31.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:31.212]   ViewProjectionModified [   0.0900    0.0504   -0.0465   76.4575 |    0.0879   -0.0016    0.1685 -121.0907 |    0.3917   -0.8952   -0.2126  351.3705 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:32.212] draw #85 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:32.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:32.212]   ViewProjectionModified [   0.0908    0.0504   -0.0449   75.2883 |    0.0860   -0.0029    0.1706 -123.7032 |    0.3917   -0.8952   -0.2126  351.1562 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:33.212] draw #86 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:33.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:33.212]   ViewProjectionModified [   0.0916    0.0504   -0.0434   74.1025 |    0.0841   -0.0042    0.1727 -126.3200 |    0.3917   -0.8952   -0.2126  350.9420 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:34.211] draw #87 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:34.211]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:34.211]   ViewProjectionModified [   0.0531   -0.0008    0.1010  -72.2346 |   -0.1470   -0.0825    0.0766 -125.3142 |    0.3917   -0.8952   -0.2126  350.6555 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:34.345] stats/5s: draws immediate 1112295 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 66525, draws with a VPM shader 1064696, VSSetCB 56818, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1525/0, UpdateSubresource 1217101 (boxed 0)
+[14:22:35.211] draw #88 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:35.211]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:35.211]   ViewProjectionModified [   0.0680   -0.0010    0.1295  -92.6261 |   -0.1490   -0.0836    0.0776 -127.0088 |    0.3917   -0.8952   -0.2126  350.6557 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:36.211] draw #89 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:36.211]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:36.211]   ViewProjectionModified [   0.1560    0.0662    0.0089   50.8376 |    0.0075   -0.0454    0.2049 -184.7413 |    0.3917   -0.8952   -0.2126  350.6558 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:37.212] draw #90 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:37.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:37.212]   ViewProjectionModified [   0.0975    0.0727   -0.1266  152.4395 |    0.1812    0.0406    0.1629  -80.0496 |    0.3917   -0.8952   -0.2126  350.6560 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:38.211] draw #91 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:38.211]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:38.211]   ViewProjectionModified [   0.1122    0.0769   -0.1172  149.3376 |    0.1762    0.0321    0.1897 -106.4355 |    0.3917   -0.8952   -0.2126  350.6562 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:39.212] draw #92 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:39.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:39.212]   ViewProjectionModified [  -0.0197   -0.0371    0.1199 -116.9926 |   -0.1619   -0.0601   -0.0452  -20.0936 |    0.3917   -0.8952   -0.2126  352.1724 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:39.346] stats/5s: draws immediate 452227 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 60916, draws with a VPM shader 408838, VSSetCB 51016, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1521/0, UpdateSubresource 457594 (boxed 0)
+[14:22:40.212] draw #93 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:40.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:40.213]   ViewProjectionModified [  -0.0196   -0.0371    0.1199 -117.0205 |   -0.1620   -0.0602   -0.0451  -20.3293 |    0.3917   -0.8952   -0.2126  352.4583 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:41.212] draw #94 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:41.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:41.212]   ViewProjectionModified [  -0.0195   -0.0370    0.1199 -117.0457 |   -0.1621   -0.0602   -0.0450  -20.5726 |    0.3917   -0.8952   -0.2126  352.7442 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:42.212] draw #95 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:42.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:42.212]   ViewProjectionModified [  -0.0195   -0.0370    0.1199 -117.0707 |   -0.1621   -0.0603   -0.0449  -20.8168 |    0.3917   -0.8952   -0.2126  353.0301 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:43.213] draw #96 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:43.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:43.213]   ViewProjectionModified [  -0.0194   -0.0370    0.1200 -117.0993 |   -0.1622   -0.0603   -0.0448  -21.0601 |    0.3917   -0.8952   -0.2126  353.3159 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:44.213] draw #97 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:44.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:44.213]   ViewProjectionModified [  -0.1027   -0.0758    0.1302 -157.1273 |   -0.1703   -0.0374   -0.1561   78.9821 |    0.3917   -0.8952   -0.2126  350.1252 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:44.347] stats/5s: draws immediate 1213750 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67580, draws with a VPM shader 1164862, VSSetCB 57688, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1526/0, UpdateSubresource 1350792 (boxed 0)
+[14:22:45.203] draw #98 (immediate ctx 440D0418): VS hash d63f53ee, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:22:45.203]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:45.203]   ViewProjectionModified [   0.8450    0.0000    2.0561 -1559.9851 |    0.2414    3.9433   -0.0992  147.7407 |    0.9229   -0.0661   -0.3793  703.6360 |    1.0000   -0.3000    1.0000    0.0000]
+[14:22:46.213] draw #99 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:46.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:46.214]   ViewProjectionModified [  -0.0840   -0.0684    0.1333 -152.9575 |   -0.1511   -0.0387   -0.1151   48.7071 |    0.3917   -0.8952   -0.2126  350.1575 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:47.203] draw #100 (immediate ctx 440D0418): VS hash d084c5bb, b0 832 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:22:47.203]   viewProjection         [   0.0000    0.0000    0.0000 941742983479296.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000 1176460261851136.0000    0.0000]
+[14:22:47.203]   ViewProjectionModified [   0.6723    0.0000    1.6359 -1241.1302 |    0.1921    3.1374   -0.0789  118.5832 |    0.9229   -0.0661   -0.3793  704.2709 |    1.0000   -0.3000    1.0000    0.0000]
+[14:22:48.215] draw #101 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:48.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:48.215]   ViewProjectionModified [  -0.0542    0.0079   -0.1331  101.1650 |    0.1517    0.0799   -0.0569  109.0347 |    0.3917   -0.8952   -0.2126  350.1899 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:49.214] draw #102 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:49.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:49.214]   ViewProjectionModified [  -0.0474    0.0069   -0.1166   88.5800 |    0.1477    0.0778   -0.0554  106.1864 |    0.3917   -0.8952   -0.2126  350.2061 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:49.346] stats/5s: draws immediate 1817186 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67436, draws with a VPM shader 1768347, VSSetCB 57836, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1526/0, UpdateSubresource 1949054 (boxed 0)
+[14:22:50.213] draw #103 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:50.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:50.213]   ViewProjectionModified [   0.0946    0.0256    0.0666  -25.0529 |   -0.0810   -0.0690    0.1415 -159.6799 |    0.3917   -0.8952   -0.2126  350.8964 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:51.204] draw #104 (immediate ctx 440D0418): VS hash d084c5bb, b0 832 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:22:51.204]   viewProjection         [   0.0000    0.0000    0.0000 941742983479296.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000 1176460261851136.0000    0.0000]
+[14:22:51.204]   ViewProjectionModified [   0.7596    0.0000    1.1296 -744.2873 |   -0.0588    2.4189    0.0395  -79.3524 |    0.8295    0.0293   -0.5578  832.2065 |    1.0000   -0.3000    1.0000    0.0000]
+[14:22:52.215] draw #105 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:52.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:52.215]   ViewProjectionModified [  -0.0231    0.0179   -0.1177   98.8772 |    0.1575    0.0736   -0.0197   77.3272 |    0.3917   -0.8952   -0.2126  350.9178 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:53.215] draw #106 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:53.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:53.215]   ViewProjectionModified [   0.0244    0.0361   -0.1070  107.0624 |    0.1602    0.0569    0.0557    9.5102 |    0.3917   -0.8952   -0.2126  351.1063 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:54.214] draw #107 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:54.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:54.214]   ViewProjectionModified [   0.0519    0.0444   -0.0915  103.2251 |    0.1432    0.0389    0.1002  -37.4646 |    0.3917   -0.8952   -0.2126  351.3974 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:54.347] stats/5s: draws immediate 1884284 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67573, draws with a VPM shader 1833934, VSSetCB 57973, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1529/0, UpdateSubresource 2056494 (boxed 0)
+[14:22:55.213] draw #108 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:55.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:55.213]   ViewProjectionModified [   0.0892    0.0504   -0.0480   77.6424 |    0.0898   -0.0002    0.1664 -118.4046 |    0.3917   -0.8952   -0.2126  351.5906 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:56.213] draw #109 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:56.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:56.213]   ViewProjectionModified [   0.0900    0.0504   -0.0465   76.4893 |    0.0879   -0.0015    0.1685 -121.0144 |    0.3917   -0.8952   -0.2126  351.3763 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:57.214] draw #110 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:57.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:57.214]   ViewProjectionModified [   0.0908    0.0504   -0.0450   75.3193 |    0.0861   -0.0029    0.1706 -123.6345 |    0.3917   -0.8952   -0.2126  351.1620 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:58.213] draw #111 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:58.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:58.213]   ViewProjectionModified [   0.0915    0.0504   -0.0434   74.1323 |    0.0841   -0.0042    0.1727 -126.2535 |    0.3917   -0.8952   -0.2126  350.9478 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:59.213] draw #112 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:22:59.213]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:22:59.213]   ViewProjectionModified [   0.0923    0.0503   -0.0418   72.9316 |    0.0822   -0.0055    0.1747 -128.8702 |    0.3917   -0.8952   -0.2126  350.7335 |    0.0009    0.4091    0.0000    1.0000]
+[14:22:59.349] stats/5s: draws immediate 1157998 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 66711, draws with a VPM shader 1109833, VSSetCB 57006, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1527/0, UpdateSubresource 1264470 (boxed 0)
+[14:23:00.212] draw #113 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:00.212]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:00.212]   ViewProjectionModified [   0.0676   -0.0010    0.1286  -91.9985 |   -0.1489   -0.0836    0.0776 -126.9682 |    0.3917   -0.8952   -0.2126  350.6557 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:01.214] draw #114 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:01.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:01.214]   ViewProjectionModified [  -0.1520   -0.0818    0.0644 -116.6022 |   -0.1013    0.0096   -0.2271  168.7413 |    0.3917   -0.8952   -0.2126  352.1522 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:02.209] draw #115 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:02.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:02.209]   ViewProjectionModified [  -0.1535   -0.0893    0.0931 -143.6423 |   -0.2119   -0.0079   -0.3571  245.8440 |    0.3917   -0.8952   -0.2126  352.3108 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:03.217] draw #116 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:03.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:03.217]   ViewProjectionModified [  -0.1536   -0.0893    0.0931 -143.6456 |   -0.2122   -0.0079   -0.3578  246.3653 |    0.3917   -0.8952   -0.2126  352.3112 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:04.218] draw #117 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:04.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:04.218]   ViewProjectionModified [  -0.1536   -0.0893    0.0931 -143.6456 |   -0.2122   -0.0079   -0.3578  246.3653 |    0.3917   -0.8952   -0.2126  352.3112 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:04.351] stats/5s: draws immediate 910446 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65820, draws with a VPM shader 881486, VSSetCB 56177, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1508/0, UpdateSubresource 944207 (boxed 0)
+[14:23:05.217] draw #118 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:05.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:05.217]   ViewProjectionModified [  -0.1536   -0.0893    0.0931 -143.6456 |   -0.2122   -0.0079   -0.3578  246.3653 |    0.3917   -0.8952   -0.2126  352.3112 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:06.218] draw #119 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:06.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:06.218]   ViewProjectionModified [  -0.1536   -0.0893    0.0931 -143.6456 |   -0.2122   -0.0079   -0.3578  246.3653 |    0.3917   -0.8952   -0.2126  352.3112 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:07.217] draw #120 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:07.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:07.217]   ViewProjectionModified [  -0.1536   -0.0893    0.0931 -143.6456 |   -0.2122   -0.0079   -0.3578  246.3653 |    0.3917   -0.8952   -0.2126  352.3112 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:08.217] draw #121 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:08.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:08.217]   ViewProjectionModified [  -0.1536   -0.0893    0.0931 -143.6456 |   -0.2122   -0.0079   -0.3578  246.3653 |    0.3917   -0.8952   -0.2126  352.3112 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:09.217] draw #122 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:09.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:09.217]   ViewProjectionModified [  -0.1536   -0.0893    0.0931 -143.6456 |   -0.2122   -0.0079   -0.3578  246.3653 |    0.3917   -0.8952   -0.2126  352.3112 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:09.350] stats/5s: draws immediate 944512 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67148, draws with a VPM shader 915299, VSSetCB 57548, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1514/0, UpdateSubresource 980719 (boxed 0)
+[14:23:10.218] draw #123 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:10.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:10.218]   ViewProjectionModified [  -0.1536   -0.0893    0.0931 -143.6456 |   -0.2122   -0.0079   -0.3578  246.3653 |    0.3917   -0.8952   -0.2126  352.3112 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:11.204] draw #124 (immediate ctx 440D0418): VS hash d2c1808c, b0 752 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:11.204]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:11.204]   ViewProjectionModified [   0.8788   -0.0000    2.1384 -1622.4557 |    0.2511    4.1012   -0.1032  153.3963 |    0.9229   -0.0661   -0.3793  703.5095 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:12.204] draw #125 (immediate ctx 440D0418): VS hash d2c1808c, b0 752 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:12.204]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:12.204]   ViewProjectionModified [   0.7891   -0.0000    1.9203 -1456.9519 |    0.2255    3.6829   -0.0927  138.3585 |    0.9229   -0.0661   -0.3793  703.8269 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:13.204] draw #126 (immediate ctx 440D0418): VS hash d2c1808c, b0 752 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:13.204]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:13.204]   ViewProjectionModified [   0.7032   -0.0000    1.7112 -1298.2828 |    0.2009    3.2819   -0.0826  123.8351 |    0.9229   -0.0661   -0.3793  704.1443 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:14.204] draw #127 (immediate ctx 440D0418): VS hash b4103108, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:14.204]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:14.204]   ViewProjectionModified [   0.6218    0.0000    1.5131 -1147.9597 |    0.1777    2.9019   -0.0730  109.9848 |    0.9229   -0.0661   -0.3793  704.4698 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:14.351] stats/5s: draws immediate 1543688 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67512, draws with a VPM shader 1510983, VSSetCB 57912, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1517/0, UpdateSubresource 1652677 (boxed 0)
+[14:23:15.205] draw #128 (immediate ctx 440D0418): VS hash d2c1808c, b0 752 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:15.205]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:15.205]   ViewProjectionModified [   0.5459    0.0000    1.3283 -1007.6970 |    0.1560    2.5474   -0.0641   96.9717 |    0.9229   -0.0661   -0.3793  704.7873 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:16.205] draw #129 (immediate ctx 440D0418): VS hash 86aa3f09, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:16.205]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:16.205]   ViewProjectionModified [   1.2769    0.0000    0.4716   55.4849 |   -0.0272    2.4187    0.0736  -98.4144 |    0.3463    0.0324   -0.9376  995.3611 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:17.205] draw #130 (immediate ctx 440D0418): VS hash f4cab603, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:17.205]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:17.205]   ViewProjectionModified [   0.9504   -0.0000    0.9745 -529.5054 |   -0.0527    2.4188    0.0514  -87.8879 |    0.7156    0.0304   -0.6979  916.8823 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:18.205] draw #131 (immediate ctx 440D0418): VS hash 274e0be6, b0 2944 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:18.205]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:18.205]   ViewProjectionModified [   0.3768    0.0000    1.3080 -1053.7117 |   -0.0660    2.4189    0.0190  -63.3303 |    0.9605    0.0284   -0.2767  625.0187 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:19.205] draw #132 (immediate ctx 440D0418): VS hash dc85c657, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:19.205]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:19.205]   ViewProjectionModified [  -0.2331    0.0000    1.3411 -1316.7343 |   -0.0727    2.4188   -0.0126  -36.8899 |    0.9848    0.0305    0.1711  224.0507 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:19.352] stats/5s: draws immediate 1909198 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67555, draws with a VPM shader 1874033, VSSetCB 57955, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1520/0, UpdateSubresource 2063487 (boxed 0)
+[14:23:20.205] draw #133 (immediate ctx 440D0418): VS hash dc85c657, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:20.205]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:20.205]   ViewProjectionModified [  -0.7075    0.0000    1.1629 -1334.6119 |   -0.0665    2.4187   -0.0405   -9.0436 |    0.8539    0.0322    0.5195 -144.7961 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:21.204] draw #134 (immediate ctx 440D0418): VS hash d63f53ee, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:21.204]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:21.204]   ViewProjectionModified [  -1.1842   -0.0000    0.6712 -1067.4095 |    0.0353    2.4189    0.0623  -63.5581 |    0.4929   -0.0296    0.8696 -604.2085 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:22.205] draw #135 (immediate ctx 440D0418): VS hash d63f53ee, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:22.205]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:22.205]   ViewProjectionModified [  -1.1956    0.0000    0.6507 -1052.2076 |    0.0341    2.4189    0.0626  -64.3297 |    0.4778   -0.0295    0.8780 -617.6467 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:23.217] draw #136 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:23.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:23.217]   ViewProjectionModified [   0.0905    0.0504   -0.0455   75.7577 |    0.0868   -0.0024    0.1698 -122.6573 |    0.3917   -0.8952   -0.2126  351.2419 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:24.217] draw #137 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:24.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:24.217]   ViewProjectionModified [   0.0913    0.0504   -0.0440   74.5762 |    0.0849   -0.0037    0.1719 -125.2755 |    0.3917   -0.8952   -0.2126  351.0277 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:24.351] stats/5s: draws immediate 1415948 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67293, draws with a VPM shader 1381455, VSSetCB 57670, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1521/0, UpdateSubresource 1555546 (boxed 0)
+[14:23:25.217] draw #138 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:25.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:25.217]   ViewProjectionModified [   0.0920    0.0503   -0.0424   73.3813 |    0.0829   -0.0050    0.1740 -127.8963 |    0.3917   -0.8952   -0.2126  350.8135 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:26.217] draw #139 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:26.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:26.217]   ViewProjectionModified [   0.0615   -0.0009    0.1171  -83.7773 |   -0.1483   -0.0832    0.0772 -126.3836 |    0.3917   -0.8952   -0.2126  350.6556 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:27.217] draw #140 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:27.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:27.217]   ViewProjectionModified [   0.1526    0.0647    0.0087   49.7414 |    0.0070   -0.0423    0.1912 -172.3996 |    0.3917   -0.8952   -0.2126  350.6558 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:28.218] draw #141 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:28.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:28.218]   ViewProjectionModified [   0.0968    0.0722   -0.1256  151.2471 |    0.1729    0.0387    0.1555  -76.4068 |    0.3917   -0.8952   -0.2126  350.6559 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:29.217] draw #142 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:29.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:29.217]   ViewProjectionModified [   0.0987    0.0736   -0.1280  154.2169 |    0.1870    0.0419    0.1682  -82.6639 |    0.3917   -0.8952   -0.2126  350.6561 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:29.350] stats/5s: draws immediate 599361 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62480, draws with a VPM shader 569641, VSSetCB 52580, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1514/0, UpdateSubresource 625779 (boxed 0)
+[14:23:30.217] draw #143 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:30.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:30.217]   ViewProjectionModified [   0.1132    0.0776   -0.1183  150.7138 |    0.1874    0.0341    0.2017 -113.1720 |    0.3917   -0.8952   -0.2126  350.6562 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:31.217] draw #144 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:31.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:31.217]   ViewProjectionModified [  -0.0196   -0.0371    0.1199 -117.0100 |   -0.1620   -0.0602   -0.0451  -20.2400 |    0.3917   -0.8952   -0.2126  352.3440 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:32.217] draw #145 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:32.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:32.217]   ViewProjectionModified [  -0.0196   -0.0370    0.1199 -117.0365 |   -0.1621   -0.0602   -0.0450  -20.4745 |    0.3917   -0.8952   -0.2126  352.6298 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:33.217] draw #146 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:33.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:33.217]   ViewProjectionModified [  -0.0195   -0.0370    0.1199 -117.0615 |   -0.1621   -0.0603   -0.0449  -20.7179 |    0.3917   -0.8952   -0.2126  352.9157 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:34.205] draw #147 (immediate ctx 440D0418): VS hash 44ab30a4, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:34.205]   viewProjection         [   0.0000    0.0000 859396380819456.0000      -nan | 674267042210500535043856793600.0000   -0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:34.205]   ViewProjectionModified [   0.2000    0.4451   -1.2707 1237.6917 |   -0.3905    2.2725    0.7345 -841.3040 |   -0.9759   -0.1060   -0.1907 -194.7635 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:34.350] stats/5s: draws immediate 1015653 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65649, draws with a VPM shader 982426, VSSetCB 55749, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1517/0, UpdateSubresource 1117799 (boxed 0)
+[14:23:35.217] draw #148 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:35.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:35.218]   ViewProjectionModified [  -0.0194   -0.0370    0.1200 -117.1117 |   -0.1623   -0.0604   -0.0448  -21.2063 |    0.3917   -0.8952   -0.2126  353.4875 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:36.205] draw #149 (immediate ctx 440D0418): VS hash b507bb9c, b0 800 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:36.205]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:36.205]   ViewProjectionModified [   0.8813    0.0000    2.1444 -1626.9792 |    0.2518    4.1127   -0.1035  153.8128 |    0.9229   -0.0661   -0.3793  703.5090 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:37.205] draw #150 (immediate ctx 440D0418): VS hash 015e8aa8, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:37.205]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:37.205]   ViewProjectionModified [   0.7915   -0.0000    1.9261 -1461.3296 |    0.2262    3.6940   -0.0929  138.7608 |    0.9229   -0.0661   -0.3793  703.8183 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:38.206] draw #151 (immediate ctx 440D0418): VS hash 1d2276ca, b0 816 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:38.206]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:38.206]   ViewProjectionModified [   0.7055   -0.0000    1.7167 -1302.4570 |    0.2016    3.2924   -0.0828  124.2180 |    0.9229   -0.0661   -0.3793  704.1358 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:39.205] draw #152 (immediate ctx 440D0418): VS hash 015e8aa8, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:39.205]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:39.205]   ViewProjectionModified [   0.6239   -0.0000    1.5183 -1151.9004 |    0.1783    2.9119   -0.0733  110.3423 |    0.9229   -0.0661   -0.3793  704.4532 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:39.352] stats/5s: draws immediate 1622227 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67438, draws with a VPM shader 1587501, VSSetCB 57762, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1519/0, UpdateSubresource 1770679 (boxed 0)
+[14:23:40.206] draw #153 (immediate ctx 440D0418): VS hash 015e8aa8, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:40.206]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:40.206]   ViewProjectionModified [   0.5478   -0.0000    1.3331 -1011.3425 |    0.1565    2.5566   -0.0643   97.3014 |    0.9229   -0.0661   -0.3793  704.7706 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:41.206] draw #154 (immediate ctx 440D0418): VS hash 44ab30a4, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:41.206]   viewProjection         [   0.0000    0.0000 859396380819456.0000      -nan | 674267042210500535043856793600.0000   -0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:41.206]   ViewProjectionModified [   1.2815   -0.0000    0.4591   68.6433 |   -0.0264    2.4187    0.0738  -98.3684 |    0.3371    0.0324   -0.9409  994.9241 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:42.206] draw #155 (immediate ctx 440D0418): VS hash 44ab30a4, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:42.206]   viewProjection         [   0.0000    0.0000 859396380819456.0000      -nan | 674267042210500535043856793600.0000   -0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:42.206]   ViewProjectionModified [   0.9630    0.0000    0.9620 -513.2922 |   -0.0522    2.4188    0.0522  -88.4448 |    0.7064    0.0305   -0.7071  921.8563 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:43.205] draw #156 (immediate ctx 440D0418): VS hash 0b72bd2f, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:43.205]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:43.205]   ViewProjectionModified [   0.3941    0.0000    1.3029 -1042.4406 |   -0.0658    2.4189    0.0199  -64.0256 |    0.9568    0.0284   -0.2894  635.2115 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:44.206] draw #157 (immediate ctx 440D0418): VS hash dc85c657, b0 784 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:44.206]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:44.206]   ViewProjectionModified [  -0.2175    0.0000    1.3437 -1313.1914 |   -0.0727    2.4188   -0.0118  -37.6723 |    0.9867    0.0304    0.1597  235.2389 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:44.352] stats/5s: draws immediate 1937387 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 67513, draws with a VPM shader 1901371, VSSetCB 57913, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1520/0, UpdateSubresource 2113988 (boxed 0)
+[14:23:45.205] draw #158 (immediate ctx 440D0418): VS hash fe3dd305, b0 768 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:45.205]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:45.205]   ViewProjectionModified [  -0.6985   -0.0000    1.1683 -1336.1426 |   -0.0668    2.4187   -0.0399   -9.6305 |    0.8579    0.0322    0.5129 -137.2557 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:46.206] draw #159 (immediate ctx 440D0418): VS hash 44ab30a4, b0 2928 bytes +0, viewProjection @16, ViewProjectionModified @80
+[14:23:46.206]   viewProjection         [   0.0000    0.0000 859396380819456.0000      -nan | 674267042210500535043856793600.0000   -0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:46.206]   ViewProjectionModified [  -1.1839    0.0000    0.6717 -1067.7903 |    0.0353    2.4189    0.0623  -63.5360 |    0.4933   -0.0296    0.8694 -603.8672 |    1.0000   -0.3000    1.0000    0.0000]
+[14:23:47.217] draw #160 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:47.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:47.217]   ViewProjectionModified [  -0.0478   -0.0432    0.0936 -102.4318 |   -0.1543   -0.0440   -0.0991   40.7257 |    0.3917   -0.8952   -0.2126  333.6824 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:48.218] draw #161 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:48.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:48.218]   ViewProjectionModified [   0.0811    0.0007   -0.0997  119.3597 |    0.1156   -0.1689    0.0929  -46.0501 |   -0.5809   -0.6596   -0.4769  251.7762 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:49.218] draw #162 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:49.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:49.218]   ViewProjectionModified [   0.0681    0.0104   -0.0968  112.3167 |    0.1197   -0.1544    0.0677  -21.4657 |   -0.5798   -0.6592   -0.4789  254.7338 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:49.351] stats/5s: draws immediate 1439777 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 63253, draws with a VPM shader 1414170, VSSetCB 53658, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1514/0, UpdateSubresource 1537631 (boxed 0)
+[14:23:50.218] draw #163 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:50.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:50.218]   ViewProjectionModified [   0.0202    0.0378   -0.0761   77.0310 |    0.1309   -0.1030   -0.0164   59.7090 |   -0.5787   -0.6587   -0.4808  259.1556 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:51.218] draw #164 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:51.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:51.218]   ViewProjectionModified [   0.0202    0.0380   -0.0760   76.9530 |    0.1310   -0.1028   -0.0165   59.7919 |   -0.5776   -0.6583   -0.4828  261.3403 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:52.218] draw #165 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:52.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:52.218]   ViewProjectionModified [   0.0203    0.0382   -0.0759   76.8753 |    0.1310   -0.1026   -0.0166   59.8731 |   -0.5764   -0.6578   -0.4847  263.5240 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:53.218] draw #166 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:53.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:53.218]   ViewProjectionModified [   0.0203    0.0383   -0.0758   76.7977 |    0.1311   -0.1024   -0.0167   59.9541 |   -0.5753   -0.6574   -0.4867  265.7072 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:54.218] draw #167 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:54.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:54.218]   ViewProjectionModified [   0.0204    0.0385   -0.0757   76.7202 |    0.1311   -0.1022   -0.0167   60.0347 |   -0.5742   -0.6569   -0.4886  267.8893 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:54.351] stats/5s: draws immediate 1108256 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 58990, draws with a VPM shader 1096313, VSSetCB 49456, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1505/0, UpdateSubresource 1144591 (boxed 0)
+[14:23:55.210] draw #168 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:55.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:55.210]   ViewProjectionModified [   0.0204    0.0387   -0.0756   76.6427 |    0.1312   -0.1019   -0.0168   60.1145 |   -0.5731   -0.6564   -0.4906  270.0706 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:56.210] draw #169 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:56.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:56.210]   ViewProjectionModified [   0.0204    0.0389   -0.0755   76.5653 |    0.1312   -0.1017   -0.0169   60.1939 |   -0.5719   -0.6560   -0.4925  272.2512 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:57.210] draw #170 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:57.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:57.210]   ViewProjectionModified [   0.0205    0.0391   -0.0754   76.4899 |    0.1313   -0.1015   -0.0169   60.2696 |   -0.5708   -0.6555   -0.4944  274.3826 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:58.210] draw #171 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:58.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:58.210]   ViewProjectionModified [   0.0205    0.0392   -0.0753   76.4123 |    0.1313   -0.1013   -0.0170   60.3478 |   -0.5696   -0.6550   -0.4964  276.5764 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:59.210] draw #172 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:23:59.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:23:59.210]   ViewProjectionModified [   0.0206    0.0394   -0.0752   76.3352 |    0.1314   -0.1011   -0.0171   60.4252 |   -0.5685   -0.6546   -0.4983  278.7543 |    0.0009    0.4091    0.0000    1.0000]
+[14:23:59.347] stats/5s: draws immediate 1158761 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 61127, draws with a VPM shader 1146963, VSSetCB 51579, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1498/0, UpdateSubresource 1195554 (boxed 0)
+[14:24:00.210] draw #173 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:00.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:00.210]   ViewProjectionModified [   0.0206    0.0396   -0.0751   76.2577 |    0.1314   -0.1009   -0.0171   60.5015 |   -0.5673   -0.6541   -0.5003  280.9464 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:01.210] draw #174 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:01.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:01.210]   ViewProjectionModified [   0.0206    0.0398   -0.0750   76.1829 |    0.1315   -0.1007   -0.0172   60.5740 |   -0.5662   -0.6536   -0.5022  283.0895 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:02.214] draw #175 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:02.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:02.214]   ViewProjectionModified [   0.0207    0.0399   -0.0749   76.1052 |    0.1315   -0.1005   -0.0173   60.6503 |   -0.5651   -0.6531   -0.5041  285.2647 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:03.214] draw #176 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:03.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:03.214]   ViewProjectionModified [   0.0207    0.0401   -0.0748   76.0308 |    0.1316   -0.1003   -0.0173   60.7221 |   -0.5639   -0.6526   -0.5060  287.4063 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:04.214] draw #177 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:04.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:04.214]   ViewProjectionModified [   0.0208    0.0403   -0.0747   75.9538 |    0.1317   -0.1001   -0.0174   60.7959 |   -0.5627   -0.6521   -0.5080  289.5948 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:04.347] stats/5s: draws immediate 1228459 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 61664, draws with a VPM shader 1215183, VSSetCB 52108, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1497/0, UpdateSubresource 1286498 (boxed 0)
+[14:24:05.214] draw #178 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:05.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:05.214]   ViewProjectionModified [   0.0208    0.0405   -0.0746   75.8785 |    0.1317   -0.0999   -0.0174   60.8668 |   -0.5616   -0.6516   -0.5099  291.7347 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:06.214] draw #179 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:06.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:06.214]   ViewProjectionModified [   0.0209    0.0407   -0.0745   75.8014 |    0.1318   -0.0997   -0.0175   60.9394 |   -0.5604   -0.6511   -0.5118  293.9364 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:07.214] draw #180 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:07.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:07.214]   ViewProjectionModified [   0.0209    0.0408   -0.0745   75.7271 |    0.1319   -0.0995   -0.0175   61.0084 |   -0.5592   -0.6506   -0.5137  296.0746 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:08.213] draw #181 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:08.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:08.214]   ViewProjectionModified [   0.0209    0.0410   -0.0744   75.6498 |    0.1319   -0.0993   -0.0176   61.0806 |   -0.5581   -0.6501   -0.5157  298.2592 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:09.218] draw #182 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:09.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:09.218]   ViewProjectionModified [   0.0210    0.0412   -0.0743   75.5754 |    0.1320   -0.0991   -0.0177   61.1482 |   -0.5569   -0.6496   -0.5176  300.4108 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:09.351] stats/5s: draws immediate 1368994 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62186, draws with a VPM shader 1354191, VSSetCB 52618, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1503/0, UpdateSubresource 1442724 (boxed 0)
+[14:24:10.217] draw #183 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:10.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:10.217]   ViewProjectionModified [   0.0210    0.0414   -0.0742   75.5007 |    0.1320   -0.0989   -0.0177   61.2162 |   -0.5557   -0.6491   -0.5195  302.5463 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:11.217] draw #184 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:11.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:11.217]   ViewProjectionModified [   0.0211    0.0415   -0.0741   75.4260 |    0.1321   -0.0987   -0.0178   61.2834 |   -0.5545   -0.6486   -0.5214  304.6960 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:12.217] draw #185 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:12.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:12.217]   ViewProjectionModified [   0.0211    0.0417   -0.0740   75.3513 |    0.1322   -0.0985   -0.0178   61.3493 |   -0.5534   -0.6481   -0.5233  306.8451 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:13.217] draw #186 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:13.217]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:13.217]   ViewProjectionModified [   0.0212    0.0419   -0.0739   75.2747 |    0.1323   -0.0983   -0.0179   61.4176 |   -0.5522   -0.6475   -0.5252  309.0397 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:14.218] draw #187 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:14.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:14.218]   ViewProjectionModified [   0.0212    0.0421   -0.0738   75.2001 |    0.1323   -0.0981   -0.0179   61.4839 |   -0.5510   -0.6470   -0.5271  311.1714 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:14.351] stats/5s: draws immediate 1332016 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62385, draws with a VPM shader 1317491, VSSetCB 52785, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1508/0, UpdateSubresource 1392057 (boxed 0)
+[14:24:15.218] draw #188 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:15.218]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:15.218]   ViewProjectionModified [   0.0212    0.0422   -0.0737   75.1256 |    0.1324   -0.0979   -0.0180   61.5481 |   -0.5498   -0.6465   -0.5290  313.3173 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:16.209] draw #189 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:16.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:16.209]   ViewProjectionModified [   0.0213    0.0424   -0.0736   75.0533 |    0.1325   -0.0977   -0.0180   61.6098 |   -0.5486   -0.6459   -0.5308  315.4141 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:17.208] draw #190 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:17.208]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:17.208]   ViewProjectionModified [   0.0213    0.0426   -0.0735   74.9791 |    0.1325   -0.0975   -0.0180   61.6730 |   -0.5474   -0.6454   -0.5327  317.5581 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:18.209] draw #191 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:18.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:18.209]   ViewProjectionModified [   0.0291    0.0388   -0.0765   80.4379 |    0.1238   -0.1013   -0.0043   46.0831 |   -0.5462   -0.6449   -0.5346  319.7167 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:19.209] draw #192 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:19.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:19.209]   ViewProjectionModified [   0.0292    0.0390   -0.0764   80.3609 |    0.1239   -0.1012   -0.0043   46.1821 |   -0.5450   -0.6443   -0.5365  321.8588 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:19.358] stats/5s: draws immediate 1370150 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62201, draws with a VPM shader 1355387, VSSetCB 52633, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1503/0, UpdateSubresource 1432140 (boxed 0)
+[14:24:20.209] draw #193 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:20.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:20.209]   ViewProjectionModified [   0.0292    0.0392   -0.0763   80.2842 |    0.1240   -0.1011   -0.0044   46.2809 |   -0.5438   -0.6438   -0.5384  323.9996 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:21.209] draw #194 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:21.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:21.209]   ViewProjectionModified [   0.0293    0.0393   -0.0762   80.2094 |    0.1241   -0.1010   -0.0045   46.3721 |   -0.5426   -0.6432   -0.5402  326.1090 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:22.209] draw #195 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:22.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:22.209]   ViewProjectionModified [   0.0293    0.0395   -0.0762   80.1454 |    0.1242   -0.1008   -0.0045   46.4165 |   -0.5412   -0.6429   -0.5419  328.1511 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:23.209] draw #196 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:23.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:23.209]   ViewProjectionModified [   0.0216    0.0435   -0.0730   74.5961 |    0.1332   -0.0964   -0.0181   61.9200 |   -0.5394   -0.6435   -0.5432  329.9031 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:24.209] draw #197 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:24.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:24.209]   ViewProjectionModified [   0.0216    0.0436   -0.0730   74.5707 |    0.1335   -0.0963   -0.0179   61.8839 |   -0.5375   -0.6440   -0.5444  331.6694 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:24.359] stats/5s: draws immediate 1424397 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62335, draws with a VPM shader 1408899, VSSetCB 52767, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1504/0, UpdateSubresource 1492050 (boxed 0)
+[14:24:25.208] draw #198 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:25.208]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:25.209]   ViewProjectionModified [   0.0217    0.0437   -0.0729   74.5454 |    0.1338   -0.0961   -0.0178   61.8483 |   -0.5356   -0.6446   -0.5456  333.4189 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:26.209] draw #199 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:26.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:26.209]   ViewProjectionModified [   0.0217    0.0438   -0.0729   74.5216 |    0.1341   -0.0960   -0.0177   61.8098 |   -0.5337   -0.6451   -0.5468  335.1378 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:27.209] draw #200 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:27.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:27.209]   ViewProjectionModified [   0.0218    0.0439   -0.0728   74.4957 |    0.1344   -0.0958   -0.0175   61.7726 |   -0.5318   -0.6457   -0.5480  336.9010 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:28.209] draw #201 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:28.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:28.209]   ViewProjectionModified [   0.0218    0.0440   -0.0728   74.4700 |    0.1347   -0.0957   -0.0174   61.7355 |   -0.5299   -0.6462   -0.5492  338.6629 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:29.208] draw #202 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:29.208]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:29.208]   ViewProjectionModified [   0.0219    0.0440   -0.0727   74.4459 |    0.1350   -0.0955   -0.0172   61.6962 |   -0.5281   -0.6467   -0.5504  340.3785 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:29.359] stats/5s: draws immediate 1380802 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62422, draws with a VPM shader 1365542, VSSetCB 52822, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1508/0, UpdateSubresource 1459490 (boxed 0)
+[14:24:30.210] draw #203 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:30.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:30.210]   ViewProjectionModified [   0.0219    0.0441   -0.0727   74.4199 |    0.1352   -0.0954   -0.0171   61.6567 |   -0.5261   -0.6473   -0.5516  342.1522 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:31.211] draw #204 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:31.211]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:31.211]   ViewProjectionModified [   0.0220    0.0442   -0.0727   74.3933 |    0.1355   -0.0952   -0.0170   61.6192 |   -0.5242   -0.6478   -0.5528  343.9107 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:32.210] draw #205 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:32.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:32.210]   ViewProjectionModified [   0.0220    0.0443   -0.0726   74.3687 |    0.1358   -0.0951   -0.0168   61.5790 |   -0.5223   -0.6483   -0.5539  345.6233 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:33.210] draw #206 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:33.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:33.211]   ViewProjectionModified [   0.0221    0.0444   -0.0726   74.3444 |    0.1361   -0.0949   -0.0167   61.5377 |   -0.5204   -0.6488   -0.5551  347.3506 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:34.211] draw #207 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:34.211]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:34.211]   ViewProjectionModified [   0.0221    0.0445   -0.0725   74.3176 |    0.1364   -0.0948   -0.0165   61.4984 |   -0.5185   -0.6493   -0.5563  349.1057 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:34.360] stats/5s: draws immediate 1425064 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62305, draws with a VPM shader 1409397, VSSetCB 52737, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1505/0, UpdateSubresource 1508179 (boxed 0)
+[14:24:35.211] draw #208 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:35.211]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:35.211]   ViewProjectionModified [   0.0222    0.0446   -0.0725   74.2924 |    0.1367   -0.0946   -0.0164   61.4571 |   -0.5166   -0.6499   -0.5575  350.8308 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:36.210] draw #209 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:36.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:36.210]   ViewProjectionModified [   0.0222    0.0446   -0.0724   74.2670 |    0.1370   -0.0945   -0.0162   61.4163 |   -0.5147   -0.6504   -0.5587  352.5389 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:37.209] draw #210 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:37.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:37.209]   ViewProjectionModified [   0.0223    0.0447   -0.0724   74.2417 |    0.1372   -0.0943   -0.0161   61.3427 |   -0.5128   -0.6509   -0.5598  354.2482 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:38.209] draw #211 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:38.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:38.209]   ViewProjectionModified [   0.0223    0.0448   -0.0724   74.2163 |    0.1372   -0.0939   -0.0159   61.1830 |   -0.5109   -0.6514   -0.5610  355.9701 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:39.209] draw #212 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:39.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:39.209]   ViewProjectionModified [   0.0223    0.0449   -0.0723   74.1904 |    0.1373   -0.0936   -0.0157   61.0233 |   -0.5090   -0.6519   -0.5621  357.6908 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:39.359] stats/5s: draws immediate 1346558 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62045, draws with a VPM shader 1331500, VSSetCB 52509, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1497/0, UpdateSubresource 1419283 (boxed 0)
+[14:24:40.209] draw #213 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:40.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:40.209]   ViewProjectionModified [   0.0224    0.0450   -0.0723   74.1646 |    0.1373   -0.0933   -0.0155   60.8634 |   -0.5071   -0.6524   -0.5633  359.4106 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:41.210] draw #214 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:41.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:41.210]   ViewProjectionModified [   0.0224    0.0451   -0.0722   74.1383 |    0.1373   -0.0930   -0.0154   60.7052 |   -0.5051   -0.6529   -0.5645  361.1292 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:42.210] draw #215 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:42.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:42.210]   ViewProjectionModified [   0.0225    0.0452   -0.0722   74.1123 |    0.1373   -0.0926   -0.0152   60.5454 |   -0.5032   -0.6534   -0.5656  362.8467 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:43.209] draw #216 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:43.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:43.209]   ViewProjectionModified [   0.0225    0.0453   -0.0721   74.0859 |    0.1374   -0.0923   -0.0150   60.3862 |   -0.5013   -0.6538   -0.5668  364.5630 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:44.209] draw #217 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:44.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:44.209]   ViewProjectionModified [   0.0226    0.0453   -0.0721   74.0595 |    0.1374   -0.0920   -0.0148   60.2236 |   -0.4993   -0.6543   -0.5679  366.2941 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:44.359] stats/5s: draws immediate 1485054 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62553, draws with a VPM shader 1469703, VSSetCB 52953, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1509/0, UpdateSubresource 1544761 (boxed 0)
+[14:24:45.209] draw #218 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:45.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:45.209]   ViewProjectionModified [   0.0226    0.0454   -0.0720   74.0346 |    0.1374   -0.0917   -0.0146   60.0616 |   -0.4974   -0.6548   -0.5690  367.9643 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:46.209] draw #219 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:46.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:46.209]   ViewProjectionModified [   0.0227    0.0455   -0.0720   74.0079 |    0.1374   -0.0913   -0.0145   59.8996 |   -0.4955   -0.6553   -0.5702  369.6931 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:47.209] draw #220 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:47.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:47.209]   ViewProjectionModified [   0.0227    0.0456   -0.0720   73.9811 |    0.1375   -0.0910   -0.0143   59.7403 |   -0.4935   -0.6557   -0.5713  371.4048 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:48.209] draw #221 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:48.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:48.209]   ViewProjectionModified [   0.0228    0.0457   -0.0719   73.9534 |    0.1375   -0.0907   -0.0141   59.5797 |   -0.4916   -0.6562   -0.5725  373.1314 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:49.209] draw #222 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:49.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:49.209]   ViewProjectionModified [   0.0228    0.0458   -0.0719   73.9283 |    0.1375   -0.0904   -0.0139   59.4143 |   -0.4896   -0.6567   -0.5736  374.8131 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:49.359] stats/5s: draws immediate 1484518 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62494, draws with a VPM shader 1468426, VSSetCB 52894, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1510/0, UpdateSubresource 1568568 (boxed 0)
+[14:24:50.209] draw #223 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:50.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:50.209]   ViewProjectionModified [   0.0229    0.0459   -0.0718   73.9006 |    0.1375   -0.0901   -0.0137   59.2557 |   -0.4877   -0.6571   -0.5748  376.5215 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:51.209] draw #224 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:51.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:51.209]   ViewProjectionModified [   0.0229    0.0459   -0.0718   73.8749 |    0.1376   -0.0897   -0.0136   59.0918 |   -0.4857   -0.6576   -0.5759  378.2010 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:52.209] draw #225 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:52.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:52.209]   ViewProjectionModified [   0.0244    0.0444   -0.0712   73.8505 |    0.1339   -0.0897   -0.0100   54.6809 |   -0.4838   -0.6580   -0.5770  379.7638 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:53.209] draw #226 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:53.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:53.210]   ViewProjectionModified [   0.0213    0.0445   -0.0684   70.4852 |    0.1371   -0.0877   -0.0143   60.7322 |   -0.4818   -0.6585   -0.5781  378.2959 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:54.209] draw #227 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:54.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:54.209]   ViewProjectionModified [   0.0214    0.0440   -0.0678   70.3578 |    0.1362   -0.0873   -0.0136   61.6651 |   -0.4799   -0.6589   -0.5792  374.1631 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:54.359] stats/5s: draws immediate 1454412 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 64595, draws with a VPM shader 1433645, VSSetCB 53449, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1512/0, UpdateSubresource 1543076 (boxed 0)
+[14:24:55.209] draw #228 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:55.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:55.209]   ViewProjectionModified [   0.0198    0.0460   -0.0686   70.8567 |    0.1366   -0.0841   -0.0170   66.7259 |   -0.4779   -0.6594   -0.5804  371.3091 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:56.210] draw #229 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:56.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:56.210]   ViewProjectionModified [   0.0186    0.0477   -0.0693   71.4188 |    0.1371   -0.0817   -0.0195   70.4996 |   -0.4760   -0.6598   -0.5815  369.8880 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:57.209] draw #230 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:57.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:57.209]   ViewProjectionModified [   0.0171    0.0493   -0.0698   71.5557 |    0.1393   -0.0802   -0.0224   74.9459 |   -0.4740   -0.6602   -0.5826  369.3716 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:58.209] draw #231 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:58.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:58.209]   ViewProjectionModified [   0.0170    0.0500   -0.0704   72.2045 |    0.1405   -0.0801   -0.0229   76.3769 |   -0.4720   -0.6607   -0.5837  369.8823 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:59.209] draw #232 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:24:59.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:24:59.209]   ViewProjectionModified [   0.0185    0.0497   -0.0711   73.4183 |    0.1393   -0.0810   -0.0205   73.7293 |   -0.4701   -0.6611   -0.5848  371.4232 |    0.0009    0.4091    0.0000    1.0000]
+[14:24:59.360] stats/5s: draws immediate 1350630 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 68511, draws with a VPM shader 1326235, VSSetCB 55911, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1513/0, UpdateSubresource 1448874 (boxed 0)
+[14:25:00.209] draw #233 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:00.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:00.209]   ViewProjectionModified [   0.0185    0.0498   -0.0710   73.3728 |    0.1393   -0.0807   -0.0202   73.4568 |   -0.4681   -0.6615   -0.5859  373.2359 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:01.209] draw #234 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:01.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:01.209]   ViewProjectionModified [   0.0186    0.0498   -0.0710   73.3413 |    0.1392   -0.0803   -0.0199   73.1855 |   -0.4661   -0.6620   -0.5870  375.0392 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:02.209] draw #235 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:02.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:02.209]   ViewProjectionModified [   0.0186    0.0499   -0.0709   73.3126 |    0.1391   -0.0800   -0.0197   72.9595 |   -0.4641   -0.6624   -0.5881  376.8411 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:03.210] draw #236 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:03.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:03.210]   ViewProjectionModified [   0.0187    0.0500   -0.0709   73.2876 |    0.1391   -0.0797   -0.0195   72.7513 |   -0.4622   -0.6628   -0.5892  378.6242 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:04.210] draw #237 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:04.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:04.210]   ViewProjectionModified [   0.0187    0.0500   -0.0708   73.2642 |    0.1391   -0.0793   -0.0193   72.5509 |   -0.4602   -0.6632   -0.5903  380.4233 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:04.360] stats/5s: draws immediate 1308108 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 69595, draws with a VPM shader 1283168, VSSetCB 56995, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1513/0, UpdateSubresource 1427199 (boxed 0)
+[14:25:05.210] draw #238 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:05.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:05.210]   ViewProjectionModified [   0.0188    0.0501   -0.0708   73.2413 |    0.1391   -0.0790   -0.0191   72.3541 |   -0.4582   -0.6636   -0.5914  382.2212 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:06.209] draw #239 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:06.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:06.209]   ViewProjectionModified [   0.0188    0.0502   -0.0707   73.2197 |    0.1391   -0.0787   -0.0189   72.1577 |   -0.4562   -0.6640   -0.5925  384.0351 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:07.210] draw #240 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:07.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:07.210]   ViewProjectionModified [   0.0188    0.0503   -0.0707   73.1975 |    0.1391   -0.0784   -0.0187   71.9660 |   -0.4542   -0.6644   -0.5936  385.8306 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:08.210] draw #241 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:08.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:08.210]   ViewProjectionModified [   0.0189    0.0504   -0.0707   73.1778 |    0.1391   -0.0781   -0.0185   71.7718 |   -0.4522   -0.6648   -0.5946  387.5818 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:09.210] draw #242 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:09.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:09.210]   ViewProjectionModified [   0.0189    0.0504   -0.0706   73.1556 |    0.1391   -0.0778   -0.0183   71.5822 |   -0.4502   -0.6652   -0.5957  389.3750 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:09.359] stats/5s: draws immediate 1229894 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 69422, draws with a VPM shader 1206172, VSSetCB 56822, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1513/0, UpdateSubresource 1334032 (boxed 0)
+[14:25:10.210] draw #243 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:10.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:10.210]   ViewProjectionModified [   0.0190    0.0505   -0.0706   73.1345 |    0.1391   -0.0775   -0.0181   71.3885 |   -0.4482   -0.6656   -0.5968  391.1413 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:11.209] draw #244 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:11.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:11.209]   ViewProjectionModified [   0.0190    0.0506   -0.0705   73.1126 |    0.1391   -0.0772   -0.0179   71.1984 |   -0.4462   -0.6659   -0.5978  392.9323 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:12.209] draw #245 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:12.209]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:12.209]   ViewProjectionModified [   0.0191    0.0507   -0.0705   73.0922 |    0.1391   -0.0769   -0.0177   71.0044 |   -0.4442   -0.6663   -0.5989  394.6963 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:13.210] draw #246 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:13.210]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:13.210]   ViewProjectionModified [   0.0111    0.0533   -0.0674   67.1088 |    0.1457   -0.0691   -0.0306   85.5361 |   -0.4422   -0.6667   -0.6000  396.4850 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:14.214] draw #247 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:14.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:14.214]   ViewProjectionModified [   0.0112    0.0534   -0.0674   67.0884 |    0.1460   -0.0689   -0.0304   85.5122 |   -0.4402   -0.6671   -0.6011  398.3051 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:14.349] stats/5s: draws immediate 1239579 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 68807, draws with a VPM shader 1218115, VSSetCB 56706, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1504/0, UpdateSubresource 1310718 (boxed 0)
+[14:25:15.214] draw #248 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:15.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:15.214]   ViewProjectionModified [   0.0112    0.0534   -0.0674   67.0702 |    0.1464   -0.0688   -0.0303   85.4889 |   -0.4382   -0.6674   -0.6021  400.0659 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:16.214] draw #249 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:16.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:16.214]   ViewProjectionModified [   0.0112    0.0535   -0.0674   67.0515 |    0.1467   -0.0686   -0.0301   85.4646 |   -0.4362   -0.6678   -0.6032  401.8257 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:17.214] draw #250 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:17.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:17.214]   ViewProjectionModified [   0.0112    0.0536   -0.0673   67.0320 |    0.1471   -0.0685   -0.0299   85.4393 |   -0.4342   -0.6682   -0.6042  403.5843 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:18.214] draw #251 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:18.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:18.214]   ViewProjectionModified [   0.0113    0.0536   -0.0673   67.0110 |    0.1474   -0.0683   -0.0298   85.4164 |   -0.4321   -0.6685   -0.6053  405.3841 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:19.214] draw #252 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:19.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:19.214]   ViewProjectionModified [   0.0113    0.0537   -0.0673   66.9917 |    0.1478   -0.0682   -0.0296   85.3916 |   -0.4301   -0.6689   -0.6063  407.1404 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:19.350] stats/5s: draws immediate 1249862 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 64997, draws with a VPM shader 1234250, VSSetCB 55697, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1513/0, UpdateSubresource 1359542 (boxed 0)
+[14:25:20.214] draw #253 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:20.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:20.214]   ViewProjectionModified [   0.0113    0.0538   -0.0672   66.9721 |    0.1481   -0.0680   -0.0294   85.3670 |   -0.4281   -0.6692   -0.6074  408.8957 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:21.214] draw #254 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:21.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:21.214]   ViewProjectionModified [   0.0114    0.0538   -0.0672   66.9523 |    0.1485   -0.0679   -0.0293   85.3419 |   -0.4261   -0.6696   -0.6084  410.6498 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:22.214] draw #255 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:22.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:22.214]   ViewProjectionModified [   0.0114    0.0539   -0.0672   66.9320 |    0.1488   -0.0677   -0.0291   85.3178 |   -0.4241   -0.6699   -0.6094  412.4028 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:23.214] draw #256 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:23.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:23.214]   ViewProjectionModified [   0.0114    0.0539   -0.0671   66.9124 |    0.1492   -0.0676   -0.0289   85.2923 |   -0.4221   -0.6702   -0.6105  414.1547 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:24.214] draw #257 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:24.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:24.214]   ViewProjectionModified [   0.0114    0.0540   -0.0671   66.8921 |    0.1495   -0.0674   -0.0288   85.2662 |   -0.4200   -0.6706   -0.6115  415.9224 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:24.350] stats/5s: draws immediate 1284781 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 65058, draws with a VPM shader 1268285, VSSetCB 55758, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1513/0, UpdateSubresource 1407167 (boxed 0)
+[14:25:25.214] draw #258 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:25.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:25.214]   ViewProjectionModified [   0.0092    0.0509   -0.0620   64.0118 |    0.1482   -0.0643   -0.0307   93.2741 |   -0.4180   -0.6709   -0.6125  426.3189 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:26.214] draw #259 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:26.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:26.214]   ViewProjectionModified [   0.0101    0.0505   -0.0621   64.5030 |    0.1472   -0.0649   -0.0289   91.4949 |   -0.4160   -0.6712   -0.6135  427.2351 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:27.214] draw #260 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:27.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:27.214]   ViewProjectionModified [   0.0118    0.0497   -0.0622   65.4403 |    0.1462   -0.0667   -0.0256   88.3487 |   -0.4139   -0.6715   -0.6146  428.1633 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:28.214] draw #261 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:28.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:28.214]   ViewProjectionModified [   0.0129    0.0491   -0.0623   66.0645 |    0.1456   -0.0679   -0.0233   86.3382 |   -0.4119   -0.6719   -0.6156  429.1218 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:29.214] draw #262 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:29.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:29.214]   ViewProjectionModified [   0.0142    0.0485   -0.0623   66.7442 |    0.1445   -0.0690   -0.0208   83.8415 |   -0.4098   -0.6722   -0.6166  430.0381 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:29.350] stats/5s: draws immediate 1216927 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 59923, draws with a VPM shader 1199030, VSSetCB 50969, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1515/0, UpdateSubresource 1315791 (boxed 0)
+[14:25:30.214] draw #263 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:30.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:30.215]   ViewProjectionModified [   0.0154    0.0479   -0.0623   67.3242 |    0.1434   -0.0700   -0.0185   81.5403 |   -0.4078   -0.6725   -0.6176  430.8730 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:31.214] draw #264 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:31.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:31.214]   ViewProjectionModified [   0.0169    0.0471   -0.0623   68.1267 |    0.1426   -0.0718   -0.0155   78.7896 |   -0.4058   -0.6728   -0.6186  431.7634 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:32.214] draw #265 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:32.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:32.214]   ViewProjectionModified [   0.0263    0.0434   -0.0642   74.2651 |    0.1342   -0.0808    0.0003   60.1418 |   -0.4037   -0.6731   -0.6196  432.6114 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:33.214] draw #266 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:33.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:33.214]   ViewProjectionModified [   0.0280    0.0423   -0.0640   74.9400 |    0.1330   -0.0827    0.0036   56.8450 |   -0.4017   -0.6734   -0.6207  433.4346 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:34.214] draw #267 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:34.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:34.214]   ViewProjectionModified [   0.0293    0.0415   -0.0638   75.4222 |    0.1324   -0.0842    0.0061   54.5305 |   -0.3997   -0.6737   -0.6216  434.1989 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:34.350] stats/5s: draws immediate 1190845 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 59141, draws with a VPM shader 1173798, VSSetCB 50141, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1512/0, UpdateSubresource 1327378 (boxed 0)
+[14:25:35.214] draw #268 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:35.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:35.214]   ViewProjectionModified [   0.0312    0.0403   -0.0635   76.1010 |    0.1310   -0.0863    0.0097   50.8211 |   -0.3976   -0.6740   -0.6226  434.9675 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:36.214] draw #269 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:36.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:36.214]   ViewProjectionModified [   0.0322    0.0397   -0.0633   76.4332 |    0.1303   -0.0871    0.0116   49.0749 |   -0.3955   -0.6742   -0.6237  435.7552 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:37.214] draw #270 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:37.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:37.214]   ViewProjectionModified [   0.0333    0.0390   -0.0631   76.8131 |    0.1295   -0.0882    0.0137   47.0142 |   -0.3935   -0.6745   -0.6246  436.4846 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:38.214] draw #271 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:38.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:38.214]   ViewProjectionModified [   0.0349    0.0380   -0.0628   77.3405 |    0.1278   -0.0897    0.0168   43.7033 |   -0.3915   -0.6748   -0.6256  437.1942 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:39.214] draw #272 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:39.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:39.214]   ViewProjectionModified [   0.0357    0.0375   -0.0625   77.6045 |    0.1271   -0.0904    0.0184   42.1717 |   -0.3894   -0.6751   -0.6266  437.8869 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:39.350] stats/5s: draws immediate 1088450 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 59014, draws with a VPM shader 1073073, VSSetCB 50014, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1510/0, UpdateSubresource 1210035 (boxed 0)
+[14:25:40.214] draw #273 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:40.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:40.214]   ViewProjectionModified [   0.0370    0.0366   -0.0622   78.0083 |    0.1257   -0.0915    0.0209   39.5082 |   -0.3873   -0.6754   -0.6276  438.5654 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:41.215] draw #274 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:41.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:41.215]   ViewProjectionModified [   0.0378    0.0361   -0.0620   78.2372 |    0.1250   -0.0922    0.0224   38.0758 |   -0.3853   -0.6756   -0.6286  439.2608 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:42.214] draw #275 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:42.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:42.214]   ViewProjectionModified [   0.0388    0.0355   -0.0617   78.5313 |    0.1239   -0.0930    0.0244   36.0233 |   -0.3832   -0.6759   -0.6296  439.9079 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:43.214] draw #276 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:43.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:43.214]   ViewProjectionModified [   0.0401    0.0346   -0.0613   78.8860 |    0.1224   -0.0942    0.0270   33.2373 |   -0.3811   -0.6761   -0.6305  440.5440 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:44.215] draw #277 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:44.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:44.215]   ViewProjectionModified [   0.0412    0.0339   -0.0610   79.1678 |    0.1212   -0.0950    0.0290   31.0233 |   -0.3791   -0.6764   -0.6315  441.1010 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:44.351] stats/5s: draws immediate 1060727 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 58977, draws with a VPM shader 1045945, VSSetCB 49968, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1513/0, UpdateSubresource 1174089 (boxed 0)
+[14:25:45.214] draw #278 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:45.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:45.214]   ViewProjectionModified [   0.0417    0.0336   -0.0608   79.3090 |    0.1206   -0.0953    0.0300   30.1602 |   -0.3770   -0.6767   -0.6325  441.7329 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:46.214] draw #279 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:46.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:46.214]   ViewProjectionModified [   0.0424    0.0331   -0.0605   79.4979 |    0.1198   -0.0958    0.0315   28.7503 |   -0.3749   -0.6769   -0.6334  442.3617 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:47.215] draw #280 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:47.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:47.215]   ViewProjectionModified [   0.0431    0.0327   -0.0603   79.6563 |    0.1191   -0.0963    0.0328   27.5316 |   -0.3729   -0.6771   -0.6344  442.9514 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:48.215] draw #281 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:48.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:48.215]   ViewProjectionModified [   0.0436    0.0324   -0.0600   79.7898 |    0.1186   -0.0968    0.0340   26.5125 |   -0.3708   -0.6774   -0.6354  443.5174 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:49.214] draw #282 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:49.214]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:49.214]   ViewProjectionModified [   0.0446    0.0318   -0.0597   80.0018 |    0.1174   -0.0974    0.0357   24.6125 |   -0.3687   -0.6776   -0.6363  444.0732 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:49.351] stats/5s: draws immediate 1109237 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 59483, draws with a VPM shader 1095586, VSSetCB 50220, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1501/0, UpdateSubresource 1185821 (boxed 0)
+[14:25:50.215] draw #283 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:50.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:50.215]   ViewProjectionModified [   0.0449    0.0317   -0.0595   80.0918 |    0.1170   -0.0975    0.0364   24.1706 |   -0.3667   -0.6778   -0.6373  444.6801 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:51.215] draw #284 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:51.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:51.215]   ViewProjectionModified [   0.0455    0.0313   -0.0593   80.2414 |    0.1160   -0.0977    0.0375   23.0525 |   -0.3646   -0.6781   -0.6382  445.2598 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:52.215] draw #285 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:52.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:52.215]   ViewProjectionModified [   0.0455    0.0314   -0.0592   80.2576 |    0.1162   -0.0975    0.0376   23.4241 |   -0.3625   -0.6783   -0.6392  445.9078 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:53.215] draw #286 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:53.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:53.216]   ViewProjectionModified [   0.0452    0.0318   -0.0592   80.1971 |    0.1169   -0.0971    0.0371   24.6339 |   -0.3604   -0.6785   -0.6401  446.4610 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:54.215] draw #287 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:54.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:54.215]   ViewProjectionModified [   0.0451    0.0321   -0.0592   80.1855 |    0.1172   -0.0967    0.0369   25.3433 |   -0.3583   -0.6787   -0.6411  447.0881 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:54.351] stats/5s: draws immediate 1189678 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 62702, draws with a VPM shader 1176412, VSSetCB 53402, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1504/0, UpdateSubresource 1236746 (boxed 0)
+[14:25:55.216] draw #288 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:55.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:55.216]   ViewProjectionModified [   0.0454    0.0319   -0.0590   80.2564 |    0.1169   -0.0968    0.0375   24.9556 |   -0.3563   -0.6789   -0.6420  447.6414 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:56.215] draw #289 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:56.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:56.215]   ViewProjectionModified [   0.0455    0.0321   -0.0589   80.2951 |    0.1167   -0.0964    0.0376   25.1830 |   -0.3542   -0.6791   -0.6429  448.2977 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:57.216] draw #290 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:57.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:57.216]   ViewProjectionModified [   0.0455    0.0322   -0.0588   80.3048 |    0.1168   -0.0962    0.0377   25.5772 |   -0.3521   -0.6793   -0.6439  448.8888 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:58.216] draw #291 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:58.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:58.216]   ViewProjectionModified [   0.0453    0.0324   -0.0588   80.2816 |    0.1172   -0.0959    0.0375   26.3260 |   -0.3500   -0.6795   -0.6448  449.5336 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:59.216] draw #292 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:25:59.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:25:59.216]   ViewProjectionModified [   0.0454    0.0325   -0.0587   80.2942 |    0.1174   -0.0960    0.0378   26.5640 |   -0.3479   -0.6797   -0.6457  450.1170 |    0.0009    0.4091    0.0000    1.0000]
+[14:25:59.351] stats/5s: draws immediate 1276022 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 64073, draws with a VPM shader 1261456, VSSetCB 54773, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1506/0, UpdateSubresource 1327488 (boxed 0)
+[14:26:00.216] draw #293 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:00.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:00.216]   ViewProjectionModified [   0.0454    0.0326   -0.0586   80.2756 |    0.1180   -0.0961    0.0380   27.0038 |   -0.3458   -0.6799   -0.6466  450.6853 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:01.215] draw #294 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:01.215]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:01.215]   ViewProjectionModified [   0.0455    0.0327   -0.0585   80.2909 |    0.1181   -0.0960    0.0381   27.3071 |   -0.3437   -0.6801   -0.6476  451.3841 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:02.216] draw #295 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:02.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:02.216]   ViewProjectionModified [   0.0455    0.0329   -0.0584   80.3109 |    0.1181   -0.0956    0.0381   27.7224 |   -0.3416   -0.6803   -0.6485  452.0310 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:03.216] draw #296 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:03.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:03.216]   ViewProjectionModified [   0.0449    0.0334   -0.0585   80.1859 |    0.1191   -0.0949    0.0372   29.5391 |   -0.3395   -0.6804   -0.6494  452.6783 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:04.216] draw #297 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:04.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:04.216]   ViewProjectionModified [   0.0449    0.0336   -0.0584   80.1934 |    0.1192   -0.0946    0.0372   29.9961 |   -0.3374   -0.6806   -0.6503  453.3354 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:04.351] stats/5s: draws immediate 1539201 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 64511, draws with a VPM shader 1524663, VSSetCB 55211, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1506/0, UpdateSubresource 1568640 (boxed 0)
+[14:26:05.216] draw #298 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:05.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:05.216]   ViewProjectionModified [   0.0449    0.0337   -0.0584   80.2133 |    0.1193   -0.0944    0.0373   30.3179 |   -0.3353   -0.6808   -0.6512  453.9980 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:06.216] draw #299 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:06.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:06.216]   ViewProjectionModified [   0.0445    0.0342   -0.0584   80.1059 |    0.1202   -0.0938    0.0365   31.8738 |   -0.3333   -0.6810   -0.6521  454.6746 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:07.216] draw #300 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:07.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:07.216]   ViewProjectionModified [   0.0437    0.0349   -0.0586   79.9183 |    0.1215   -0.0929    0.0353   34.1286 |   -0.3311   -0.6811   -0.6530  455.4017 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:08.216] draw #301 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:08.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:08.216]   ViewProjectionModified [   0.0432    0.0355   -0.0587   79.8021 |    0.1221   -0.0919    0.0343   35.8446 |   -0.3290   -0.6813   -0.6539  456.1289 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:09.216] draw #302 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:09.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:09.216]   ViewProjectionModified [   0.0428    0.0359   -0.0587   79.7355 |    0.1226   -0.0912    0.0337   37.0589 |   -0.3269   -0.6814   -0.6548  456.8816 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:09.351] stats/5s: draws immediate 1516840 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 60883, draws with a VPM shader 1502241, VSSetCB 51583, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1506/0, UpdateSubresource 1621137 (boxed 0)
+[14:26:10.216] draw #303 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:10.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:10.216]   ViewProjectionModified [   0.0423    0.0365   -0.0588   79.5970 |    0.1233   -0.0902    0.0327   38.8083 |   -0.3248   -0.6816   -0.6557  457.6378 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:11.216] draw #304 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:11.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:11.216]   ViewProjectionModified [   0.0413    0.0373   -0.0591   79.3289 |    0.1247   -0.0889    0.0310   41.5417 |   -0.3227   -0.6817   -0.6566  458.4692 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:12.216] draw #305 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:12.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:12.216]   ViewProjectionModified [   0.0404    0.0382   -0.0593   79.0682 |    0.1260   -0.0876    0.0294   44.1525 |   -0.3206   -0.6819   -0.6575  459.2438 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:13.216] draw #306 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:13.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:13.216]   ViewProjectionModified [   0.0398    0.0387   -0.0594   78.9335 |    0.1264   -0.0865    0.0284   45.7399 |   -0.3185   -0.6820   -0.6584  460.1248 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:14.216] draw #307 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:14.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:14.216]   ViewProjectionModified [   0.0311    0.0427   -0.0591   73.7095 |    0.1387   -0.0794    0.0156   65.2220 |   -0.3163   -0.6821   -0.6592  461.0307 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:14.352] stats/5s: draws immediate 1361272 deferred 0, ExecuteCommandList 0, contexts 1, VSSetShader 60070, draws with a VPM shader 1348191, VSSetCB 50770, VSSetCB1 0 (offset!=0: 0), b0 null 0, b0 not shadowed 0 (last b0 width 0), Map R/W/RW/WD/NO 0/0/0/1505/0, UpdateSubresource 1441184 (boxed 0)
+[14:26:15.216] draw #308 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:15.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:15.216]   ViewProjectionModified [   0.0298    0.0436   -0.0593   73.1646 |    0.1403   -0.0776    0.0134   68.6329 |   -0.3143   -0.6822   -0.6601  461.9340 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:16.216] draw #309 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:16.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:16.216]   ViewProjectionModified [   0.0286    0.0444   -0.0594   72.6457 |    0.1416   -0.0759    0.0115   71.6171 |   -0.3121   -0.6824   -0.6610  462.8278 |    0.0009    0.4091    0.0000    1.0000]
+[14:26:17.216] draw #310 (immediate ctx 440D0418): VS hash 2e44dd4c, b0 800 bytes +0, viewProjection @32, ViewProjectionModified @96
+[14:26:17.216]   viewProjection         [   0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000 |    0.0000    0.0000    0.0000    0.0000]
+[14:26:17.216]   ViewProjectionModified [   0.0278    0.0450   -0.0594   72.2766 |    0.1424   -0.0745    0.0101   73.7648 |   -0.3100   -0.6825   -0.6619  463.7795 |    0.0009    0.4091    0.0000    1.0000]
