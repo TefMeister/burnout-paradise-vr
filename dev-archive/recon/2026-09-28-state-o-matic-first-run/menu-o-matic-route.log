@@ -1,0 +1,16 @@
+{"event": "launched", "step": 0}
+{"event": "reached", "step": 1, "checkpoint": "boot_logo", "distance": 0.0}
+{"event": "reached", "step": 2, "checkpoint": "title", "distance": 5.69}
+{"event": "key", "step": 4, "key": "enter"}
+{"event": "repress", "step": 5, "action": {"key": "enter"}}
+{"event": "reached", "step": 5, "checkpoint": "save_notice", "distance": 0.01}
+{"event": "key", "step": 6, "key": "enter"}
+{"event": "reached", "step": 7, "checkpoint": "main_menu", "distance": 0.05}
+{"event": "key", "step": 8, "key": "enter"}
+{"event": "reached", "step": 9, "checkpoint": "vehicle_select", "distance": 0.0}
+{"event": "key", "step": 10, "key": "enter"}
+{"event": "reached", "step": 11, "checkpoint": "car_select", "distance": 6.89}
+{"event": "key", "step": 12, "key": "enter"}
+{"event": "reached", "step": 13, "checkpoint": "paint", "distance": 0.9}
+{"event": "key", "step": 14, "key": "enter"}
+{"event": "done", "route": "launch_to_city"}
