@@ -93,6 +93,18 @@ static work on it stays impossible for the reason already recorded: there is no 
   handedness, row/column convention:
 - Where projection `P` / FOV comes from:
 - **First outside data point (`/gr` 2026-09-11, folded 2026-09-16):** vorpX's Geometry 3D on this game stereoised **only particles, lights and the skybox**; the world stayed flat `[reported 2026-09-11]`. So a generic "find the view-projection matrix in a constant buffer" injector catches the sky/particle/light passes but not the world pass — the world's projection is probably not delivered as a conventional VP in a buffer vorpX recognises; per-draw MVP or a non-standard layout suspected `[hypothesis]`. The first shader dump should compare the vertex-shader constant buffers of the two groups.
+- **⭐ ANSWERED STATICALLY 2026-09-28 (`/pd`, dev PC; game on `E:\SteamLibrary`):** `SHADERS.BNDL` is a Bundle 2
+  file (337 resources, zlib, its own name table); our reader `dev-archive/tools/bnd2_dump.py` pulls 121 VS + 121 PS
+  with reflection intact. **All 121 world vertex shaders keep the camera in one `$Globals` at `b0` under the same
+  names — `viewProjection`, `ViewProjectionModified`, `ViewPosition`, `worldViewProj`, `world` — at offsets that
+  differ per shader** (26 layouts; `viewProjection` at +16 or +32). **The screen position comes from
+  `ViewProjectionModified × (world × v)` in 121 of 121**; `viewProjection` and `worldViewProj` are not read by
+  them `[inferred-static 2026-09-28, n=121]`. The other 138 shaders sit in `BurnoutPR.exe` (readable through
+  Denuvo); 15 of them carry one matrix at +0 under other names — the likely sky/particle set, which fits vorpX
+  catching only those `[hypothesis]`. Route: read each VS's reflection at `CreateVertexShader`, rewrite
+  `ViewProjectionModified` per eye in `b0`. What "Modified" adds over `viewProjection` is unknown (jitter,
+  depth range, shake). Note: `modding-notes/2026-09-28-pd-the-world-is-drawn-with-viewprojectionmodified.md`.
+  Folded from `/gr`'s 2026-09-17 inbox note (Bundle 2 docs; `RwShaderProgramBuffer` = `0x12`, confirmed).
 - The per-eye override maths (`K_eye = …`):
 - **Lead, not yet used (external-research, 2026-08-25):** matty-ross's `bpr-open-mods` (archived,
   source-available) includes a **Free Camera** mod that already found and hooks whatever
