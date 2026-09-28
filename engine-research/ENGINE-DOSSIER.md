@@ -105,7 +105,33 @@ static work on it stays impossible for the reason already recorded: there is no 
   `ViewProjectionModified` per eye in `b0`. What "Modified" adds over `viewProjection` is unknown (jitter,
   depth range, shake). Note: `modding-notes/2026-09-28-pd-the-world-is-drawn-with-viewprojectionmodified.md`.
   Folded from `/gr`'s 2026-09-17 inbox note (Bundle 2 docs; `RwShaderProgramBuffer` = `0x12`, confirmed).
-- The per-eye override maths (`K_eye = …`):
+- **⭐⭐ CONFIRMED LIVE 2026-09-28 (`/lm`, dev PC, 7 launches):** `ViewProjectionModified` is **not a plain 4×4
+  view-projection but a packed form** (static reading by the `/lm` reader from the 121 shaders' disassembly
+  `[verified-numerically 2026-09-28, n=121]`): row 0 = clip x, row 1 = clip y, row 2 = forward axis + view depth d,
+  row 3 = `(A, B, C, D)` with `z = d·A + B`, `w = d·C + D`. Live main view: row 3 = `(1, -0.3, 1, 0)` in the city
+  (`(1, -0.2, 1, 0)` on the car screen) → perspective, near 0.3 m / 0.2 m, **no far plane**; the 4th number of rows
+  0–2 = −(row · `ViewPosition`), checked by hand to 0.1 `[verified-live 2026-09-28, n=2 frames]` and by the reader
+  on every logged main-view draw: solved position within 0.015–0.24 m of `ViewPosition` (4-decimal print), row 2 of
+  length 1.0000 ± 0.0001, rows 0/1 centred and square to each other, row 3 always exactly `(1, -near, 1, 0)`
+  `[verified-numerically 2026-09-28, n=113]`; **the field of view changes all the time** (horizontal ~30°–93°,
+  resting ~72.6°: speed widening and zooms `[hypothesis]`), so a headset build replaces rows 0–1 with the eye's own
+  projection and keeps rows 2–3; forward turns with
+  the car (~45° over a 1.3 s left turn) `[verified-live 2026-09-28, n=1 turn]`. **`viewProjection` is all zeros in
+  every draw** `[verified-live 2026-09-28, n>200]`. The game creates exactly the 121 bundle shaders that carry the
+  slot `[verified-live 2026-09-28, n=4 launches]`. The same slot also carries the **sun shadow pass**
+  (row 3 `(0.0009, 0.4091, 0, 1)`, orthographic) and **car-reflection cube faces** (90°, axis-aligned, row 3
+  `(-1.0027, -0.2003, -1, 0)`); a per-eye edit must skip both. Also per eye: `ViewPosition` (70 of 80 unique world
+  VS read it) and the headlight PS's `g_clipToHeadlight` `[inferred-static 2026-09-28]`. Main-view vertical field
+  of view ~61° driving, ~45° on the car screen, 16:9. Note: `modding-notes/2026-09-28-lm-the-camera-is-caught-and-it-turns.md`;
+  logs `dev-archive/recon/2026-09-28-lm-camera-logger/`; hash table there (`vs-hashes.tsv`).
+- The per-eye override maths (`K_eye = …`): **for an eye offset s along the camera's right axis R, rows 0–2's fourth
+  number becomes `w − s·(n_i·R)`, row 3 unchanged, `ViewPosition += s·R`; R = normalize(n0 − (n0·F̂)F̂), F̂ = row 2's
+  xyz normalised** (the reader's `staging/burnout-paradise-vr/stereo-math/bpr_packed_eye()`; test 19,296 checks,
+  0 failures, two mutants fail `[verified-numerically 2026-09-28, n=19296]`). A parallel eye shift with the game's
+  projection; a headset's off-centre per-eye projection goes into rows 0–2 the same way. **Proven live 2026-09-28
+  (`/lm`, run 8):** a 1 m test shift (numpad 5) moves the whole world as one piece with correct depth and toggles
+  back to the identical picture; **only the car's sun shadow stays at its old screen place** — a pass that rebuilds
+  position from the screen with the unshifted camera `[hypothesis]` `[verified-live 2026-09-28, n=1 toggle pair]`.
 - **Lead, not yet used (external-research, 2026-08-25):** matty-ross's `bpr-open-mods` (archived,
   source-available) includes a **Free Camera** mod that already found and hooks whatever
   function(s) control the external camera's position/orientation each frame. That's the
@@ -117,10 +143,18 @@ static work on it stays impossible for the reason already recorded: there is no 
 
 ## 7. Constant-buffer fill mechanism
 - Map/DISCARD ring / UpdateSubresource / D3D11.1 offset / **persistent map +
-  memcpy** (trap):
+  memcpy** (trap): **`UpdateSubresource` with no box, about once per draw** (25,000–31,000 per 5 s in menus,
+  ~1.8 million per 5 s at the car screen), plus a few hundred `Map(WRITE_DISCARD)` per 5 s; no other map types,
+  no `VSSetConstantBuffers1` offsets, one immediate context, no deferred contexts, no command lists
+  `[verified-live 2026-09-28, n=3 launches]`.
 - Can source contents be read cheaply (captured CPU pointer) or need staging
-  read-back?:
-- The chosen override patch point and why:
+  read-back?: cheap: the source pointer of `UpdateSubresource` is CPU memory, copied in the hook.
+- The chosen override patch point and why: **`ID3D11DeviceContext::UpdateSubresource`, detoured on the function
+  inside `d3d11.dll`** — the immediate context's vtable is a heap table built at run time and **patching it catches
+  no calls**; EA's `igo32.dll` and Steam's `gameoverlayrenderer.dll` are both loaded. Detours on the functions
+  themselves (MinHook) see every call `[verified-live 2026-09-28, n=1 launch each way]`.
+- ⚠️ **Trap:** `Map` also sees textures (the intro video). Treating one as a buffer crashed the game (stack overrun
+  from `Texture2D::GetDesc`). Check `GetType` before any buffer call `[verified-live 2026-09-28, n=1]`.
 
 ## 8. Pass inventory (by render target)
 - Main scene (res/formats):
@@ -134,9 +168,15 @@ static work on it stays impossible for the reason already recorded: there is no 
 | | | |
 
 ## 10. Autonomous harness recipe (this game)
-- Launch to a known scene (commands used):
-- In-process input / camera drive method that worked:
-- Frame-capture method; where images land:
+- Launch to a known scene (commands used): `steam://rungameid/1238080` → window titled `Burnout(TM) Paradise
+  Remastered` after ~10–20 s (EA app already running) → Enter (skip intro) → Enter ("Press Any Button") → Enter
+  (saving-icon notice) → ~35 s load → main menu → Enter (Enter Paradise City) → Enter (Paradise Cars) → Enter
+  (car) → Enter (paint) → ~40 s → driving in the city `[verified-live 2026-09-28, n=3]`. Timings stretch with the
+  logger installed; screenshot before each Enter when unsure.
+- In-process input / camera drive method that worked: `game-harness.py` scancodes. **W** accelerates, **A** steers
+  left (held together from two processes), **Up arrow does nothing** in the city `[verified-live 2026-09-28, n=1]`.
+- Frame-capture method; where images land: `game-harness.py shot` (BitBlt); window 1280×720 via `config.ini`.
+- Close: `WM_CLOSE` to the window, exits in ~2 s `[verified-live 2026-09-28, n=6]`.
 
 ## 11. Dead ends & false leads (save future time)
 - <what looked true but wasn't, and why>
