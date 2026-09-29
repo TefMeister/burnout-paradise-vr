@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-09-23 (estate sweep) — CHECK-IN.** Checked phunkaeg's *VR Modding Playbook*: no entry for this engine or game. Nothing new.
+**Last `/gr` pass: 2026-09-29 (estate sweep) — CHECK-IN.** Inbox empty. One small topic: a 2020 vorpX profile for the 2008 game also had to fix the shadows under a per-eye camera shift, which backs the board's shadow-pass row (corroboration only).
+
+_Previous: **Last `/gr` pass: 2026-09-23 (estate sweep) — CHECK-IN.** Checked phunkaeg's *VR Modding Playbook*: no entry for this engine or game. Nothing new._
 
 _Previous: **Last `/gr` pass: 2026-09-17 (estate sweep) — CHECK-IN** (board `OPEN` block + INDEX; one targeted search)**.** Inbox empty. **The project is live again** (the game runs with our logging proxy loaded, 2026-09-17), so its board has real rows. One lead added for the `[PD]` shader-extraction row: the Bundle 2 format and its shader resource type are documented on the Burnout Wiki, and two public extractors exist. Also added the index row this lane owed for the 2026-09-11 vorpX topic, which was committed in a rescue without one._
 
@@ -34,6 +36,7 @@ write-up in `topics/`. Status tags:
 
 | Date | Topic | Status | Summary |
 | --- | --- | --- | --- |
+| 2026-09-29 | [A vorpX profile for the 2008 game also had to fix Burnout's shadows under a per-eye camera shift](topics/2026-09-29-a-vorpx-profile-also-had-to-fix-burnouts-shadows.md) | 🆕 new | Corroborates the ⭐⭐⭐ shadow-pass row (same symptom, fixable per profile); no technical detail, older D3D9 build. |
 | 2026-09-17 | [Pulling shaders out of `SHADERS.BNDL`: the format is documented, two extractors exist](topics/2026-09-17-bundle-2-docs-and-extractors-for-the-shader-pull.md) | 🆕 new | The Burnout Wiki documents Bundle 2 and lists `RwShaderProgramBuffer` (`0x12`) for PC/Remastered; YAP and Bundle Manager extract resources (Remaster support unchecked). Unblocks the board's `[PD]` shader row. |
 | 2026-09-11 | [vorpX *does* hook the Remastered exe, but its geometry 3D misses the world](topics/2026-09-11-vorpx-does-hook-the-remaster-but-its-geometry-3d-misses-the-world.md) | 🆕 new | vorpX injects into the Remaster; its geometry 3D stereoises only particles, lights and sky, never the world — a first public data point on how the world pass takes its projection. Narrows the 2026-08-25 vorpX caveat. (Row added 2026-09-17; the topic was committed 2026-09-16 without one.) |
 | 2026-08-25 | [Denuvo's 2026 landscape + ScyllaHide](topics/2026-08-25-denuvo-2026-landscape-and-scyllahide.md) | 👀 reviewed | Denuvo's anti-tamper effectiveness has reportedly collapsed industry-wide by mid-2026; ScyllaHide (x64dbg plugin) is the concrete, legitimate tool to try first for debugger attach against `BurnoutPR.exe`'s confirmed Denuvo protection. Factored into ENGINE-DOSSIER.md §4 as the plan for the first live-debugger attempt. |
