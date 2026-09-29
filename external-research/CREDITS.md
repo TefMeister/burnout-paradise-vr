@@ -40,6 +40,7 @@ documentation was produced with **Claude (Anthropic)**
   https://burnout.wiki/wiki/Bundle_2/Burnout_Paradise, https://burnout.wiki/wiki/Resource_Types
 - **YAP** by **burninrubber0** — https://github.com/burninrubber0/YAP
 - **Bundle Manager** (BurnoutHints, burninrubber0) — https://github.com/burninrubber0/Bundle-Manager
+- **Brian Koponen**, "How to Run Burnout Paradise in VR Using VorpX" (2020) — https://www.briankoponen.com/burnout-paradise-vr-vorpx/
 
 ## Missing from this list?
 
