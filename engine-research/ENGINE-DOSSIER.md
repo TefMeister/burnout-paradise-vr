@@ -132,6 +132,19 @@ static work on it stays impossible for the reason already recorded: there is no 
   (`/lm`, run 8):** a 1 m test shift (numpad 5) moves the whole world as one piece with correct depth and toggles
   back to the identical picture; **only the car's sun shadow stays at its old screen place** — a pass that rebuilds
   position from the screen with the unshifted camera `[hypothesis]` `[verified-live 2026-09-28, n=1 toggle pair]`.
+- **2026-09-30 (`/pd`): the patch that stayed behind in run 8 is NOT the sun shadow.** The world pixel shaders
+  look the sun shadow up by world position (`ShadowMap_WorldToLight` times the VS's world-position interpolant;
+  cascade by view depth) and none reads a camera matrix `[inferred-static 2026-09-30, n=121 PS]`. **14 exe
+  vertex shaders carry their own full matrix at `$Globals +0`** (`worldViewProj`, `gWorldViewProjection`,
+  `gWorldViewProj`, `gViewProjection`, `viewProjectionMatrix`; clip = (p,1)·M) and 4 their own eye position
+  (`gEyeLocation`, `gEyePosPlusDepthBias`, `cameraPositionPlusBrightness`, `ViewPositionAndSkyScale`)
+  `[inferred-static 2026-09-30, n=138]`; the test shift never touched them, and the run-8 picture shows a soft
+  car-shaped blob left where the car was, i.e. one of those draws `[hypothesis]`. Per-eye rule for them:
+  `W = M·V_centre⁻¹`, accept only if W is affine, then `M_eye = W·V_eye` (`bpr_plain_eye()`, 5,941 checks, 0
+  failures `[verified-numerically 2026-09-30, n=5941]`; built into the proxy and installed, not run). Still
+  per eye outside this: the headlight PS's `g_clipToHeadlight` (needs eye-clip → centre-clip first) and the
+  motion-blur `BlurMatrix*` (turn motion blur off in VR `[hypothesis]`). Note:
+  `modding-notes/2026-09-30-pd-the-shadow-that-stayed-behind-is-an-exe-matrix-draw.md`.
 - **Lead, not yet used (external-research, 2026-08-25):** matty-ross's `bpr-open-mods` (archived,
   source-available) includes a **Free Camera** mod that already found and hooks whatever
   function(s) control the external camera's position/orientation each frame. That's the
