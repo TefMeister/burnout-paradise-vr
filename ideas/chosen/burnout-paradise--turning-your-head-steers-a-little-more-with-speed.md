@@ -20,3 +20,5 @@ steer, and whether it helps or hurts comfort in a driving game. ⚠️ Not check
 Verbatim record: [`inbox/2026-09-28c-re7-hud-burnout-head-steering-move-o-matic.md`](../inbox/2026-09-28c-re7-hud-burnout-head-steering-move-o-matic.md)
 
 ---
+
+Chosen by Tefa: 2026-10-01

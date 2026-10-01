@@ -17,3 +17,5 @@ or a fixed spot in space rather than glued to the head. ⚠️ Not checked: we h
 the game's cameras work.
 
 ---
+
+Chosen by Tefa: 2026-10-01

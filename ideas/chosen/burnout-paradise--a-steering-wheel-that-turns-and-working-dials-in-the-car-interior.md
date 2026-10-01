@@ -16,3 +16,5 @@ the wheel and dials exist as separate moving parts, or would have to be added as
 and driven from the car's speed and steering. The second is much more work. ⚠️ Not checked.
 
 ---
+
+Chosen by Tefa: 2026-10-01
