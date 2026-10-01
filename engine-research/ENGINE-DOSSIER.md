@@ -145,6 +145,19 @@ static work on it stays impossible for the reason already recorded: there is no 
   per eye outside this: the headlight PS's `g_clipToHeadlight` (needs eye-clip → centre-clip first) and the
   motion-blur `BlurMatrix*` (turn motion blur off in VR `[hypothesis]`). Note:
   `modding-notes/2026-09-30-pd-the-shadow-that-stayed-behind-is-an-exe-matrix-draw.md`.
+- **⭐ 2026-10-01 (`/lm`): THE BLOB IS FIXED.** With the exe-matrix shift in, the car's dark blob moves with the
+  car under the 1 m test shift; four exe VS were accepted as main-view draws (`93f9fda4`, `82d755c5` with eye
+  position @64, `88956c54`, `c2b9abd0`) and draws in other views left alone (603 / 402 in 5 s)
+  `[verified-live 2026-10-01, n=1 toggle]`. Note `modding-notes/2026-10-01-lm-the-blob-moves-with-the-car.md`.
+- **The headlight pool per eye** (folded from the `/lm` reader's inbox note, 2026-10-01): exe PS hash
+  `0x77d46358` (the only one with `g_clipToHeadlight`; `$Globals` b0: `g_depthConversion` +0, `g_headlightConstants`
+  +16, `g_clipToHeadlight` +32, row-major) computes `h = (ndc.x, ndc.y, depth, 1) · g_clipToHeadlight` from the
+  pixel's own screen position and the depth buffer `[inferred-static 2026-10-01, n=1 shader]`. Per eye, upload
+  `M_eye = V_eye⁻¹ · V_centre · g_clipToHeadlight` (`V` = the packed `ViewProjectionModified` as a full row-vector
+  4×4): `staging/burnout-paradise-vr/stereo-math/bpr_headlight.c`, 6,269 checks, 0 failures, worst error equal to
+  the centre camera's own float rounding; both mutants fail `[verified-numerically 2026-10-01, n=6269]`. Its partner
+  VS `0xe0dc16b9` (`worldViewProj` @0) should be shifted too. NOT established: that the depth it reads is the main
+  view's.
 - **Lead, not yet used (external-research, 2026-08-25):** matty-ross's `bpr-open-mods` (archived,
   source-available) includes a **Free Camera** mod that already found and hooks whatever
   function(s) control the external camera's position/orientation each frame. That's the
