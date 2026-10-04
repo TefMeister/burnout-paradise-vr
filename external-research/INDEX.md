@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-09-29 (estate sweep) — CHECK-IN.** Inbox empty. One small topic: a 2020 vorpX profile for the 2008 game also had to fix the shadows under a per-eye camera shift, which backs the board's shadow-pass row (corroboration only).
+**Last `/gr` pass: 2026-10-04 (estate sweep, second pass) — CHECK-IN.** Inbox empty; board `OPEN` rows read: a recorded drive with Tefa and the headlight-per-eye launch. Nothing new.
+
+_Previous: **Last `/gr` pass: 2026-09-29 (estate sweep) — CHECK-IN.** Inbox empty. One small topic: a 2020 vorpX profile for the 2008 game also had to fix the shadows under a per-eye camera shift, which backs the board's shadow-pass row (corroboration only)._
 
 _Previous: **Last `/gr` pass: 2026-09-23 (estate sweep) — CHECK-IN.** Checked phunkaeg's *VR Modding Playbook*: no entry for this engine or game. Nothing new._
 
