@@ -223,3 +223,13 @@ static work on it stays impossible for the reason already recorded: there is no 
 ## Inbox folds, 2026-09-29
 
 **2026-09-29 (`/gr`, folded): a sibling lead for the shadow that ignores the shift.** Alice hit the same class of fault (UE3 `ScreenToShadowMatrix`): a screen-space pass rebuilds world position from screen position and depth through a matrix built from the UNEDITED camera, fed (screen x·w, y·w, w, 1) in the Unreal lineage `[reported]`. When searching Burnout's shaders for the shadow pass, look for a 4×4 multiplied against `(uv·depth, depth, 1)` or `(uv, depth, 1)`; the fix is the edited camera's inverse or a correction built in that same space `[hypothesis]`. See `alice-madness-returns-vr/external-research/topics/2026-09-29-screen-to-shadow-takes-screen-position-times-depth.md`.
+
+## 2026-10-07 (`/lm`): night on demand; the headlight pass runs per eye
+
+Folded and deleted: inbox `2026-10-07-pd-night.md`. Evidence: `dev-archive/recon/2026-10-07-night-headlights/`.
+- **Time of day is a menu option** `[verified-live 2026-10-07, n=1]`: Under the Hood (F2) → Game Options → TIME OF DAY
+  (48 minute day, 2 hour day, 24 hour day, Match local time, Midday, Midnight); saved, survives a restart.
+- `daynight.c` reads the sky shader's b0 (`0x93f9fda4`: KeyLightDir +80, TopColour +96, Horizon +112, Sun +128); NIGHT
+  measured at top luma ~0.003 (thresholds still the reader's guesses) `[measured 2026-10-07]`.
+- Headlight pool (shader `0x77d46358`) is drawn only once the car has moved, ~120/s; the per-eye edit's first upload
+  fires with the shift on `[verified-live 2026-10-07, n=1]`. Visual check still open (the idle camera swings round).
