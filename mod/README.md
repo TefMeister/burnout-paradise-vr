@@ -5,10 +5,9 @@ A VR conversion mod for **Burnout Paradise Remastered** (2018 remaster of the
 cockpit-view racing with real head tracking, not a flat screen bolted into a
 headset.
 
-> **Status: work in progress — nothing playable released yet, no code
-> written yet.** Repos have just been created; engine research is about to
-> begin. This folder holds releases only; watch it if you want to
-> know the moment there is something to try.
+> **Status: work in progress, nothing playable released yet.** Our add-on runs inside the game and
+> draws the picture for each eye from its own position; the latest work made the headlights right in
+> each eye at night. Not in a headset yet.
 
 ## What this will be
 
