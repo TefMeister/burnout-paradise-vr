@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-10-04 (estate sweep, second pass) — CHECK-IN.** Inbox empty; board `OPEN` rows read: a recorded drive with Tefa and the headlight-per-eye launch. Nothing new.
+**Last `/gr` pass: 2026-10-26 (estate sweep) — CHECK-IN.** Inbox empty. BurnoutDecomp has moved from reconstructing source to a playable, Denuvo-free, windowed PC exe with the debug menu (it needs Xbox 360 game data); one topic, pointer sent to the dossier.
+
+_Previous: **Last `/gr` pass: 2026-10-04 (estate sweep, second pass) — CHECK-IN.** Inbox empty; board `OPEN` rows read: a recorded drive with Tefa and the headlight-per-eye launch. Nothing new._
 
 _Previous: **Last `/gr` pass: 2026-09-29 (estate sweep) — CHECK-IN.** Inbox empty. One small topic: a 2020 vorpX profile for the 2008 game also had to fix the shadows under a per-eye camera shift, which backs the board's shadow-pass row (corroboration only)._
 
@@ -38,6 +40,7 @@ write-up in `topics/`. Status tags:
 
 | Date | Topic | Status | Summary |
 | --- | --- | --- | --- |
+| 2026-10-26 | [BurnoutDecomp now builds a playable native PC game from source (it needs Xbox 360 game data)](topics/2026-10-26-burnoutdecomp-now-builds-a-playable-pc-exe.md) | 🆕 | A Denuvo-free, windowed `Burnout_PC.exe` with the ARTIST debug menu; stereo would be a source change. Needs a retail Xbox 360 dump. |
 | 2026-09-29 | [A vorpX profile for the 2008 game also had to fix Burnout's shadows under a per-eye camera shift](topics/2026-09-29-a-vorpx-profile-also-had-to-fix-burnouts-shadows.md) | 🆕 new | Corroborates the ⭐⭐⭐ shadow-pass row (same symptom, fixable per profile); no technical detail, older D3D9 build. |
 | 2026-09-17 | [Pulling shaders out of `SHADERS.BNDL`: the format is documented, two extractors exist](topics/2026-09-17-bundle-2-docs-and-extractors-for-the-shader-pull.md) | 🆕 new | The Burnout Wiki documents Bundle 2 and lists `RwShaderProgramBuffer` (`0x12`) for PC/Remastered; YAP and Bundle Manager extract resources (Remaster support unchecked). Unblocks the board's `[PD]` shader row. |
 | 2026-09-11 | [vorpX *does* hook the Remastered exe, but its geometry 3D misses the world](topics/2026-09-11-vorpx-does-hook-the-remaster-but-its-geometry-3d-misses-the-world.md) | 🆕 new | vorpX injects into the Remaster; its geometry 3D stereoises only particles, lights and sky, never the world — a first public data point on how the world pass takes its projection. Narrows the 2026-08-25 vorpX caveat. (Row added 2026-09-17; the topic was committed 2026-09-16 without one.) |
