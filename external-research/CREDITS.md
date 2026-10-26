@@ -61,3 +61,7 @@ please tell us: **open a GitHub issue on this repo**. We'll act on that
 request promptly — no argument, no delay — and we'll find another way to get
 the job done that doesn't rely on your material. This is your work; we're
 just grateful to have learned from it.
+
+## Sources (2026-10-26)
+
+- **BurnoutDecomp** contributors, b5-decomp and BP-Decomp_Workflow (PC build docs) — https://github.com/BurnoutDecomp
