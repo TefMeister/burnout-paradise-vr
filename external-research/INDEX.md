@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-10-26 (estate sweep) — CHECK-IN.** Inbox empty. BurnoutDecomp has moved from reconstructing source to a playable, Denuvo-free, windowed PC exe with the debug menu (it needs Xbox 360 game data); one topic, pointer sent to the dossier.
+**Last `/gr` pass: 2026-10-27 — CHECK-IN (inbox only).** Drained one /gs note: an off-vocabulary tag in the 2026-10-26 decomp topic is now `[inferred-static 2026-10-26]`. No new research (a full pass ran yesterday).
+
+_Previous: Last `/gr` pass: 2026-10-26 (estate sweep) — CHECK-IN. Inbox empty. BurnoutDecomp has moved from reconstructing source to a playable, Denuvo-free, windowed PC exe with the debug menu (it needs Xbox 360 game data); one topic, pointer sent to the dossier._
 
 _Previous: **Last `/gr` pass: 2026-10-04 (estate sweep, second pass) — CHECK-IN.** Inbox empty; board `OPEN` rows read: a recorded drive with Tefa and the headlight-per-eye launch. Nothing new._
 

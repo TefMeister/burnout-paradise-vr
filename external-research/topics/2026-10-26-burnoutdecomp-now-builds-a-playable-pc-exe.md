@@ -36,7 +36,7 @@ All `[reported 2026-10-26]`.
 ## Why it matters here
 
 1. **Denuvo goes away** (dossier §12's "single biggest open risk"): the decomp's exe is built from source and has
-   none `[inferred from the build recipe]`.
+   none, going by the build recipe `[inferred-static 2026-10-26]`.
 2. **Stereo becomes a source change, not an outside patch.** The per-eye camera, the shadow pass that ignored the
    shift, and the headlight pool our proxy edits per eye would all be readable C++ functions. Dossier §11's "nobody
    has reverse engineered `BurnoutPR.exe`'s shaders" stops mattering on this route.
