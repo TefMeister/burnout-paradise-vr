@@ -1,6 +1,6 @@
 # 2026-09-17 — first live look: Burnout Paradise Remastered
 
-Home PC `RTX`, `/lm` session. The user asked for a first look at six games: does each run, and does it still run with our own file added.
+Home PC, `/lm` session. The user asked for a first look at six games: does each run, and does it still run with our own file added.
 
 ## Does it run?
 
@@ -21,7 +21,7 @@ Intro: Enter skips. First run shows a save-icon notice (Enter) and a Windows Fir
 ## Not established
 
 - Nothing past the menus: no gameplay was loaded, no camera data read.
-- Every result is from one machine (`RTX`, 21:9 desktop) on one day.
+- Every result is from one machine (`home PC`, 21:9 desktop) on one day.
 
 ## Next
 
