@@ -1,6 +1,8 @@
 # Research index
 
-**Last `/gr` pass: 2026-10-27 — CHECK-IN (inbox only).** Drained one /gs note: an off-vocabulary tag in the 2026-10-26 decomp topic is now `[inferred-static 2026-10-26]`. No new research (a full pass ran yesterday).
+**Last `/gr` pass: 2026-11-07 (estate sweep) — CHECK-IN.** Inbox empty; one combined search found no Burnout Paradise VR mod (only a vorpX guide). Nothing new.
+
+_Previous: **Last `/gr` pass: 2026-10-27 — CHECK-IN (inbox only).** Drained one /gs note: an off-vocabulary tag in the 2026-10-26 decomp topic is now `[inferred-static 2026-10-26]`. No new research (a full pass ran yesterday)._
 
 _Previous: Last `/gr` pass: 2026-10-26 (estate sweep) — CHECK-IN. Inbox empty. BurnoutDecomp has moved from reconstructing source to a playable, Denuvo-free, windowed PC exe with the debug menu (it needs Xbox 360 game data); one topic, pointer sent to the dossier._
 
